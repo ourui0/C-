@@ -164,6 +164,34 @@ sqrt/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/build
 .PHONY : sqrt/fast
 
+# Convenience name for target.
+LeetCode/CMakeFiles/isPerfectSquare.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/isPerfectSquare.dir/rule
+.PHONY : LeetCode/CMakeFiles/isPerfectSquare.dir/rule
+
+# Convenience name for target.
+isPerfectSquare: LeetCode/CMakeFiles/isPerfectSquare.dir/rule
+.PHONY : isPerfectSquare
+
+# fast build rule for target.
+isPerfectSquare/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/CMakeFiles/isPerfectSquare.dir/build
+.PHONY : isPerfectSquare/fast
+
+# Convenience name for target.
+LeetCode/CMakeFiles/removeDuplicates.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/removeDuplicates.dir/rule
+.PHONY : LeetCode/CMakeFiles/removeDuplicates.dir/rule
+
+# Convenience name for target.
+removeDuplicates: LeetCode/CMakeFiles/removeDuplicates.dir/rule
+.PHONY : removeDuplicates
+
+# fast build rule for target.
+removeDuplicates/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/build
+.PHONY : removeDuplicates/fast
+
 insert.obj: insert.cpp.obj
 .PHONY : insert.obj
 
@@ -187,6 +215,54 @@ insert.s: insert.cpp.s
 insert.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\insert.dir\build.make LeetCode/CMakeFiles/insert.dir/insert.cpp.s
 .PHONY : insert.cpp.s
+
+isPerfectSquare.obj: isPerfectSquare.cpp.obj
+.PHONY : isPerfectSquare.obj
+
+# target to build an object file
+isPerfectSquare.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.obj
+.PHONY : isPerfectSquare.cpp.obj
+
+isPerfectSquare.i: isPerfectSquare.cpp.i
+.PHONY : isPerfectSquare.i
+
+# target to preprocess a source file
+isPerfectSquare.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.i
+.PHONY : isPerfectSquare.cpp.i
+
+isPerfectSquare.s: isPerfectSquare.cpp.s
+.PHONY : isPerfectSquare.s
+
+# target to generate assembly for a file
+isPerfectSquare.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.s
+.PHONY : isPerfectSquare.cpp.s
+
+removeDuplicates.obj: removeDuplicates.cpp.obj
+.PHONY : removeDuplicates.obj
+
+# target to build an object file
+removeDuplicates.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/removeDuplicates.cpp.obj
+.PHONY : removeDuplicates.cpp.obj
+
+removeDuplicates.i: removeDuplicates.cpp.i
+.PHONY : removeDuplicates.i
+
+# target to preprocess a source file
+removeDuplicates.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/removeDuplicates.cpp.i
+.PHONY : removeDuplicates.cpp.i
+
+removeDuplicates.s: removeDuplicates.cpp.s
+.PHONY : removeDuplicates.s
+
+# target to generate assembly for a file
+removeDuplicates.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/removeDuplicates.cpp.s
+.PHONY : removeDuplicates.cpp.s
 
 searchRange.obj: searchRange.cpp.obj
 .PHONY : searchRange.obj
@@ -246,11 +322,19 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... insert
+	@echo ... isPerfectSquare
+	@echo ... removeDuplicates
 	@echo ... search
 	@echo ... sqrt
 	@echo ... insert.obj
 	@echo ... insert.i
 	@echo ... insert.s
+	@echo ... isPerfectSquare.obj
+	@echo ... isPerfectSquare.i
+	@echo ... isPerfectSquare.s
+	@echo ... removeDuplicates.obj
+	@echo ... removeDuplicates.i
+	@echo ... removeDuplicates.s
 	@echo ... searchRange.obj
 	@echo ... searchRange.i
 	@echo ... searchRange.s

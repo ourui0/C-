@@ -175,6 +175,32 @@ sqrt/fast:
 .PHONY : sqrt/fast
 
 #=============================================================================
+# Target rules for targets named isPerfectSquare
+
+# Build rule for target.
+isPerfectSquare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isPerfectSquare
+.PHONY : isPerfectSquare
+
+# fast build rule for target.
+isPerfectSquare/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/CMakeFiles/isPerfectSquare.dir/build
+.PHONY : isPerfectSquare/fast
+
+#=============================================================================
+# Target rules for targets named removeDuplicates
+
+# Build rule for target.
+removeDuplicates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeDuplicates
+.PHONY : removeDuplicates
+
+# fast build rule for target.
+removeDuplicates/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/build
+.PHONY : removeDuplicates/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -252,6 +278,32 @@ dictionary/fast:
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\dictionary.dir\build.make homework/CMakeFiles/dictionary.dir/build
 .PHONY : dictionary/fast
 
+#=============================================================================
+# Target rules for targets named short
+
+# Build rule for target.
+short: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 short
+.PHONY : short
+
+# fast build rule for target.
+short/fast:
+	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\short.dir\build.make homework/CMakeFiles/short.dir/build
+.PHONY : short/fast
+
+#=============================================================================
+# Target rules for targets named key
+
+# Build rule for target.
+key: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 key
+.PHONY : key
+
+# fast build rule for target.
+key/fast:
+	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\key.dir\build.make homework/CMakeFiles/key.dir/build
+.PHONY : key/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -290,8 +342,12 @@ help:
 	@echo ... dictionary
 	@echo ... function
 	@echo ... insert
+	@echo ... isPerfectSquare
+	@echo ... key
 	@echo ... maxLevel
+	@echo ... removeDuplicates
 	@echo ... search
+	@echo ... short
 	@echo ... sort
 	@echo ... sqrt
 	@echo ... watch

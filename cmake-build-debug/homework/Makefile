@@ -164,6 +164,34 @@ dictionary/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\dictionary.dir\build.make homework/CMakeFiles/dictionary.dir/build
 .PHONY : dictionary/fast
 
+# Convenience name for target.
+homework/CMakeFiles/short.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/CMakeFiles/short.dir/rule
+.PHONY : homework/CMakeFiles/short.dir/rule
+
+# Convenience name for target.
+short: homework/CMakeFiles/short.dir/rule
+.PHONY : short
+
+# fast build rule for target.
+short/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\short.dir\build.make homework/CMakeFiles/short.dir/build
+.PHONY : short/fast
+
+# Convenience name for target.
+homework/CMakeFiles/key.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/CMakeFiles/key.dir/rule
+.PHONY : homework/CMakeFiles/key.dir/rule
+
+# Convenience name for target.
+key: homework/CMakeFiles/key.dir/rule
+.PHONY : key
+
+# fast build rule for target.
+key/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\key.dir\build.make homework/CMakeFiles/key.dir/build
+.PHONY : key/fast
+
 dictionary.obj: dictionary.cpp.obj
 .PHONY : dictionary.obj
 
@@ -212,6 +240,54 @@ function.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\function.dir\build.make homework/CMakeFiles/function.dir/function.cpp.s
 .PHONY : function.cpp.s
 
+key.obj: key.cpp.obj
+.PHONY : key.obj
+
+# target to build an object file
+key.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\key.dir\build.make homework/CMakeFiles/key.dir/key.cpp.obj
+.PHONY : key.cpp.obj
+
+key.i: key.cpp.i
+.PHONY : key.i
+
+# target to preprocess a source file
+key.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\key.dir\build.make homework/CMakeFiles/key.dir/key.cpp.i
+.PHONY : key.cpp.i
+
+key.s: key.cpp.s
+.PHONY : key.s
+
+# target to generate assembly for a file
+key.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\key.dir\build.make homework/CMakeFiles/key.dir/key.cpp.s
+.PHONY : key.cpp.s
+
+shortest.obj: shortest.cpp.obj
+.PHONY : shortest.obj
+
+# target to build an object file
+shortest.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\short.dir\build.make homework/CMakeFiles/short.dir/shortest.cpp.obj
+.PHONY : shortest.cpp.obj
+
+shortest.i: shortest.cpp.i
+.PHONY : shortest.i
+
+# target to preprocess a source file
+shortest.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\short.dir\build.make homework/CMakeFiles/short.dir/shortest.cpp.i
+.PHONY : shortest.cpp.i
+
+shortest.s: shortest.cpp.s
+.PHONY : shortest.s
+
+# target to generate assembly for a file
+shortest.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\CMakeFiles\short.dir\build.make homework/CMakeFiles/short.dir/shortest.cpp.s
+.PHONY : shortest.cpp.s
+
 watch.obj: watch.cpp.obj
 .PHONY : watch.obj
 
@@ -247,6 +323,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... dictionary
 	@echo ... function
+	@echo ... key
+	@echo ... short
 	@echo ... watch
 	@echo ... dictionary.obj
 	@echo ... dictionary.i
@@ -254,6 +332,12 @@ help:
 	@echo ... function.obj
 	@echo ... function.i
 	@echo ... function.s
+	@echo ... key.obj
+	@echo ... key.i
+	@echo ... key.s
+	@echo ... shortest.obj
+	@echo ... shortest.i
+	@echo ... shortest.s
 	@echo ... watch.obj
 	@echo ... watch.i
 	@echo ... watch.s
