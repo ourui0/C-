@@ -18,6 +18,10 @@ int main() {
         cin >> q[i].s >> q[i].c;
     }
 
+
+
+
+
     int i = 0;
     while (i < k) {
         if (q[i].s.empty()) {
