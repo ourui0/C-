@@ -5,7 +5,9 @@
 		"D:/C-/cmake-build-debug/LeetCode/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/lab/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/lab/lab1/cmake_install.cmake",
-		"D:/C-/cmake-build-debug/homework/cmake_install.cmake"
+		"D:/C-/cmake-build-debug/homework/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework1/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

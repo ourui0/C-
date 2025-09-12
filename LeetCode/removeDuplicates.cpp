@@ -19,7 +19,7 @@ int removeDuplicates(vector<int>& nums) {
             nums[slowIndex++] = nums[fastIndex];
         }
     }
-    
+
     return slowIndex;
 }
 int main() {

@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						4
+						4,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -36,11 +37,11 @@
 					"source" : "LeetCode",
 					"targetIndexes" : 
 					[
-						4,
-						5,
-						8,
-						9,
-						12
+						6,
+						7,
+						10,
+						11,
+						14
 					]
 				},
 				{
@@ -70,9 +71,9 @@
 					"source" : "lab/lab1",
 					"targetIndexes" : 
 					[
-						1,
-						7,
-						11
+						2,
+						9,
+						13
 					]
 				},
 				{
@@ -87,11 +88,42 @@
 					"source" : "homework",
 					"targetIndexes" : 
 					[
-						2,
-						3,
-						6,
-						10,
-						13
+						4,
+						5,
+						8,
+						12,
+						15
+					]
+				},
+				{
+					"build" : "dotOJ",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-dotOJ-Debug-d993f94e1fa7c7202b2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "dotOJ"
+				},
+				{
+					"build" : "dotOJ/homework1",
+					"jsonFile" : "directory-dotOJ.homework1-Debug-7ae665d95dd72e427039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "dotOJ/homework1",
+					"targetIndexes" : 
+					[
+						1,
+						3
 					]
 				}
 			],
@@ -105,7 +137,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					],
 					"name" : "C__",
 					"targetIndexes" : 
@@ -123,7 +157,9 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14,
+						15
 					]
 				}
 			],
@@ -132,8 +168,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "C__::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C__-Debug-9508f12fc2a86edfc8d0.json",
+					"jsonFile" : "target-C__-Debug-012b336a0492bd13f2a2.json",
 					"name" : "C__",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "FLY::@ee3f529badf23dd53ee7",
+					"jsonFile" : "target-FLY-Debug-9fc79b123d6897291acd.json",
+					"name" : "FLY",
 					"projectIndex" : 0
 				},
 				{
@@ -141,6 +184,13 @@
 					"id" : "apple::@df759db94359c41387ac",
 					"jsonFile" : "target-apple-Debug-f1c95c6dd9cf28807316.json",
 					"name" : "apple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "computer::@ee3f529badf23dd53ee7",
+					"jsonFile" : "target-computer-Debug-544751a79a83bf3eb969.json",
+					"name" : "computer",
 					"projectIndex" : 0
 				},
 				{

@@ -304,6 +304,32 @@ key/fast:
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\key.dir\build.make homework/CMakeFiles/key.dir/build
 .PHONY : key/fast
 
+#=============================================================================
+# Target rules for targets named FLY
+
+# Build rule for target.
+FLY: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FLY
+.PHONY : FLY
+
+# fast build rule for target.
+FLY/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\FLY.dir\build.make dotOJ/homework1/CMakeFiles/FLY.dir/build
+.PHONY : FLY/fast
+
+#=============================================================================
+# Target rules for targets named computer
+
+# Build rule for target.
+computer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 computer
+.PHONY : computer
+
+# fast build rule for target.
+computer/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\computer.dir\build.make dotOJ/homework1/CMakeFiles/computer.dir/build
+.PHONY : computer/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -338,7 +364,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__
+	@echo ... FLY
 	@echo ... apple
+	@echo ... computer
 	@echo ... dictionary
 	@echo ... function
 	@echo ... insert
