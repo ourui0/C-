@@ -150,6 +150,58 @@ computer/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\computer.dir\build.make dotOJ/homework1/CMakeFiles/computer.dir/build
 .PHONY : computer/fast
 
+# Convenience name for target.
+dotOJ/homework1/CMakeFiles/ArrayList.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework1/CMakeFiles/ArrayList.dir/rule
+.PHONY : dotOJ/homework1/CMakeFiles/ArrayList.dir/rule
+
+# Convenience name for target.
+ArrayList: dotOJ/homework1/CMakeFiles/ArrayList.dir/rule
+.PHONY : ArrayList
+
+# fast build rule for target.
+ArrayList/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\ArrayList.dir\build.make dotOJ/homework1/CMakeFiles/ArrayList.dir/build
+.PHONY : ArrayList/fast
+
+# Convenience name for target.
+dotOJ/homework1/CMakeFiles/city.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework1/CMakeFiles/city.dir/rule
+.PHONY : dotOJ/homework1/CMakeFiles/city.dir/rule
+
+# Convenience name for target.
+city: dotOJ/homework1/CMakeFiles/city.dir/rule
+.PHONY : city
+
+# fast build rule for target.
+city/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/build
+.PHONY : city/fast
+
+ArrayList.obj: ArrayList.cpp.obj
+.PHONY : ArrayList.obj
+
+# target to build an object file
+ArrayList.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\ArrayList.dir\build.make dotOJ/homework1/CMakeFiles/ArrayList.dir/ArrayList.cpp.obj
+.PHONY : ArrayList.cpp.obj
+
+ArrayList.i: ArrayList.cpp.i
+.PHONY : ArrayList.i
+
+# target to preprocess a source file
+ArrayList.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\ArrayList.dir\build.make dotOJ/homework1/CMakeFiles/ArrayList.dir/ArrayList.cpp.i
+.PHONY : ArrayList.cpp.i
+
+ArrayList.s: ArrayList.cpp.s
+.PHONY : ArrayList.s
+
+# target to generate assembly for a file
+ArrayList.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\ArrayList.dir\build.make dotOJ/homework1/CMakeFiles/ArrayList.dir/ArrayList.cpp.s
+.PHONY : ArrayList.cpp.s
+
 FLY.obj: FLY.cpp.obj
 .PHONY : FLY.obj
 
@@ -173,6 +225,30 @@ FLY.s: FLY.cpp.s
 FLY.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\FLY.dir\build.make dotOJ/homework1/CMakeFiles/FLY.dir/FLY.cpp.s
 .PHONY : FLY.cpp.s
+
+city.obj: city.cpp.obj
+.PHONY : city.obj
+
+# target to build an object file
+city.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj
+.PHONY : city.cpp.obj
+
+city.i: city.cpp.i
+.PHONY : city.i
+
+# target to preprocess a source file
+city.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/city.cpp.i
+.PHONY : city.cpp.i
+
+city.s: city.cpp.s
+.PHONY : city.s
+
+# target to generate assembly for a file
+city.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/city.cpp.s
+.PHONY : city.cpp.s
 
 computer.obj: computer.cpp.obj
 .PHONY : computer.obj
@@ -207,11 +283,19 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ArrayList
 	@echo ... FLY
+	@echo ... city
 	@echo ... computer
+	@echo ... ArrayList.obj
+	@echo ... ArrayList.i
+	@echo ... ArrayList.s
 	@echo ... FLY.obj
 	@echo ... FLY.i
 	@echo ... FLY.s
+	@echo ... city.obj
+	@echo ... city.i
+	@echo ... city.s
 	@echo ... computer.obj
 	@echo ... computer.i
 	@echo ... computer.s

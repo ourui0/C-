@@ -26,5 +26,7 @@ D:/C-/cmake-build-debug/dotOJ/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/FLY.dir
 D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/computer.dir
+D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/ArrayList.dir
+D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/city.dir
 D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/rebuild_cache.dir

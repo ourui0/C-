@@ -22,7 +22,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -37,11 +37,11 @@
 					"source" : "LeetCode",
 					"targetIndexes" : 
 					[
-						6,
-						7,
-						10,
-						11,
-						14
+						8,
+						9,
+						12,
+						13,
+						16
 					]
 				},
 				{
@@ -71,9 +71,9 @@
 					"source" : "lab/lab1",
 					"targetIndexes" : 
 					[
-						2,
-						9,
-						13
+						3,
+						11,
+						15
 					]
 				},
 				{
@@ -88,11 +88,11 @@
 					"source" : "homework",
 					"targetIndexes" : 
 					[
-						4,
-						5,
-						8,
-						12,
-						15
+						6,
+						7,
+						10,
+						14,
+						17
 					]
 				},
 				{
@@ -122,8 +122,10 @@
 					"source" : "dotOJ/homework1",
 					"targetIndexes" : 
 					[
-						1,
-						3
+						0,
+						2,
+						4,
+						5
 					]
 				}
 			],
@@ -159,12 +161,21 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 6,
+					"id" : "ArrayList::@ee3f529badf23dd53ee7",
+					"jsonFile" : "target-ArrayList-Debug-17830bc2bd30afa4a11d.json",
+					"name" : "ArrayList",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "C__::@6890427a1f51a3e7e1df",
@@ -184,6 +195,13 @@
 					"id" : "apple::@df759db94359c41387ac",
 					"jsonFile" : "target-apple-Debug-f1c95c6dd9cf28807316.json",
 					"name" : "apple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "city::@ee3f529badf23dd53ee7",
+					"jsonFile" : "target-city-Debug-de021b0270501607b44e.json",
+					"name" : "city",
 					"projectIndex" : 0
 				},
 				{

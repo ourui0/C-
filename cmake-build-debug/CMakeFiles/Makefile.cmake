@@ -87,4 +87,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "homework/CMakeFiles/key.dir/DependInfo.cmake"
   "dotOJ/homework1/CMakeFiles/FLY.dir/DependInfo.cmake"
   "dotOJ/homework1/CMakeFiles/computer.dir/DependInfo.cmake"
+  "dotOJ/homework1/CMakeFiles/ArrayList.dir/DependInfo.cmake"
+  "dotOJ/homework1/CMakeFiles/city.dir/DependInfo.cmake"
   )

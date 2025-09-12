@@ -330,6 +330,32 @@ computer/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\computer.dir\build.make dotOJ/homework1/CMakeFiles/computer.dir/build
 .PHONY : computer/fast
 
+#=============================================================================
+# Target rules for targets named ArrayList
+
+# Build rule for target.
+ArrayList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ArrayList
+.PHONY : ArrayList
+
+# fast build rule for target.
+ArrayList/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\ArrayList.dir\build.make dotOJ/homework1/CMakeFiles/ArrayList.dir/build
+.PHONY : ArrayList/fast
+
+#=============================================================================
+# Target rules for targets named city
+
+# Build rule for target.
+city: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 city
+.PHONY : city
+
+# fast build rule for target.
+city/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/build
+.PHONY : city/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -363,9 +389,11 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ArrayList
 	@echo ... C__
 	@echo ... FLY
 	@echo ... apple
+	@echo ... city
 	@echo ... computer
 	@echo ... dictionary
 	@echo ... function
