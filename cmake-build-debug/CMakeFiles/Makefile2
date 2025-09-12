@@ -101,6 +101,7 @@ LeetCode/all: LeetCode/CMakeFiles/search.dir/all
 LeetCode/all: LeetCode/CMakeFiles/sqrt.dir/all
 LeetCode/all: LeetCode/CMakeFiles/isPerfectSquare.dir/all
 LeetCode/all: LeetCode/CMakeFiles/removeDuplicates.dir/all
+LeetCode/all: LeetCode/CMakeFiles/sortedSquares.dir/all
 .PHONY : LeetCode/all
 
 # Recursive "codegen" directory target.
@@ -109,6 +110,7 @@ LeetCode/codegen: LeetCode/CMakeFiles/search.dir/codegen
 LeetCode/codegen: LeetCode/CMakeFiles/sqrt.dir/codegen
 LeetCode/codegen: LeetCode/CMakeFiles/isPerfectSquare.dir/codegen
 LeetCode/codegen: LeetCode/CMakeFiles/removeDuplicates.dir/codegen
+LeetCode/codegen: LeetCode/CMakeFiles/sortedSquares.dir/codegen
 .PHONY : LeetCode/codegen
 
 # Recursive "preinstall" directory target.
@@ -121,6 +123,7 @@ LeetCode/clean: LeetCode/CMakeFiles/search.dir/clean
 LeetCode/clean: LeetCode/CMakeFiles/sqrt.dir/clean
 LeetCode/clean: LeetCode/CMakeFiles/isPerfectSquare.dir/clean
 LeetCode/clean: LeetCode/CMakeFiles/removeDuplicates.dir/clean
+LeetCode/clean: LeetCode/CMakeFiles/sortedSquares.dir/clean
 .PHONY : LeetCode/clean
 
 #=============================================================================
@@ -348,7 +351,7 @@ LeetCode/CMakeFiles/search.dir/clean:
 LeetCode/CMakeFiles/sqrt.dir/all:
 	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/depend
 	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target sqrt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target sqrt"
 .PHONY : LeetCode/CMakeFiles/sqrt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +368,7 @@ sqrt: LeetCode/CMakeFiles/sqrt.dir/rule
 # codegen rule for target.
 LeetCode/CMakeFiles/sqrt.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=33,34 "Finished codegen for target sqrt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=35,36 "Finished codegen for target sqrt"
 .PHONY : LeetCode/CMakeFiles/sqrt.dir/codegen
 
 # clean rule for target.
@@ -436,6 +439,38 @@ LeetCode/CMakeFiles/removeDuplicates.dir/codegen:
 LeetCode/CMakeFiles/removeDuplicates.dir/clean:
 	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/clean
 .PHONY : LeetCode/CMakeFiles/removeDuplicates.dir/clean
+
+#=============================================================================
+# Target rules for target LeetCode/CMakeFiles/sortedSquares.dir
+
+# All Build rule for target.
+LeetCode/CMakeFiles/sortedSquares.dir/all:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/depend
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target sortedSquares"
+.PHONY : LeetCode/CMakeFiles/sortedSquares.dir/all
+
+# Build rule for subdir invocation for target.
+LeetCode/CMakeFiles/sortedSquares.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/sortedSquares.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-\cmake-build-debug\CMakeFiles 0
+.PHONY : LeetCode/CMakeFiles/sortedSquares.dir/rule
+
+# Convenience name for target.
+sortedSquares: LeetCode/CMakeFiles/sortedSquares.dir/rule
+.PHONY : sortedSquares
+
+# codegen rule for target.
+LeetCode/CMakeFiles/sortedSquares.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=33,34 "Finished codegen for target sortedSquares"
+.PHONY : LeetCode/CMakeFiles/sortedSquares.dir/codegen
+
+# clean rule for target.
+LeetCode/CMakeFiles/sortedSquares.dir/clean:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/clean
+.PHONY : LeetCode/CMakeFiles/sortedSquares.dir/clean
 
 #=============================================================================
 # Target rules for target lab/lab1/CMakeFiles/apple.dir
@@ -540,7 +575,7 @@ lab/lab1/CMakeFiles/sort.dir/clean:
 homework/CMakeFiles/watch.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\watch.dir\build.make homework/CMakeFiles/watch.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\watch.dir\build.make homework/CMakeFiles/watch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target watch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target watch"
 .PHONY : homework/CMakeFiles/watch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -557,7 +592,7 @@ watch: homework/CMakeFiles/watch.dir/rule
 # codegen rule for target.
 homework/CMakeFiles/watch.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\watch.dir\build.make homework/CMakeFiles/watch.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=35,36 "Finished codegen for target watch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=37,38 "Finished codegen for target watch"
 .PHONY : homework/CMakeFiles/watch.dir/codegen
 
 # clean rule for target.

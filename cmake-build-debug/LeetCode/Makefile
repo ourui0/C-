@@ -192,6 +192,20 @@ removeDuplicates/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/build
 .PHONY : removeDuplicates/fast
 
+# Convenience name for target.
+LeetCode/CMakeFiles/sortedSquares.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/sortedSquares.dir/rule
+.PHONY : LeetCode/CMakeFiles/sortedSquares.dir/rule
+
+# Convenience name for target.
+sortedSquares: LeetCode/CMakeFiles/sortedSquares.dir/rule
+.PHONY : sortedSquares
+
+# fast build rule for target.
+sortedSquares/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/build
+.PHONY : sortedSquares/fast
+
 insert.obj: insert.cpp.obj
 .PHONY : insert.obj
 
@@ -288,6 +302,30 @@ searchRange.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\search.dir\build.make LeetCode/CMakeFiles/search.dir/searchRange.cpp.s
 .PHONY : searchRange.cpp.s
 
+sortedSquares.obj: sortedSquares.cpp.obj
+.PHONY : sortedSquares.obj
+
+# target to build an object file
+sortedSquares.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/sortedSquares.cpp.obj
+.PHONY : sortedSquares.cpp.obj
+
+sortedSquares.i: sortedSquares.cpp.i
+.PHONY : sortedSquares.i
+
+# target to preprocess a source file
+sortedSquares.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/sortedSquares.cpp.i
+.PHONY : sortedSquares.cpp.i
+
+sortedSquares.s: sortedSquares.cpp.s
+.PHONY : sortedSquares.s
+
+# target to generate assembly for a file
+sortedSquares.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/sortedSquares.cpp.s
+.PHONY : sortedSquares.cpp.s
+
 sqrt.obj: sqrt.cpp.obj
 .PHONY : sqrt.obj
 
@@ -325,6 +363,7 @@ help:
 	@echo ... isPerfectSquare
 	@echo ... removeDuplicates
 	@echo ... search
+	@echo ... sortedSquares
 	@echo ... sqrt
 	@echo ... insert.obj
 	@echo ... insert.i
@@ -338,6 +377,9 @@ help:
 	@echo ... searchRange.obj
 	@echo ... searchRange.i
 	@echo ... searchRange.s
+	@echo ... sortedSquares.obj
+	@echo ... sortedSquares.i
+	@echo ... sortedSquares.s
 	@echo ... sqrt.obj
 	@echo ... sqrt.i
 	@echo ... sqrt.s

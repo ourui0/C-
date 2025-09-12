@@ -201,6 +201,19 @@ removeDuplicates/fast:
 .PHONY : removeDuplicates/fast
 
 #=============================================================================
+# Target rules for targets named sortedSquares
+
+# Build rule for target.
+sortedSquares: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sortedSquares
+.PHONY : sortedSquares
+
+# fast build rule for target.
+sortedSquares/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/build
+.PHONY : sortedSquares/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -405,6 +418,7 @@ help:
 	@echo ... search
 	@echo ... short
 	@echo ... sort
+	@echo ... sortedSquares
 	@echo ... sqrt
 	@echo ... watch
 	@echo ... main.obj

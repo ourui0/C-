@@ -10,4 +10,3 @@ add_subdirectory(dotOJ)
 
 add_executable(C__ main.cpp)
 
-
