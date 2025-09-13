@@ -78,6 +78,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "LeetCode/CMakeFiles/isPerfectSquare.dir/DependInfo.cmake"
   "LeetCode/CMakeFiles/removeDuplicates.dir/DependInfo.cmake"
   "LeetCode/CMakeFiles/sortedSquares.dir/DependInfo.cmake"
+  "LeetCode/CMakeFiles/minSubArrayLen.dir/DependInfo.cmake"
+  "LeetCode/CMakeFiles/generateMatrix.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/apple.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/maxLevel.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/sort.dir/DependInfo.cmake"

@@ -214,6 +214,32 @@ sortedSquares/fast:
 .PHONY : sortedSquares/fast
 
 #=============================================================================
+# Target rules for targets named minSubArrayLen
+
+# Build rule for target.
+minSubArrayLen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minSubArrayLen
+.PHONY : minSubArrayLen
+
+# fast build rule for target.
+minSubArrayLen/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/CMakeFiles/minSubArrayLen.dir/build
+.PHONY : minSubArrayLen/fast
+
+#=============================================================================
+# Target rules for targets named generateMatrix
+
+# Build rule for target.
+generateMatrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 generateMatrix
+.PHONY : generateMatrix
+
+# fast build rule for target.
+generateMatrix/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\generateMatrix.dir\build.make LeetCode/CMakeFiles/generateMatrix.dir/build
+.PHONY : generateMatrix/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -410,10 +436,12 @@ help:
 	@echo ... computer
 	@echo ... dictionary
 	@echo ... function
+	@echo ... generateMatrix
 	@echo ... insert
 	@echo ... isPerfectSquare
 	@echo ... key
 	@echo ... maxLevel
+	@echo ... minSubArrayLen
 	@echo ... removeDuplicates
 	@echo ... search
 	@echo ... short

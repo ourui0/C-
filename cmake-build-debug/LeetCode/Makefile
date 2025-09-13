@@ -206,6 +206,58 @@ sortedSquares/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/build
 .PHONY : sortedSquares/fast
 
+# Convenience name for target.
+LeetCode/CMakeFiles/minSubArrayLen.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/minSubArrayLen.dir/rule
+.PHONY : LeetCode/CMakeFiles/minSubArrayLen.dir/rule
+
+# Convenience name for target.
+minSubArrayLen: LeetCode/CMakeFiles/minSubArrayLen.dir/rule
+.PHONY : minSubArrayLen
+
+# fast build rule for target.
+minSubArrayLen/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/CMakeFiles/minSubArrayLen.dir/build
+.PHONY : minSubArrayLen/fast
+
+# Convenience name for target.
+LeetCode/CMakeFiles/generateMatrix.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/generateMatrix.dir/rule
+.PHONY : LeetCode/CMakeFiles/generateMatrix.dir/rule
+
+# Convenience name for target.
+generateMatrix: LeetCode/CMakeFiles/generateMatrix.dir/rule
+.PHONY : generateMatrix
+
+# fast build rule for target.
+generateMatrix/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\generateMatrix.dir\build.make LeetCode/CMakeFiles/generateMatrix.dir/build
+.PHONY : generateMatrix/fast
+
+generateMatrix.obj: generateMatrix.cpp.obj
+.PHONY : generateMatrix.obj
+
+# target to build an object file
+generateMatrix.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\generateMatrix.dir\build.make LeetCode/CMakeFiles/generateMatrix.dir/generateMatrix.cpp.obj
+.PHONY : generateMatrix.cpp.obj
+
+generateMatrix.i: generateMatrix.cpp.i
+.PHONY : generateMatrix.i
+
+# target to preprocess a source file
+generateMatrix.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\generateMatrix.dir\build.make LeetCode/CMakeFiles/generateMatrix.dir/generateMatrix.cpp.i
+.PHONY : generateMatrix.cpp.i
+
+generateMatrix.s: generateMatrix.cpp.s
+.PHONY : generateMatrix.s
+
+# target to generate assembly for a file
+generateMatrix.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\generateMatrix.dir\build.make LeetCode/CMakeFiles/generateMatrix.dir/generateMatrix.cpp.s
+.PHONY : generateMatrix.cpp.s
+
 insert.obj: insert.cpp.obj
 .PHONY : insert.obj
 
@@ -253,6 +305,30 @@ isPerfectSquare.s: isPerfectSquare.cpp.s
 isPerfectSquare.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/CMakeFiles/isPerfectSquare.dir/isPerfectSquare.cpp.s
 .PHONY : isPerfectSquare.cpp.s
+
+minSubArrayLen.obj: minSubArrayLen.cpp.obj
+.PHONY : minSubArrayLen.obj
+
+# target to build an object file
+minSubArrayLen.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj
+.PHONY : minSubArrayLen.cpp.obj
+
+minSubArrayLen.i: minSubArrayLen.cpp.i
+.PHONY : minSubArrayLen.i
+
+# target to preprocess a source file
+minSubArrayLen.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.i
+.PHONY : minSubArrayLen.cpp.i
+
+minSubArrayLen.s: minSubArrayLen.cpp.s
+.PHONY : minSubArrayLen.s
+
+# target to generate assembly for a file
+minSubArrayLen.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.s
+.PHONY : minSubArrayLen.cpp.s
 
 removeDuplicates.obj: removeDuplicates.cpp.obj
 .PHONY : removeDuplicates.obj
@@ -359,18 +435,26 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... generateMatrix
 	@echo ... insert
 	@echo ... isPerfectSquare
+	@echo ... minSubArrayLen
 	@echo ... removeDuplicates
 	@echo ... search
 	@echo ... sortedSquares
 	@echo ... sqrt
+	@echo ... generateMatrix.obj
+	@echo ... generateMatrix.i
+	@echo ... generateMatrix.s
 	@echo ... insert.obj
 	@echo ... insert.i
 	@echo ... insert.s
 	@echo ... isPerfectSquare.obj
 	@echo ... isPerfectSquare.i
 	@echo ... isPerfectSquare.s
+	@echo ... minSubArrayLen.obj
+	@echo ... minSubArrayLen.i
+	@echo ... minSubArrayLen.s
 	@echo ... removeDuplicates.obj
 	@echo ... removeDuplicates.i
 	@echo ... removeDuplicates.s
