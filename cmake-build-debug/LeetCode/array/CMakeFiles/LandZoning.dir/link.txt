@@ -1,0 +1,3 @@
+"D:\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\LandZoning.dir/objects.a
+D:\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\LandZoning.dir/objects.a @CMakeFiles\LandZoning.dir\objects1.rsp
+D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\LandZoning.dir/objects.a -Wl,--no-whole-archive -o LandZoning.exe -Wl,--out-implib,libLandZoning.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LandZoning.dir\linkLibs.rsp

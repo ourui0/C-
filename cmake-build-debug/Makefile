@@ -145,7 +145,7 @@ insert: cmake_check_build_system
 
 # fast build rule for target.
 insert/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\insert.dir\build.make LeetCode/CMakeFiles/insert.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\insert.dir\build.make LeetCode/array/CMakeFiles/insert.dir/build
 .PHONY : insert/fast
 
 #=============================================================================
@@ -158,7 +158,7 @@ search: cmake_check_build_system
 
 # fast build rule for target.
 search/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\search.dir\build.make LeetCode/CMakeFiles/search.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\search.dir\build.make LeetCode/array/CMakeFiles/search.dir/build
 .PHONY : search/fast
 
 #=============================================================================
@@ -171,7 +171,7 @@ sqrt: cmake_check_build_system
 
 # fast build rule for target.
 sqrt/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\sqrt.dir\build.make LeetCode/array/CMakeFiles/sqrt.dir/build
 .PHONY : sqrt/fast
 
 #=============================================================================
@@ -184,7 +184,7 @@ isPerfectSquare: cmake_check_build_system
 
 # fast build rule for target.
 isPerfectSquare/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/CMakeFiles/isPerfectSquare.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/array/CMakeFiles/isPerfectSquare.dir/build
 .PHONY : isPerfectSquare/fast
 
 #=============================================================================
@@ -197,7 +197,7 @@ removeDuplicates: cmake_check_build_system
 
 # fast build rule for target.
 removeDuplicates/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\removeDuplicates.dir\build.make LeetCode/CMakeFiles/removeDuplicates.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\removeDuplicates.dir\build.make LeetCode/array/CMakeFiles/removeDuplicates.dir/build
 .PHONY : removeDuplicates/fast
 
 #=============================================================================
@@ -210,7 +210,7 @@ sortedSquares: cmake_check_build_system
 
 # fast build rule for target.
 sortedSquares/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sortedSquares.dir\build.make LeetCode/CMakeFiles/sortedSquares.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\sortedSquares.dir\build.make LeetCode/array/CMakeFiles/sortedSquares.dir/build
 .PHONY : sortedSquares/fast
 
 #=============================================================================
@@ -223,7 +223,7 @@ minSubArrayLen: cmake_check_build_system
 
 # fast build rule for target.
 minSubArrayLen/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/CMakeFiles/minSubArrayLen.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/array/CMakeFiles/minSubArrayLen.dir/build
 .PHONY : minSubArrayLen/fast
 
 #=============================================================================
@@ -236,7 +236,7 @@ generateMatrix: cmake_check_build_system
 
 # fast build rule for target.
 generateMatrix/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\generateMatrix.dir\build.make LeetCode/CMakeFiles/generateMatrix.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\generateMatrix.dir\build.make LeetCode/array/CMakeFiles/generateMatrix.dir/build
 .PHONY : generateMatrix/fast
 
 #=============================================================================
@@ -249,7 +249,7 @@ ZoomSum: cmake_check_build_system
 
 # fast build rule for target.
 ZoomSum/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\ZoomSum.dir\build.make LeetCode/CMakeFiles/ZoomSum.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\ZoomSum.dir\build.make LeetCode/array/CMakeFiles/ZoomSum.dir/build
 .PHONY : ZoomSum/fast
 
 #=============================================================================
@@ -262,8 +262,47 @@ LandZoning: cmake_check_build_system
 
 # fast build rule for target.
 LandZoning/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\LandZoning.dir\build.make LeetCode/CMakeFiles/LandZoning.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\LandZoning.dir\build.make LeetCode/array/CMakeFiles/LandZoning.dir/build
 .PHONY : LandZoning/fast
+
+#=============================================================================
+# Target rules for targets named removeElements
+
+# Build rule for target.
+removeElements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeElements
+.PHONY : removeElements
+
+# fast build rule for target.
+removeElements/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeElements.dir\build.make LeetCode/List/CMakeFiles/removeElements.dir/build
+.PHONY : removeElements/fast
+
+#=============================================================================
+# Target rules for targets named MyLinkedList
+
+# Build rule for target.
+MyLinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyLinkedList
+.PHONY : MyLinkedList
+
+# fast build rule for target.
+MyLinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\MyLinkedList.dir\build.make LeetCode/List/CMakeFiles/MyLinkedList.dir/build
+.PHONY : MyLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named reverseList
+
+# Build rule for target.
+reverseList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reverseList
+.PHONY : reverseList
+
+# fast build rule for target.
+reverseList/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\reverseList.dir\build.make LeetCode/List/CMakeFiles/reverseList.dir/build
+.PHONY : reverseList/fast
 
 #=============================================================================
 # Target rules for targets named apple
@@ -458,6 +497,7 @@ help:
 	@echo ... C__
 	@echo ... FLY
 	@echo ... LandZoning
+	@echo ... MyLinkedList
 	@echo ... ZoomSum
 	@echo ... apple
 	@echo ... city
@@ -471,6 +511,8 @@ help:
 	@echo ... maxLevel
 	@echo ... minSubArrayLen
 	@echo ... removeDuplicates
+	@echo ... removeElements
+	@echo ... reverseList
 	@echo ... search
 	@echo ... short
 	@echo ... sort
