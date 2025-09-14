@@ -234,6 +234,82 @@ generateMatrix/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\generateMatrix.dir\build.make LeetCode/CMakeFiles/generateMatrix.dir/build
 .PHONY : generateMatrix/fast
 
+# Convenience name for target.
+LeetCode/CMakeFiles/ZoomSum.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/ZoomSum.dir/rule
+.PHONY : LeetCode/CMakeFiles/ZoomSum.dir/rule
+
+# Convenience name for target.
+ZoomSum: LeetCode/CMakeFiles/ZoomSum.dir/rule
+.PHONY : ZoomSum
+
+# fast build rule for target.
+ZoomSum/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\ZoomSum.dir\build.make LeetCode/CMakeFiles/ZoomSum.dir/build
+.PHONY : ZoomSum/fast
+
+# Convenience name for target.
+LeetCode/CMakeFiles/LandZoning.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/LandZoning.dir/rule
+.PHONY : LeetCode/CMakeFiles/LandZoning.dir/rule
+
+# Convenience name for target.
+LandZoning: LeetCode/CMakeFiles/LandZoning.dir/rule
+.PHONY : LandZoning
+
+# fast build rule for target.
+LandZoning/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\LandZoning.dir\build.make LeetCode/CMakeFiles/LandZoning.dir/build
+.PHONY : LandZoning/fast
+
+LandZoning.obj: LandZoning.cpp.obj
+.PHONY : LandZoning.obj
+
+# target to build an object file
+LandZoning.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\LandZoning.dir\build.make LeetCode/CMakeFiles/LandZoning.dir/LandZoning.cpp.obj
+.PHONY : LandZoning.cpp.obj
+
+LandZoning.i: LandZoning.cpp.i
+.PHONY : LandZoning.i
+
+# target to preprocess a source file
+LandZoning.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\LandZoning.dir\build.make LeetCode/CMakeFiles/LandZoning.dir/LandZoning.cpp.i
+.PHONY : LandZoning.cpp.i
+
+LandZoning.s: LandZoning.cpp.s
+.PHONY : LandZoning.s
+
+# target to generate assembly for a file
+LandZoning.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\LandZoning.dir\build.make LeetCode/CMakeFiles/LandZoning.dir/LandZoning.cpp.s
+.PHONY : LandZoning.cpp.s
+
+ZoomSum.obj: ZoomSum.cpp.obj
+.PHONY : ZoomSum.obj
+
+# target to build an object file
+ZoomSum.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\ZoomSum.dir\build.make LeetCode/CMakeFiles/ZoomSum.dir/ZoomSum.cpp.obj
+.PHONY : ZoomSum.cpp.obj
+
+ZoomSum.i: ZoomSum.cpp.i
+.PHONY : ZoomSum.i
+
+# target to preprocess a source file
+ZoomSum.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\ZoomSum.dir\build.make LeetCode/CMakeFiles/ZoomSum.dir/ZoomSum.cpp.i
+.PHONY : ZoomSum.cpp.i
+
+ZoomSum.s: ZoomSum.cpp.s
+.PHONY : ZoomSum.s
+
+# target to generate assembly for a file
+ZoomSum.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\ZoomSum.dir\build.make LeetCode/CMakeFiles/ZoomSum.dir/ZoomSum.cpp.s
+.PHONY : ZoomSum.cpp.s
+
 generateMatrix.obj: generateMatrix.cpp.obj
 .PHONY : generateMatrix.obj
 
@@ -435,6 +511,8 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... LandZoning
+	@echo ... ZoomSum
 	@echo ... generateMatrix
 	@echo ... insert
 	@echo ... isPerfectSquare
@@ -443,6 +521,12 @@ help:
 	@echo ... search
 	@echo ... sortedSquares
 	@echo ... sqrt
+	@echo ... LandZoning.obj
+	@echo ... LandZoning.i
+	@echo ... LandZoning.s
+	@echo ... ZoomSum.obj
+	@echo ... ZoomSum.i
+	@echo ... ZoomSum.s
 	@echo ... generateMatrix.obj
 	@echo ... generateMatrix.i
 	@echo ... generateMatrix.s

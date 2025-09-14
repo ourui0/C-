@@ -80,6 +80,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "LeetCode/CMakeFiles/sortedSquares.dir/DependInfo.cmake"
   "LeetCode/CMakeFiles/minSubArrayLen.dir/DependInfo.cmake"
   "LeetCode/CMakeFiles/generateMatrix.dir/DependInfo.cmake"
+  "LeetCode/CMakeFiles/ZoomSum.dir/DependInfo.cmake"
+  "LeetCode/CMakeFiles/LandZoning.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/apple.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/maxLevel.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/sort.dir/DependInfo.cmake"

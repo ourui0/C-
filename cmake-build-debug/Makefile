@@ -240,6 +240,32 @@ generateMatrix/fast:
 .PHONY : generateMatrix/fast
 
 #=============================================================================
+# Target rules for targets named ZoomSum
+
+# Build rule for target.
+ZoomSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ZoomSum
+.PHONY : ZoomSum
+
+# fast build rule for target.
+ZoomSum/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\ZoomSum.dir\build.make LeetCode/CMakeFiles/ZoomSum.dir/build
+.PHONY : ZoomSum/fast
+
+#=============================================================================
+# Target rules for targets named LandZoning
+
+# Build rule for target.
+LandZoning: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LandZoning
+.PHONY : LandZoning
+
+# fast build rule for target.
+LandZoning/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\LandZoning.dir\build.make LeetCode/CMakeFiles/LandZoning.dir/build
+.PHONY : LandZoning/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -431,6 +457,8 @@ help:
 	@echo ... ArrayList
 	@echo ... C__
 	@echo ... FLY
+	@echo ... LandZoning
+	@echo ... ZoomSum
 	@echo ... apple
 	@echo ... city
 	@echo ... computer

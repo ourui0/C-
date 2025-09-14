@@ -9,6 +9,8 @@ D:/C-/cmake-build-debug/LeetCode/CMakeFiles/removeDuplicates.dir
 D:/C-/cmake-build-debug/LeetCode/CMakeFiles/sortedSquares.dir
 D:/C-/cmake-build-debug/LeetCode/CMakeFiles/minSubArrayLen.dir
 D:/C-/cmake-build-debug/LeetCode/CMakeFiles/generateMatrix.dir
+D:/C-/cmake-build-debug/LeetCode/CMakeFiles/ZoomSum.dir
+D:/C-/cmake-build-debug/LeetCode/CMakeFiles/LandZoning.dir
 D:/C-/cmake-build-debug/LeetCode/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/LeetCode/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/edit_cache.dir
