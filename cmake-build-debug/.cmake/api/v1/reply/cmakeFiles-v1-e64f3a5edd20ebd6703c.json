@@ -225,6 +225,9 @@
 			"path" : "LeetCode/List/CMakeLists.txt"
 		},
 		{
+			"path" : "LeetCode/dp/CMakeLists.txt"
+		},
+		{
 			"path" : "lab/CMakeLists.txt"
 		},
 		{

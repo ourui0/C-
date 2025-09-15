@@ -305,6 +305,32 @@ reverseList/fast:
 .PHONY : reverseList/fast
 
 #=============================================================================
+# Target rules for targets named fin
+
+# Build rule for target.
+fin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fin
+.PHONY : fin
+
+# fast build rule for target.
+fin/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\dp\CMakeFiles\fin.dir\build.make LeetCode/dp/CMakeFiles/fin.dir/build
+.PHONY : fin/fast
+
+#=============================================================================
+# Target rules for targets named integerBreak
+
+# Build rule for target.
+integerBreak: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 integerBreak
+.PHONY : integerBreak
+
+# fast build rule for target.
+integerBreak/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\dp\CMakeFiles\integerBreak.dir\build.make LeetCode/dp/CMakeFiles/integerBreak.dir/build
+.PHONY : integerBreak/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -503,9 +529,11 @@ help:
 	@echo ... city
 	@echo ... computer
 	@echo ... dictionary
+	@echo ... fin
 	@echo ... function
 	@echo ... generateMatrix
 	@echo ... insert
+	@echo ... integerBreak
 	@echo ... isPerfectSquare
 	@echo ... key
 	@echo ... maxLevel

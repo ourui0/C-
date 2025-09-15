@@ -1,0 +1,3 @@
+"D:\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\fin.dir/objects.a
+D:\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\fin.dir/objects.a @CMakeFiles\fin.dir\objects1.rsp
+D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\fin.dir/objects.a -Wl,--no-whole-archive -o fin.exe -Wl,--out-implib,libfin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fin.dir\linkLibs.rsp

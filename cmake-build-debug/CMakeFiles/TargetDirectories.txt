@@ -20,6 +20,10 @@ D:/C-/cmake-build-debug/LeetCode/List/CMakeFiles/MyLinkedList.dir
 D:/C-/cmake-build-debug/LeetCode/List/CMakeFiles/reverseList.dir
 D:/C-/cmake-build-debug/LeetCode/List/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/LeetCode/List/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/LeetCode/dp/CMakeFiles/fin.dir
+D:/C-/cmake-build-debug/LeetCode/dp/CMakeFiles/integerBreak.dir
+D:/C-/cmake-build-debug/LeetCode/dp/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/LeetCode/dp/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/lab1/CMakeFiles/apple.dir

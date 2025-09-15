@@ -9,9 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						4,
-						6,
-						7
+						5,
+						7,
+						8
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -30,7 +30,8 @@
 					"childIndexes" : 
 					[
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-LeetCode-Debug-19959c33d7c580033c8d.json",
 					"minimumCMakeVersion" : 
@@ -55,14 +56,14 @@
 					[
 						3,
 						5,
-						11,
 						12,
 						13,
-						16,
-						17,
-						20,
-						23,
-						24
+						15,
+						18,
+						19,
+						22,
+						25,
+						26
 					]
 				},
 				{
@@ -78,15 +79,31 @@
 					"targetIndexes" : 
 					[
 						4,
-						18,
-						19
+						20,
+						21
+					]
+				},
+				{
+					"build" : "LeetCode/dp",
+					"jsonFile" : "directory-LeetCode.dp-Debug-a6111350e19427262891.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "LeetCode/dp",
+					"targetIndexes" : 
+					[
+						10,
+						14
 					]
 				},
 				{
 					"build" : "lab",
 					"childIndexes" : 
 					[
-						5
+						6
 					],
 					"jsonFile" : "directory-lab-Debug-147abc30e5c6df36031f.json",
 					"minimumCMakeVersion" : 
@@ -104,14 +121,14 @@
 					{
 						"string" : "3.31"
 					},
-					"parentIndex" : 4,
+					"parentIndex" : 5,
 					"projectIndex" : 0,
 					"source" : "lab/lab1",
 					"targetIndexes" : 
 					[
 						6,
-						15,
-						22
+						17,
+						24
 					]
 				},
 				{
@@ -127,17 +144,17 @@
 					"targetIndexes" : 
 					[
 						9,
-						10,
-						14,
-						21,
-						25
+						11,
+						16,
+						23,
+						27
 					]
 				},
 				{
 					"build" : "dotOJ",
 					"childIndexes" : 
 					[
-						8
+						9
 					],
 					"jsonFile" : "directory-dotOJ-Debug-d993f94e1fa7c7202b2d.json",
 					"minimumCMakeVersion" : 
@@ -155,7 +172,7 @@
 					{
 						"string" : "3.31"
 					},
-					"parentIndex" : 7,
+					"parentIndex" : 8,
 					"projectIndex" : 0,
 					"source" : "dotOJ/homework1",
 					"targetIndexes" : 
@@ -181,7 +198,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					],
 					"name" : "C__",
 					"targetIndexes" : 
@@ -211,14 +229,16 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26,
+						27
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "ArrayList::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-ArrayList-Debug-17830bc2bd30afa4a11d.json",
 					"name" : "ArrayList",
@@ -232,7 +252,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "FLY::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-FLY-Debug-9fc79b123d6897291acd.json",
 					"name" : "FLY",
@@ -260,35 +280,42 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 6,
 					"id" : "apple::@df759db94359c41387ac",
 					"jsonFile" : "target-apple-Debug-f1c95c6dd9cf28807316.json",
 					"name" : "apple",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "city::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-city-Debug-de021b0270501607b44e.json",
 					"name" : "city",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "computer::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-computer-Debug-544751a79a83bf3eb969.json",
 					"name" : "computer",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "dictionary::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-dictionary-Debug-e2638726cc0a138bd53d.json",
 					"name" : "dictionary",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 4,
+					"id" : "fin::@a91cc3c26a7d7d881065",
+					"jsonFile" : "target-fin-Debug-b153fe18464c22429835.json",
+					"name" : "fin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
 					"id" : "function::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-function-Debug-51dd88fdc47a35c1fc61.json",
 					"name" : "function",
@@ -309,6 +336,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "integerBreak::@a91cc3c26a7d7d881065",
+					"jsonFile" : "target-integerBreak-Debug-1f4e19f56b80531911cc.json",
+					"name" : "integerBreak",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "isPerfectSquare::@cead1f0003cc5b8cdc52",
 					"jsonFile" : "target-isPerfectSquare-Debug-fb136ce6b775683edcd3.json",
@@ -316,14 +350,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "key::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-key-Debug-a7bcd2a2ec6a6a69d586.json",
 					"name" : "key",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 6,
 					"id" : "maxLevel::@df759db94359c41387ac",
 					"jsonFile" : "target-maxLevel-Debug-763d909f2ffdb133399a.json",
 					"name" : "maxLevel",
@@ -365,14 +399,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "short::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-short-Debug-774da8f86e90d367ab76.json",
 					"name" : "short",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 6,
 					"id" : "sort::@df759db94359c41387ac",
 					"jsonFile" : "target-sort-Debug-7ae78ca8955105297969.json",
 					"name" : "sort",
@@ -393,7 +427,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "watch::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-watch-Debug-990b7d6599cd86ffa164.json",
 					"name" : "watch",
