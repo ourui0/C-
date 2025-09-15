@@ -1,9 +1,12 @@
 D:/C++/cmake-build-debug/CMakeFiles/C__.dir
+D:/C++/cmake-build-debug/CMakeFiles/1.dir
+D:/C++/cmake-build-debug/CMakeFiles/2.dir
 D:/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/C++/cmake-build-debug/LeetCode/CMakeFiles/insert.dir
 D:/C++/cmake-build-debug/LeetCode/CMakeFiles/search.dir
 D:/C++/cmake-build-debug/LeetCode/CMakeFiles/sqrt.dir
+D:/C++/cmake-build-debug/LeetCode/CMakeFiles/isPerfectSquare.dir
 D:/C++/cmake-build-debug/LeetCode/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/LeetCode/CMakeFiles/rebuild_cache.dir
 D:/C++/cmake-build-debug/lab/CMakeFiles/edit_cache.dir
