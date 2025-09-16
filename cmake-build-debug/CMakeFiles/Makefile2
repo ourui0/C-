@@ -126,12 +126,14 @@ LeetCode/clean: LeetCode/dp/clean
 LeetCode/List/all: LeetCode/List/CMakeFiles/removeElements.dir/all
 LeetCode/List/all: LeetCode/List/CMakeFiles/MyLinkedList.dir/all
 LeetCode/List/all: LeetCode/List/CMakeFiles/reverseList.dir/all
+LeetCode/List/all: LeetCode/List/CMakeFiles/swapPairs.dir/all
 .PHONY : LeetCode/List/all
 
 # Recursive "codegen" directory target.
 LeetCode/List/codegen: LeetCode/List/CMakeFiles/removeElements.dir/codegen
 LeetCode/List/codegen: LeetCode/List/CMakeFiles/MyLinkedList.dir/codegen
 LeetCode/List/codegen: LeetCode/List/CMakeFiles/reverseList.dir/codegen
+LeetCode/List/codegen: LeetCode/List/CMakeFiles/swapPairs.dir/codegen
 .PHONY : LeetCode/List/codegen
 
 # Recursive "preinstall" directory target.
@@ -142,6 +144,7 @@ LeetCode/List/preinstall:
 LeetCode/List/clean: LeetCode/List/CMakeFiles/removeElements.dir/clean
 LeetCode/List/clean: LeetCode/List/CMakeFiles/MyLinkedList.dir/clean
 LeetCode/List/clean: LeetCode/List/CMakeFiles/reverseList.dir/clean
+LeetCode/List/clean: LeetCode/List/CMakeFiles/swapPairs.dir/clean
 .PHONY : LeetCode/List/clean
 
 #=============================================================================
@@ -783,6 +786,38 @@ LeetCode/List/CMakeFiles/reverseList.dir/clean:
 .PHONY : LeetCode/List/CMakeFiles/reverseList.dir/clean
 
 #=============================================================================
+# Target rules for target LeetCode/List/CMakeFiles/swapPairs.dir
+
+# All Build rule for target.
+LeetCode/List/CMakeFiles/swapPairs.dir/all:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/depend
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target swapPairs"
+.PHONY : LeetCode/List/CMakeFiles/swapPairs.dir/all
+
+# Build rule for subdir invocation for target.
+LeetCode/List/CMakeFiles/swapPairs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/List/CMakeFiles/swapPairs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C-\cmake-build-debug\CMakeFiles 0
+.PHONY : LeetCode/List/CMakeFiles/swapPairs.dir/rule
+
+# Convenience name for target.
+swapPairs: LeetCode/List/CMakeFiles/swapPairs.dir/rule
+.PHONY : swapPairs
+
+# codegen rule for target.
+LeetCode/List/CMakeFiles/swapPairs.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=55,56 "Finished codegen for target swapPairs"
+.PHONY : LeetCode/List/CMakeFiles/swapPairs.dir/codegen
+
+# clean rule for target.
+LeetCode/List/CMakeFiles/swapPairs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/clean
+.PHONY : LeetCode/List/CMakeFiles/swapPairs.dir/clean
+
+#=============================================================================
 # Target rules for target LeetCode/dp/CMakeFiles/fin.dir
 
 # All Build rule for target.
@@ -949,7 +984,7 @@ lab/lab1/CMakeFiles/sort.dir/clean:
 homework/CMakeFiles/watch.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\watch.dir\build.make homework/CMakeFiles/watch.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\watch.dir\build.make homework/CMakeFiles/watch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target watch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target watch"
 .PHONY : homework/CMakeFiles/watch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -966,7 +1001,7 @@ watch: homework/CMakeFiles/watch.dir/rule
 # codegen rule for target.
 homework/CMakeFiles/watch.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\watch.dir\build.make homework/CMakeFiles/watch.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=55,56 "Finished codegen for target watch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=57,58 "Finished codegen for target watch"
 .PHONY : homework/CMakeFiles/watch.dir/codegen
 
 # clean rule for target.

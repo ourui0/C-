@@ -164,6 +164,20 @@ reverseList/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\reverseList.dir\build.make LeetCode/List/CMakeFiles/reverseList.dir/build
 .PHONY : reverseList/fast
 
+# Convenience name for target.
+LeetCode/List/CMakeFiles/swapPairs.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/List/CMakeFiles/swapPairs.dir/rule
+.PHONY : LeetCode/List/CMakeFiles/swapPairs.dir/rule
+
+# Convenience name for target.
+swapPairs: LeetCode/List/CMakeFiles/swapPairs.dir/rule
+.PHONY : swapPairs
+
+# fast build rule for target.
+swapPairs/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/build
+.PHONY : swapPairs/fast
+
 MyLinkedList.obj: MyLinkedList.cpp.obj
 .PHONY : MyLinkedList.obj
 
@@ -236,6 +250,30 @@ reverseList.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\reverseList.dir\build.make LeetCode/List/CMakeFiles/reverseList.dir/reverseList.cpp.s
 .PHONY : reverseList.cpp.s
 
+swapPairs.obj: swapPairs.cpp.obj
+.PHONY : swapPairs.obj
+
+# target to build an object file
+swapPairs.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/swapPairs.cpp.obj
+.PHONY : swapPairs.cpp.obj
+
+swapPairs.i: swapPairs.cpp.i
+.PHONY : swapPairs.i
+
+# target to preprocess a source file
+swapPairs.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/swapPairs.cpp.i
+.PHONY : swapPairs.cpp.i
+
+swapPairs.s: swapPairs.cpp.s
+.PHONY : swapPairs.s
+
+# target to generate assembly for a file
+swapPairs.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/swapPairs.cpp.s
+.PHONY : swapPairs.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -248,6 +286,7 @@ help:
 	@echo ... MyLinkedList
 	@echo ... removeElements
 	@echo ... reverseList
+	@echo ... swapPairs
 	@echo ... MyLinkedList.obj
 	@echo ... MyLinkedList.i
 	@echo ... MyLinkedList.s
@@ -257,6 +296,9 @@ help:
 	@echo ... reverseList.obj
 	@echo ... reverseList.i
 	@echo ... reverseList.s
+	@echo ... swapPairs.obj
+	@echo ... swapPairs.i
+	@echo ... swapPairs.s
 .PHONY : help
 
 

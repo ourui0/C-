@@ -305,6 +305,19 @@ reverseList/fast:
 .PHONY : reverseList/fast
 
 #=============================================================================
+# Target rules for targets named swapPairs
+
+# Build rule for target.
+swapPairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 swapPairs
+.PHONY : swapPairs
+
+# fast build rule for target.
+swapPairs/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/build
+.PHONY : swapPairs/fast
+
+#=============================================================================
 # Target rules for targets named fin
 
 # Build rule for target.
@@ -546,6 +559,7 @@ help:
 	@echo ... sort
 	@echo ... sortedSquares
 	@echo ... sqrt
+	@echo ... swapPairs
 	@echo ... watch
 	@echo ... main.obj
 	@echo ... main.i
