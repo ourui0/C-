@@ -17,7 +17,7 @@ ListNode* swapPairs(ListNode* head) {
     ListNode* prev = nullptr;
     ListNode* next = cur->next;
     head = next;
-    while (cur ->next != nullptr&&cur -> next ->next!= nullptr) {
+    while (true) {
         cur ->next = next->next;
         next->next = cur;
         if (prev !=nullptr) {
@@ -25,13 +25,9 @@ ListNode* swapPairs(ListNode* head) {
         }
         //更新
         prev = cur;
+        if (cur ->next == nullptr||cur ->next->next == nullptr)break;
         cur = cur->next;
         next = cur->next;
-    }
-    if (next != nullptr) {
-        cur->next = next ->next;
-        next->next = cur;
-        prev->next = next;
     }
     return head;
 }
