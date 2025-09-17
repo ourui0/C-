@@ -1,0 +1,4 @@
+add_executable(dailyTemperatures dailyTemperatures.cpp)
+add_executable(nextGreaterElement1 nextGreaterElement1.cpp)
+add_executable(nextGreaterElements2 nextGreaterElements2.cpp)
+add_executable(trap trap.cpp)

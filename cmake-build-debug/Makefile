@@ -318,6 +318,45 @@ swapPairs/fast:
 .PHONY : swapPairs/fast
 
 #=============================================================================
+# Target rules for targets named removeNthFromEnd
+
+# Build rule for target.
+removeNthFromEnd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeNthFromEnd
+.PHONY : removeNthFromEnd
+
+# fast build rule for target.
+removeNthFromEnd/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeNthFromEnd.dir\build.make LeetCode/List/CMakeFiles/removeNthFromEnd.dir/build
+.PHONY : removeNthFromEnd/fast
+
+#=============================================================================
+# Target rules for targets named getIntersectionNode
+
+# Build rule for target.
+getIntersectionNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 getIntersectionNode
+.PHONY : getIntersectionNode
+
+# fast build rule for target.
+getIntersectionNode/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\getIntersectionNode.dir\build.make LeetCode/List/CMakeFiles/getIntersectionNode.dir/build
+.PHONY : getIntersectionNode/fast
+
+#=============================================================================
+# Target rules for targets named detectCycle
+
+# Build rule for target.
+detectCycle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 detectCycle
+.PHONY : detectCycle
+
+# fast build rule for target.
+detectCycle/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\detectCycle.dir\build.make LeetCode/List/CMakeFiles/detectCycle.dir/build
+.PHONY : detectCycle/fast
+
+#=============================================================================
 # Target rules for targets named fin
 
 # Build rule for target.
@@ -342,6 +381,58 @@ integerBreak: cmake_check_build_system
 integerBreak/fast:
 	$(MAKE) $(MAKESILENT) -f LeetCode\dp\CMakeFiles\integerBreak.dir\build.make LeetCode/dp/CMakeFiles/integerBreak.dir/build
 .PHONY : integerBreak/fast
+
+#=============================================================================
+# Target rules for targets named dailyTemperatures
+
+# Build rule for target.
+dailyTemperatures: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dailyTemperatures
+.PHONY : dailyTemperatures
+
+# fast build rule for target.
+dailyTemperatures/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\dailyTemperatures.dir\build.make LeetCode/MonotonicStack/CMakeFiles/dailyTemperatures.dir/build
+.PHONY : dailyTemperatures/fast
+
+#=============================================================================
+# Target rules for targets named nextGreaterElement1
+
+# Build rule for target.
+nextGreaterElement1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nextGreaterElement1
+.PHONY : nextGreaterElement1
+
+# fast build rule for target.
+nextGreaterElement1/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\nextGreaterElement1.dir\build.make LeetCode/MonotonicStack/CMakeFiles/nextGreaterElement1.dir/build
+.PHONY : nextGreaterElement1/fast
+
+#=============================================================================
+# Target rules for targets named nextGreaterElements2
+
+# Build rule for target.
+nextGreaterElements2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nextGreaterElements2
+.PHONY : nextGreaterElements2
+
+# fast build rule for target.
+nextGreaterElements2/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\nextGreaterElements2.dir\build.make LeetCode/MonotonicStack/CMakeFiles/nextGreaterElements2.dir/build
+.PHONY : nextGreaterElements2/fast
+
+#=============================================================================
+# Target rules for targets named trap
+
+# Build rule for target.
+trap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 trap
+.PHONY : trap
+
+# fast build rule for target.
+trap/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\trap.dir\build.make LeetCode/MonotonicStack/CMakeFiles/trap.dir/build
+.PHONY : trap/fast
 
 #=============================================================================
 # Target rules for targets named apple
@@ -541,18 +632,24 @@ help:
 	@echo ... apple
 	@echo ... city
 	@echo ... computer
+	@echo ... dailyTemperatures
+	@echo ... detectCycle
 	@echo ... dictionary
 	@echo ... fin
 	@echo ... function
 	@echo ... generateMatrix
+	@echo ... getIntersectionNode
 	@echo ... insert
 	@echo ... integerBreak
 	@echo ... isPerfectSquare
 	@echo ... key
 	@echo ... maxLevel
 	@echo ... minSubArrayLen
+	@echo ... nextGreaterElement1
+	@echo ... nextGreaterElements2
 	@echo ... removeDuplicates
 	@echo ... removeElements
+	@echo ... removeNthFromEnd
 	@echo ... reverseList
 	@echo ... search
 	@echo ... short
@@ -560,6 +657,7 @@ help:
 	@echo ... sortedSquares
 	@echo ... sqrt
 	@echo ... swapPairs
+	@echo ... trap
 	@echo ... watch
 	@echo ... main.obj
 	@echo ... main.i
