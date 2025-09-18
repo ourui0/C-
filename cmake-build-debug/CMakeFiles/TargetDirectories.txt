@@ -32,6 +32,7 @@ D:/C-/cmake-build-debug/LeetCode/MonotonicStack/CMakeFiles/dailyTemperatures.dir
 D:/C-/cmake-build-debug/LeetCode/MonotonicStack/CMakeFiles/nextGreaterElement1.dir
 D:/C-/cmake-build-debug/LeetCode/MonotonicStack/CMakeFiles/nextGreaterElements2.dir
 D:/C-/cmake-build-debug/LeetCode/MonotonicStack/CMakeFiles/trap.dir
+D:/C-/cmake-build-debug/LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir
 D:/C-/cmake-build-debug/LeetCode/MonotonicStack/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/LeetCode/MonotonicStack/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/edit_cache.dir

@@ -103,6 +103,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "LeetCode/MonotonicStack/CMakeFiles/nextGreaterElement1.dir/DependInfo.cmake"
   "LeetCode/MonotonicStack/CMakeFiles/nextGreaterElements2.dir/DependInfo.cmake"
   "LeetCode/MonotonicStack/CMakeFiles/trap.dir/DependInfo.cmake"
+  "LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/apple.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/maxLevel.dir/DependInfo.cmake"
   "lab/lab1/CMakeFiles/sort.dir/DependInfo.cmake"

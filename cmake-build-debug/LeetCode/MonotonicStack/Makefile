@@ -178,6 +178,20 @@ trap/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\trap.dir\build.make LeetCode/MonotonicStack/CMakeFiles/trap.dir/build
 .PHONY : trap/fast
 
+# Convenience name for target.
+LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/rule
+.PHONY : LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/rule
+
+# Convenience name for target.
+largestRectangleArea: LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/rule
+.PHONY : largestRectangleArea
+
+# fast build rule for target.
+largestRectangleArea/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\largestRectangleArea.dir\build.make LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/build
+.PHONY : largestRectangleArea/fast
+
 dailyTemperatures.obj: dailyTemperatures.cpp.obj
 .PHONY : dailyTemperatures.obj
 
@@ -201,6 +215,30 @@ dailyTemperatures.s: dailyTemperatures.cpp.s
 dailyTemperatures.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\dailyTemperatures.dir\build.make LeetCode/MonotonicStack/CMakeFiles/dailyTemperatures.dir/dailyTemperatures.cpp.s
 .PHONY : dailyTemperatures.cpp.s
+
+largestRectangleArea.obj: largestRectangleArea.cpp.obj
+.PHONY : largestRectangleArea.obj
+
+# target to build an object file
+largestRectangleArea.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\largestRectangleArea.dir\build.make LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/largestRectangleArea.cpp.obj
+.PHONY : largestRectangleArea.cpp.obj
+
+largestRectangleArea.i: largestRectangleArea.cpp.i
+.PHONY : largestRectangleArea.i
+
+# target to preprocess a source file
+largestRectangleArea.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\largestRectangleArea.dir\build.make LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/largestRectangleArea.cpp.i
+.PHONY : largestRectangleArea.cpp.i
+
+largestRectangleArea.s: largestRectangleArea.cpp.s
+.PHONY : largestRectangleArea.s
+
+# target to generate assembly for a file
+largestRectangleArea.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\largestRectangleArea.dir\build.make LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/largestRectangleArea.cpp.s
+.PHONY : largestRectangleArea.cpp.s
 
 nextGreaterElement1.obj: nextGreaterElement1.cpp.obj
 .PHONY : nextGreaterElement1.obj
@@ -284,12 +322,16 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dailyTemperatures
+	@echo ... largestRectangleArea
 	@echo ... nextGreaterElement1
 	@echo ... nextGreaterElements2
 	@echo ... trap
 	@echo ... dailyTemperatures.obj
 	@echo ... dailyTemperatures.i
 	@echo ... dailyTemperatures.s
+	@echo ... largestRectangleArea.obj
+	@echo ... largestRectangleArea.i
+	@echo ... largestRectangleArea.s
 	@echo ... nextGreaterElement1.obj
 	@echo ... nextGreaterElement1.i
 	@echo ... nextGreaterElement1.s

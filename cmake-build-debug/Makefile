@@ -435,6 +435,19 @@ trap/fast:
 .PHONY : trap/fast
 
 #=============================================================================
+# Target rules for targets named largestRectangleArea
+
+# Build rule for target.
+largestRectangleArea: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 largestRectangleArea
+.PHONY : largestRectangleArea
+
+# fast build rule for target.
+largestRectangleArea/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\largestRectangleArea.dir\build.make LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/build
+.PHONY : largestRectangleArea/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -643,6 +656,7 @@ help:
 	@echo ... integerBreak
 	@echo ... isPerfectSquare
 	@echo ... key
+	@echo ... largestRectangleArea
 	@echo ... maxLevel
 	@echo ... minSubArrayLen
 	@echo ... nextGreaterElement1
