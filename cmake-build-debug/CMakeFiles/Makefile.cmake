@@ -19,6 +19,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.2/CMakeSystem.cmake"
   "D:/C-/dotOJ/CMakeLists.txt"
   "D:/C-/dotOJ/homework1/CMakeLists.txt"
+  "D:/C-/dotOJ/homework2/CMakeLists.txt"
   "D:/C-/homework/CMakeLists.txt"
   "D:/C-/lab/CMakeLists.txt"
   "D:/C-/lab/lab1/CMakeLists.txt"
@@ -75,6 +76,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "homework/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/homework1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dotOJ/homework2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -116,4 +118,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "dotOJ/homework1/CMakeFiles/computer.dir/DependInfo.cmake"
   "dotOJ/homework1/CMakeFiles/ArrayList.dir/DependInfo.cmake"
   "dotOJ/homework1/CMakeFiles/city.dir/DependInfo.cmake"
+  "dotOJ/homework2/CMakeFiles/A.dir/DependInfo.cmake"
+  "dotOJ/homework2/CMakeFiles/B.dir/DependInfo.cmake"
+  "dotOJ/homework2/CMakeFiles/C.dir/DependInfo.cmake"
+  "dotOJ/homework2/CMakeFiles/D.dir/DependInfo.cmake"
   )

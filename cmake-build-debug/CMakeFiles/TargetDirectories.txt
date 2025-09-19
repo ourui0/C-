@@ -57,3 +57,9 @@ D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/ArrayList.dir
 D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/city.dir
 D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework1/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/dotOJ/homework2/CMakeFiles/A.dir
+D:/C-/cmake-build-debug/dotOJ/homework2/CMakeFiles/B.dir
+D:/C-/cmake-build-debug/dotOJ/homework2/CMakeFiles/C.dir
+D:/C-/cmake-build-debug/dotOJ/homework2/CMakeFiles/D.dir
+D:/C-/cmake-build-debug/dotOJ/homework2/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/dotOJ/homework2/CMakeFiles/rebuild_cache.dir

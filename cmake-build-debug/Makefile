@@ -603,6 +603,58 @@ city/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/build
 .PHONY : city/fast
 
+#=============================================================================
+# Target rules for targets named A
+
+# Build rule for target.
+A : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 A
+.PHONY : A
+
+# fast build rule for target.
+A/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\A.dir\build.make dotOJ/homework2/CMakeFiles/A.dir/build
+.PHONY : A/fast
+
+#=============================================================================
+# Target rules for targets named B
+
+# Build rule for target.
+B : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 B
+.PHONY : B
+
+# fast build rule for target.
+B/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\B.dir\build.make dotOJ/homework2/CMakeFiles/B.dir/build
+.PHONY : B/fast
+
+#=============================================================================
+# Target rules for targets named C
+
+# Build rule for target.
+C : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C
+.PHONY : C
+
+# fast build rule for target.
+C/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\C.dir\build.make dotOJ/homework2/CMakeFiles/C.dir/build
+.PHONY : C/fast
+
+#=============================================================================
+# Target rules for targets named D
+
+# Build rule for target.
+D : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 D
+.PHONY : D
+
+# fast build rule for target.
+D/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\D.dir\build.make dotOJ/homework2/CMakeFiles/D.dir/build
+.PHONY : D/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -636,8 +688,12 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... A
 	@echo ... ArrayList
+	@echo ... B
+	@echo ... C
 	@echo ... C__
+	@echo ... D
 	@echo ... FLY
 	@echo ... LandZoning
 	@echo ... MyLinkedList
