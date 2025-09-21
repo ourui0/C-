@@ -1,0 +1,7 @@
+add_executable(isAnagram isAnagram.cpp)
+add_executable(intersection intersection.cpp)
+add_executable(isHappy isHappy.cpp)
+add_executable(twoSum twoSum.cpp)
+add_executable(fourSumCount fourSumCount.cpp)
+add_executable(canConstruct canConstruct.cpp)
+add_executable(threeSum threeSum.cpp)

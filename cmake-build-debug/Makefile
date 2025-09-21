@@ -448,6 +448,97 @@ largestRectangleArea/fast:
 .PHONY : largestRectangleArea/fast
 
 #=============================================================================
+# Target rules for targets named isAnagram
+
+# Build rule for target.
+isAnagram: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isAnagram
+.PHONY : isAnagram
+
+# fast build rule for target.
+isAnagram/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\isAnagram.dir\build.make LeetCode/hash/CMakeFiles/isAnagram.dir/build
+.PHONY : isAnagram/fast
+
+#=============================================================================
+# Target rules for targets named intersection
+
+# Build rule for target.
+intersection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 intersection
+.PHONY : intersection
+
+# fast build rule for target.
+intersection/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\intersection.dir\build.make LeetCode/hash/CMakeFiles/intersection.dir/build
+.PHONY : intersection/fast
+
+#=============================================================================
+# Target rules for targets named isHappy
+
+# Build rule for target.
+isHappy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isHappy
+.PHONY : isHappy
+
+# fast build rule for target.
+isHappy/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\isHappy.dir\build.make LeetCode/hash/CMakeFiles/isHappy.dir/build
+.PHONY : isHappy/fast
+
+#=============================================================================
+# Target rules for targets named twoSum
+
+# Build rule for target.
+twoSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 twoSum
+.PHONY : twoSum
+
+# fast build rule for target.
+twoSum/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\twoSum.dir\build.make LeetCode/hash/CMakeFiles/twoSum.dir/build
+.PHONY : twoSum/fast
+
+#=============================================================================
+# Target rules for targets named fourSumCount
+
+# Build rule for target.
+fourSumCount: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fourSumCount
+.PHONY : fourSumCount
+
+# fast build rule for target.
+fourSumCount/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\fourSumCount.dir\build.make LeetCode/hash/CMakeFiles/fourSumCount.dir/build
+.PHONY : fourSumCount/fast
+
+#=============================================================================
+# Target rules for targets named canConstruct
+
+# Build rule for target.
+canConstruct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 canConstruct
+.PHONY : canConstruct
+
+# fast build rule for target.
+canConstruct/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\canConstruct.dir\build.make LeetCode/hash/CMakeFiles/canConstruct.dir/build
+.PHONY : canConstruct/fast
+
+#=============================================================================
+# Target rules for targets named threeSum
+
+# Build rule for target.
+threeSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 threeSum
+.PHONY : threeSum
+
+# fast build rule for target.
+threeSum/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\threeSum.dir\build.make LeetCode/hash/CMakeFiles/threeSum.dir/build
+.PHONY : threeSum/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -699,17 +790,22 @@ help:
 	@echo ... MyLinkedList
 	@echo ... ZoomSum
 	@echo ... apple
+	@echo ... canConstruct
 	@echo ... city
 	@echo ... computer
 	@echo ... dailyTemperatures
 	@echo ... detectCycle
 	@echo ... dictionary
 	@echo ... fin
+	@echo ... fourSumCount
 	@echo ... function
 	@echo ... generateMatrix
 	@echo ... getIntersectionNode
 	@echo ... insert
 	@echo ... integerBreak
+	@echo ... intersection
+	@echo ... isAnagram
+	@echo ... isHappy
 	@echo ... isPerfectSquare
 	@echo ... key
 	@echo ... largestRectangleArea
@@ -727,7 +823,9 @@ help:
 	@echo ... sortedSquares
 	@echo ... sqrt
 	@echo ... swapPairs
+	@echo ... threeSum
 	@echo ... trap
+	@echo ... twoSum
 	@echo ... watch
 	@echo ... main.obj
 	@echo ... main.i

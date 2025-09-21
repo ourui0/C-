@@ -231,6 +231,9 @@
 			"path" : "LeetCode/MonotonicStack/CMakeLists.txt"
 		},
 		{
+			"path" : "LeetCode/hash/CMakeLists.txt"
+		},
+		{
 			"path" : "lab/CMakeLists.txt"
 		},
 		{
