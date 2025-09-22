@@ -145,7 +145,7 @@ insert: cmake_check_build_system
 
 # fast build rule for target.
 insert/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\insert.dir\build.make LeetCode/CMakeFiles/insert.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\insert.dir\build.make LeetCode/array/CMakeFiles/insert.dir/build
 .PHONY : insert/fast
 
 #=============================================================================
@@ -158,7 +158,7 @@ search: cmake_check_build_system
 
 # fast build rule for target.
 search/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\search.dir\build.make LeetCode/CMakeFiles/search.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\search.dir\build.make LeetCode/array/CMakeFiles/search.dir/build
 .PHONY : search/fast
 
 #=============================================================================
@@ -171,8 +171,138 @@ sqrt: cmake_check_build_system
 
 # fast build rule for target.
 sqrt/fast:
-	$(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/build
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\sqrt.dir\build.make LeetCode/array/CMakeFiles/sqrt.dir/build
 .PHONY : sqrt/fast
+
+#=============================================================================
+# Target rules for targets named isPerfectSquare
+
+# Build rule for target.
+isPerfectSquare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isPerfectSquare
+.PHONY : isPerfectSquare
+
+# fast build rule for target.
+isPerfectSquare/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\isPerfectSquare.dir\build.make LeetCode/array/CMakeFiles/isPerfectSquare.dir/build
+.PHONY : isPerfectSquare/fast
+
+#=============================================================================
+# Target rules for targets named removeDuplicates
+
+# Build rule for target.
+removeDuplicates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeDuplicates
+.PHONY : removeDuplicates
+
+# fast build rule for target.
+removeDuplicates/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\removeDuplicates.dir\build.make LeetCode/array/CMakeFiles/removeDuplicates.dir/build
+.PHONY : removeDuplicates/fast
+
+#=============================================================================
+# Target rules for targets named sortedSquares
+
+# Build rule for target.
+sortedSquares: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sortedSquares
+.PHONY : sortedSquares
+
+# fast build rule for target.
+sortedSquares/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\sortedSquares.dir\build.make LeetCode/array/CMakeFiles/sortedSquares.dir/build
+.PHONY : sortedSquares/fast
+
+#=============================================================================
+# Target rules for targets named minSubArrayLen
+
+# Build rule for target.
+minSubArrayLen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minSubArrayLen
+.PHONY : minSubArrayLen
+
+# fast build rule for target.
+minSubArrayLen/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\minSubArrayLen.dir\build.make LeetCode/array/CMakeFiles/minSubArrayLen.dir/build
+.PHONY : minSubArrayLen/fast
+
+#=============================================================================
+# Target rules for targets named generateMatrix
+
+# Build rule for target.
+generateMatrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 generateMatrix
+.PHONY : generateMatrix
+
+# fast build rule for target.
+generateMatrix/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\generateMatrix.dir\build.make LeetCode/array/CMakeFiles/generateMatrix.dir/build
+.PHONY : generateMatrix/fast
+
+#=============================================================================
+# Target rules for targets named ZoomSum
+
+# Build rule for target.
+ZoomSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ZoomSum
+.PHONY : ZoomSum
+
+# fast build rule for target.
+ZoomSum/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\ZoomSum.dir\build.make LeetCode/array/CMakeFiles/ZoomSum.dir/build
+.PHONY : ZoomSum/fast
+
+#=============================================================================
+# Target rules for targets named LandZoning
+
+# Build rule for target.
+LandZoning: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LandZoning
+.PHONY : LandZoning
+
+# fast build rule for target.
+LandZoning/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\array\CMakeFiles\LandZoning.dir\build.make LeetCode/array/CMakeFiles/LandZoning.dir/build
+.PHONY : LandZoning/fast
+
+#=============================================================================
+# Target rules for targets named removeElements
+
+# Build rule for target.
+removeElements: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeElements
+.PHONY : removeElements
+
+# fast build rule for target.
+removeElements/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeElements.dir\build.make LeetCode/List/CMakeFiles/removeElements.dir/build
+.PHONY : removeElements/fast
+
+#=============================================================================
+# Target rules for targets named MyLinkedList
+
+# Build rule for target.
+MyLinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyLinkedList
+.PHONY : MyLinkedList
+
+# fast build rule for target.
+MyLinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\MyLinkedList.dir\build.make LeetCode/List/CMakeFiles/MyLinkedList.dir/build
+.PHONY : MyLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named reverseList
+
+# Build rule for target.
+reverseList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reverseList
+.PHONY : reverseList
+
+# fast build rule for target.
+reverseList/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\reverseList.dir\build.make LeetCode/List/CMakeFiles/reverseList.dir/build
+.PHONY : reverseList/fast
 
 #=============================================================================
 # Target rules for targets named apple
@@ -252,6 +382,84 @@ dictionary/fast:
 	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\dictionary.dir\build.make homework/CMakeFiles/dictionary.dir/build
 .PHONY : dictionary/fast
 
+#=============================================================================
+# Target rules for targets named short
+
+# Build rule for target.
+short: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 short
+.PHONY : short
+
+# fast build rule for target.
+short/fast:
+	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\short.dir\build.make homework/CMakeFiles/short.dir/build
+.PHONY : short/fast
+
+#=============================================================================
+# Target rules for targets named key
+
+# Build rule for target.
+key: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 key
+.PHONY : key
+
+# fast build rule for target.
+key/fast:
+	$(MAKE) $(MAKESILENT) -f homework\CMakeFiles\key.dir\build.make homework/CMakeFiles/key.dir/build
+.PHONY : key/fast
+
+#=============================================================================
+# Target rules for targets named FLY
+
+# Build rule for target.
+FLY: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FLY
+.PHONY : FLY
+
+# fast build rule for target.
+FLY/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\FLY.dir\build.make dotOJ/homework1/CMakeFiles/FLY.dir/build
+.PHONY : FLY/fast
+
+#=============================================================================
+# Target rules for targets named computer
+
+# Build rule for target.
+computer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 computer
+.PHONY : computer
+
+# fast build rule for target.
+computer/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\computer.dir\build.make dotOJ/homework1/CMakeFiles/computer.dir/build
+.PHONY : computer/fast
+
+#=============================================================================
+# Target rules for targets named ArrayList
+
+# Build rule for target.
+ArrayList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ArrayList
+.PHONY : ArrayList
+
+# fast build rule for target.
+ArrayList/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\ArrayList.dir\build.make dotOJ/homework1/CMakeFiles/ArrayList.dir/build
+.PHONY : ArrayList/fast
+
+#=============================================================================
+# Target rules for targets named city
+
+# Build rule for target.
+city: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 city
+.PHONY : city
+
+# fast build rule for target.
+city/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/build
+.PHONY : city/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -285,14 +493,30 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ArrayList
 	@echo ... C__
+	@echo ... FLY
+	@echo ... LandZoning
+	@echo ... MyLinkedList
+	@echo ... ZoomSum
 	@echo ... apple
+	@echo ... city
+	@echo ... computer
 	@echo ... dictionary
 	@echo ... function
+	@echo ... generateMatrix
 	@echo ... insert
+	@echo ... isPerfectSquare
+	@echo ... key
 	@echo ... maxLevel
+	@echo ... minSubArrayLen
+	@echo ... removeDuplicates
+	@echo ... removeElements
+	@echo ... reverseList
 	@echo ... search
+	@echo ... short
 	@echo ... sort
+	@echo ... sortedSquares
 	@echo ... sqrt
 	@echo ... watch
 	@echo ... main.obj

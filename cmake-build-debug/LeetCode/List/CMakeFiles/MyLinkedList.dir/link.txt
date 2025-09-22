@@ -1,0 +1,3 @@
+"D:\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\MyLinkedList.dir/objects.a
+D:\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\MyLinkedList.dir/objects.a @CMakeFiles\MyLinkedList.dir\objects1.rsp
+D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\MyLinkedList.dir/objects.a -Wl,--no-whole-archive -o MyLinkedList.exe -Wl,--out-implib,libMyLinkedList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyLinkedList.dir\linkLibs.rsp

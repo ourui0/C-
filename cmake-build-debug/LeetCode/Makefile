@@ -122,120 +122,6 @@ depend:
 	cd /d D:\C-\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-LeetCode/CMakeFiles/insert.dir/rule:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/insert.dir/rule
-.PHONY : LeetCode/CMakeFiles/insert.dir/rule
-
-# Convenience name for target.
-insert: LeetCode/CMakeFiles/insert.dir/rule
-.PHONY : insert
-
-# fast build rule for target.
-insert/fast:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\insert.dir\build.make LeetCode/CMakeFiles/insert.dir/build
-.PHONY : insert/fast
-
-# Convenience name for target.
-LeetCode/CMakeFiles/search.dir/rule:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/search.dir/rule
-.PHONY : LeetCode/CMakeFiles/search.dir/rule
-
-# Convenience name for target.
-search: LeetCode/CMakeFiles/search.dir/rule
-.PHONY : search
-
-# fast build rule for target.
-search/fast:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\search.dir\build.make LeetCode/CMakeFiles/search.dir/build
-.PHONY : search/fast
-
-# Convenience name for target.
-LeetCode/CMakeFiles/sqrt.dir/rule:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/CMakeFiles/sqrt.dir/rule
-.PHONY : LeetCode/CMakeFiles/sqrt.dir/rule
-
-# Convenience name for target.
-sqrt: LeetCode/CMakeFiles/sqrt.dir/rule
-.PHONY : sqrt
-
-# fast build rule for target.
-sqrt/fast:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/build
-.PHONY : sqrt/fast
-
-insert.obj: insert.cpp.obj
-.PHONY : insert.obj
-
-# target to build an object file
-insert.cpp.obj:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\insert.dir\build.make LeetCode/CMakeFiles/insert.dir/insert.cpp.obj
-.PHONY : insert.cpp.obj
-
-insert.i: insert.cpp.i
-.PHONY : insert.i
-
-# target to preprocess a source file
-insert.cpp.i:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\insert.dir\build.make LeetCode/CMakeFiles/insert.dir/insert.cpp.i
-.PHONY : insert.cpp.i
-
-insert.s: insert.cpp.s
-.PHONY : insert.s
-
-# target to generate assembly for a file
-insert.cpp.s:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\insert.dir\build.make LeetCode/CMakeFiles/insert.dir/insert.cpp.s
-.PHONY : insert.cpp.s
-
-searchRange.obj: searchRange.cpp.obj
-.PHONY : searchRange.obj
-
-# target to build an object file
-searchRange.cpp.obj:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\search.dir\build.make LeetCode/CMakeFiles/search.dir/searchRange.cpp.obj
-.PHONY : searchRange.cpp.obj
-
-searchRange.i: searchRange.cpp.i
-.PHONY : searchRange.i
-
-# target to preprocess a source file
-searchRange.cpp.i:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\search.dir\build.make LeetCode/CMakeFiles/search.dir/searchRange.cpp.i
-.PHONY : searchRange.cpp.i
-
-searchRange.s: searchRange.cpp.s
-.PHONY : searchRange.s
-
-# target to generate assembly for a file
-searchRange.cpp.s:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\search.dir\build.make LeetCode/CMakeFiles/search.dir/searchRange.cpp.s
-.PHONY : searchRange.cpp.s
-
-sqrt.obj: sqrt.cpp.obj
-.PHONY : sqrt.obj
-
-# target to build an object file
-sqrt.cpp.obj:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/sqrt.cpp.obj
-.PHONY : sqrt.cpp.obj
-
-sqrt.i: sqrt.cpp.i
-.PHONY : sqrt.i
-
-# target to preprocess a source file
-sqrt.cpp.i:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/sqrt.cpp.i
-.PHONY : sqrt.cpp.i
-
-sqrt.s: sqrt.cpp.s
-.PHONY : sqrt.s
-
-# target to generate assembly for a file
-sqrt.cpp.s:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\CMakeFiles\sqrt.dir\build.make LeetCode/CMakeFiles/sqrt.dir/sqrt.cpp.s
-.PHONY : sqrt.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,18 +131,6 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... insert
-	@echo ... search
-	@echo ... sqrt
-	@echo ... insert.obj
-	@echo ... insert.i
-	@echo ... insert.s
-	@echo ... searchRange.obj
-	@echo ... searchRange.i
-	@echo ... searchRange.s
-	@echo ... sqrt.obj
-	@echo ... sqrt.i
-	@echo ... sqrt.s
 .PHONY : help
 
 
