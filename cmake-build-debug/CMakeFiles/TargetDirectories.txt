@@ -44,6 +44,11 @@ D:/C-/cmake-build-debug/LeetCode/hash/CMakeFiles/canConstruct.dir
 D:/C-/cmake-build-debug/LeetCode/hash/CMakeFiles/threeSum.dir
 D:/C-/cmake-build-debug/LeetCode/hash/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/LeetCode/hash/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/LeetCode/string/CMakeFiles/reverseString.dir
+D:/C-/cmake-build-debug/LeetCode/string/CMakeFiles/reverseStr.dir
+D:/C-/cmake-build-debug/LeetCode/string/CMakeFiles/replaceNum.dir
+D:/C-/cmake-build-debug/LeetCode/string/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/LeetCode/string/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/lab1/CMakeFiles/apple.dir

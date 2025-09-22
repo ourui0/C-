@@ -9,9 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						7,
-						9,
-						10
+						8,
+						10,
+						11
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -33,7 +33,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"jsonFile" : "directory-LeetCode-Debug-19959c33d7c580033c8d.json",
 					"minimumCMakeVersion" : 
@@ -63,9 +64,9 @@
 						27,
 						31,
 						34,
-						38,
 						41,
-						42
+						44,
+						45
 					]
 				},
 				{
@@ -85,8 +86,8 @@
 						21,
 						35,
 						36,
-						37,
-						43
+						38,
+						46
 					]
 				},
 				{
@@ -121,7 +122,7 @@
 						29,
 						32,
 						33,
-						45
+						48
 					]
 				},
 				{
@@ -141,15 +142,32 @@
 						24,
 						25,
 						26,
-						44,
-						46
+						47,
+						49
+					]
+				},
+				{
+					"build" : "LeetCode/string",
+					"jsonFile" : "directory-LeetCode.string-Debug-b3af2e7ad921abf6f0d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "LeetCode/string",
+					"targetIndexes" : 
+					[
+						37,
+						39,
+						40
 					]
 				},
 				{
 					"build" : "lab",
 					"childIndexes" : 
 					[
-						8
+						9
 					],
 					"jsonFile" : "directory-lab-Debug-147abc30e5c6df36031f.json",
 					"minimumCMakeVersion" : 
@@ -167,14 +185,14 @@
 					{
 						"string" : "3.31"
 					},
-					"parentIndex" : 7,
+					"parentIndex" : 8,
 					"projectIndex" : 0,
 					"source" : "lab/lab1",
 					"targetIndexes" : 
 					[
 						10,
 						30,
-						40
+						43
 					]
 				},
 				{
@@ -192,16 +210,16 @@
 						16,
 						19,
 						28,
-						39,
-						47
+						42,
+						50
 					]
 				},
 				{
 					"build" : "dotOJ",
 					"childIndexes" : 
 					[
-						11,
-						12
+						12,
+						13
 					],
 					"jsonFile" : "directory-dotOJ-Debug-d993f94e1fa7c7202b2d.json",
 					"minimumCMakeVersion" : 
@@ -219,7 +237,7 @@
 					{
 						"string" : "3.31"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 11,
 					"projectIndex" : 0,
 					"source" : "dotOJ/homework1",
 					"targetIndexes" : 
@@ -237,7 +255,7 @@
 					{
 						"string" : "3.31"
 					},
-					"parentIndex" : 10,
+					"parentIndex" : 11,
 					"projectIndex" : 0,
 					"source" : "dotOJ/homework2",
 					"targetIndexes" : 
@@ -267,7 +285,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"name" : "C__",
 					"targetIndexes" : 
@@ -319,35 +338,38 @@
 						44,
 						45,
 						46,
-						47
+						47,
+						48,
+						49,
+						50
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 13,
 					"id" : "A::@afcdbd21a7a4c509eec6",
 					"jsonFile" : "target-A-Debug-0eec0712f98680275fdf.json",
 					"name" : "A",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 12,
 					"id" : "ArrayList::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-ArrayList-Debug-17830bc2bd30afa4a11d.json",
 					"name" : "ArrayList",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 13,
 					"id" : "B::@afcdbd21a7a4c509eec6",
 					"jsonFile" : "target-B-Debug-00ede39e57603d97450b.json",
 					"name" : "B",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 13,
 					"id" : "C::@afcdbd21a7a4c509eec6",
 					"jsonFile" : "target-C-Debug-6b07d2e5600f157c2a8c.json",
 					"name" : "C",
@@ -361,14 +383,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 13,
 					"id" : "D::@afcdbd21a7a4c509eec6",
 					"jsonFile" : "target-D-Debug-5f59469e22896b5a4b85.json",
 					"name" : "D",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 12,
 					"id" : "FLY::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-FLY-Debug-9fc79b123d6897291acd.json",
 					"name" : "FLY",
@@ -396,7 +418,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "apple::@df759db94359c41387ac",
 					"jsonFile" : "target-apple-Debug-f1c95c6dd9cf28807316.json",
 					"name" : "apple",
@@ -410,14 +432,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 12,
 					"id" : "city::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-city-Debug-de021b0270501607b44e.json",
 					"name" : "city",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 12,
 					"id" : "computer::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-computer-Debug-544751a79a83bf3eb969.json",
 					"name" : "computer",
@@ -438,7 +460,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "dictionary::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-dictionary-Debug-e2638726cc0a138bd53d.json",
 					"name" : "dictionary",
@@ -459,7 +481,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "function::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-function-Debug-51dd88fdc47a35c1fc61.json",
 					"name" : "function",
@@ -522,7 +544,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "key::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-key-Debug-a7bcd2a2ec6a6a69d586.json",
 					"name" : "key",
@@ -536,7 +558,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "maxLevel::@df759db94359c41387ac",
 					"jsonFile" : "target-maxLevel-Debug-763d909f2ffdb133399a.json",
 					"name" : "maxLevel",
@@ -585,10 +607,31 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 7,
+					"id" : "replaceNum::@ea0fbfade9c0eb86edeb",
+					"jsonFile" : "target-replaceNum-Debug-14f1573e8fd9481b9f22.json",
+					"name" : "replaceNum",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "reverseList::@3798b7520eb434a57ad9",
 					"jsonFile" : "target-reverseList-Debug-39e5586490d63b393fb4.json",
 					"name" : "reverseList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "reverseStr::@ea0fbfade9c0eb86edeb",
+					"jsonFile" : "target-reverseStr-Debug-e4fef68bed8977812eec.json",
+					"name" : "reverseStr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "reverseString::@ea0fbfade9c0eb86edeb",
+					"jsonFile" : "target-reverseString-Debug-bcfda6743a2ba191e512.json",
+					"name" : "reverseString",
 					"projectIndex" : 0
 				},
 				{
@@ -599,14 +642,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "short::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-short-Debug-774da8f86e90d367ab76.json",
 					"name" : "short",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "sort::@df759db94359c41387ac",
 					"jsonFile" : "target-sort-Debug-7ae78ca8955105297969.json",
 					"name" : "sort",
@@ -655,7 +698,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "watch::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-watch-Debug-990b7d6599cd86ffa164.json",
 					"name" : "watch",

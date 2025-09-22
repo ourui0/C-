@@ -539,6 +539,45 @@ threeSum/fast:
 .PHONY : threeSum/fast
 
 #=============================================================================
+# Target rules for targets named reverseString
+
+# Build rule for target.
+reverseString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reverseString
+.PHONY : reverseString
+
+# fast build rule for target.
+reverseString/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseString.dir\build.make LeetCode/string/CMakeFiles/reverseString.dir/build
+.PHONY : reverseString/fast
+
+#=============================================================================
+# Target rules for targets named reverseStr
+
+# Build rule for target.
+reverseStr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reverseStr
+.PHONY : reverseStr
+
+# fast build rule for target.
+reverseStr/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseStr.dir\build.make LeetCode/string/CMakeFiles/reverseStr.dir/build
+.PHONY : reverseStr/fast
+
+#=============================================================================
+# Target rules for targets named replaceNum
+
+# Build rule for target.
+replaceNum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 replaceNum
+.PHONY : replaceNum
+
+# fast build rule for target.
+replaceNum/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\replaceNum.dir\build.make LeetCode/string/CMakeFiles/replaceNum.dir/build
+.PHONY : replaceNum/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -816,7 +855,10 @@ help:
 	@echo ... removeDuplicates
 	@echo ... removeElements
 	@echo ... removeNthFromEnd
+	@echo ... replaceNum
 	@echo ... reverseList
+	@echo ... reverseStr
+	@echo ... reverseString
 	@echo ... search
 	@echo ... short
 	@echo ... sort
