@@ -578,6 +578,19 @@ replaceNum/fast:
 .PHONY : replaceNum/fast
 
 #=============================================================================
+# Target rules for targets named reverseWords
+
+# Build rule for target.
+reverseWords: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reverseWords
+.PHONY : reverseWords
+
+# fast build rule for target.
+reverseWords/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseWords.dir\build.make LeetCode/string/CMakeFiles/reverseWords.dir/build
+.PHONY : reverseWords/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -859,6 +872,7 @@ help:
 	@echo ... reverseList
 	@echo ... reverseStr
 	@echo ... reverseString
+	@echo ... reverseWords
 	@echo ... search
 	@echo ... short
 	@echo ... sort

@@ -164,6 +164,20 @@ replaceNum/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\replaceNum.dir\build.make LeetCode/string/CMakeFiles/replaceNum.dir/build
 .PHONY : replaceNum/fast
 
+# Convenience name for target.
+LeetCode/string/CMakeFiles/reverseWords.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/string/CMakeFiles/reverseWords.dir/rule
+.PHONY : LeetCode/string/CMakeFiles/reverseWords.dir/rule
+
+# Convenience name for target.
+reverseWords: LeetCode/string/CMakeFiles/reverseWords.dir/rule
+.PHONY : reverseWords
+
+# fast build rule for target.
+reverseWords/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseWords.dir\build.make LeetCode/string/CMakeFiles/reverseWords.dir/build
+.PHONY : reverseWords/fast
+
 replaceNum.obj: replaceNum.cpp.obj
 .PHONY : replaceNum.obj
 
@@ -236,6 +250,30 @@ reverseString.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseString.dir\build.make LeetCode/string/CMakeFiles/reverseString.dir/reverseString.cpp.s
 .PHONY : reverseString.cpp.s
 
+reverseWords.obj: reverseWords.cpp.obj
+.PHONY : reverseWords.obj
+
+# target to build an object file
+reverseWords.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseWords.dir\build.make LeetCode/string/CMakeFiles/reverseWords.dir/reverseWords.cpp.obj
+.PHONY : reverseWords.cpp.obj
+
+reverseWords.i: reverseWords.cpp.i
+.PHONY : reverseWords.i
+
+# target to preprocess a source file
+reverseWords.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseWords.dir\build.make LeetCode/string/CMakeFiles/reverseWords.dir/reverseWords.cpp.i
+.PHONY : reverseWords.cpp.i
+
+reverseWords.s: reverseWords.cpp.s
+.PHONY : reverseWords.s
+
+# target to generate assembly for a file
+reverseWords.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\string\CMakeFiles\reverseWords.dir\build.make LeetCode/string/CMakeFiles/reverseWords.dir/reverseWords.cpp.s
+.PHONY : reverseWords.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -248,6 +286,7 @@ help:
 	@echo ... replaceNum
 	@echo ... reverseStr
 	@echo ... reverseString
+	@echo ... reverseWords
 	@echo ... replaceNum.obj
 	@echo ... replaceNum.i
 	@echo ... replaceNum.s
@@ -257,6 +296,9 @@ help:
 	@echo ... reverseString.obj
 	@echo ... reverseString.i
 	@echo ... reverseString.s
+	@echo ... reverseWords.obj
+	@echo ... reverseWords.i
+	@echo ... reverseWords.s
 .PHONY : help
 
 
