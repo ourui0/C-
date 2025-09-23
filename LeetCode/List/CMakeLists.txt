@@ -1,3 +1,7 @@
 add_executable(removeElements removeElements.cpp)
 add_executable(MyLinkedList MyLinkedList.cpp)
 add_executable(reverseList reverseList.cpp)
+add_executable(swapPairs swapPairs.cpp)
+add_executable(removeNthFromEnd removeNthFromEnd.cpp)
+add_executable(getIntersectionNode getIntersectionNode.cpp)
+add_executable(detectCycle detectCycle.cpp)

@@ -1,6 +1,7 @@
 {
 	"InstallScripts" : 
 	[
+<<<<<<< HEAD
 		"D:/C++/cmake-build-debug/cmake_install.cmake",
 		"D:/C++/cmake-build-debug/LeetCode/cmake_install.cmake",
 		"D:/C++/cmake-build-debug/LeetCode/array/cmake_install.cmake",
@@ -10,6 +11,21 @@
 		"D:/C++/cmake-build-debug/homework/cmake_install.cmake",
 		"D:/C++/cmake-build-debug/dotOJ/cmake_install.cmake",
 		"D:/C++/cmake-build-debug/dotOJ/homework1/cmake_install.cmake"
+=======
+		"D:/C-/cmake-build-debug/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/array/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/List/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/dp/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/MonotonicStack/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/hash/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/lab/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/lab/lab1/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/homework/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework1/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework2/cmake_install.cmake"
+>>>>>>> e73e10c2b2fdc97dcb56736553dcf4316e0c3666
 	],
 	"Parallel" : false
 }

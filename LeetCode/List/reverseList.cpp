@@ -64,7 +64,7 @@ int main() {
 
     // 打印链表以验证
     std::cout << "构建的链表: ";
-    head = reverseList(head);
+    reverseList(head);
     printList(head);
 
     // 释放内存（在实际应用中很重要）

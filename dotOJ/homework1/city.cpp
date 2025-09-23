@@ -6,24 +6,25 @@
 #include <vector>
 using namespace std;
 long long city(vector<long long> arr) {
-    stack<pair<long long, int>> st;
-    long long ans = 0;
     int n = arr.size();
-    for (int i = 0; i < n; i++) {
-        int cnt = 1;
-        while (!st.empty() && st.top().first < arr[i]) {
-            ans += st.top().second;
+    long long ans = 0;
+    stack<pair<int,int>> st;
+    st.push({arr[0],1});
+    for (int i = 1; i < n;i++){
+        int cnt = 1;//记录相同楼层数
+        while (!st.empty()&&st.top().first < arr[i]){
+            ans += st.top().second;//与arr[i]组成一对新的
             st.pop();
         }
-        if (!st.empty() && st.top().first == arr[i]) {
-            ans += st.top().second;
+        if (!st.empty()&&st.top().first == arr[i]){
+            ans += st.top().second;//二者本身就可以组成新的
             cnt += st.top().second;
             st.pop();
         }
-        if (!st.empty()) {
-            ans++;
+        if (!st.empty()){
+            ans++;//栈顶的和即将推入的也可以组成一对
         }
-        st.push({arr[i], cnt});
+        st.push({arr[i],cnt});
     }
     return ans;
 }

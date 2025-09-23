@@ -305,6 +305,240 @@ reverseList/fast:
 .PHONY : reverseList/fast
 
 #=============================================================================
+# Target rules for targets named swapPairs
+
+# Build rule for target.
+swapPairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 swapPairs
+.PHONY : swapPairs
+
+# fast build rule for target.
+swapPairs/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/build
+.PHONY : swapPairs/fast
+
+#=============================================================================
+# Target rules for targets named removeNthFromEnd
+
+# Build rule for target.
+removeNthFromEnd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 removeNthFromEnd
+.PHONY : removeNthFromEnd
+
+# fast build rule for target.
+removeNthFromEnd/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeNthFromEnd.dir\build.make LeetCode/List/CMakeFiles/removeNthFromEnd.dir/build
+.PHONY : removeNthFromEnd/fast
+
+#=============================================================================
+# Target rules for targets named getIntersectionNode
+
+# Build rule for target.
+getIntersectionNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 getIntersectionNode
+.PHONY : getIntersectionNode
+
+# fast build rule for target.
+getIntersectionNode/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\getIntersectionNode.dir\build.make LeetCode/List/CMakeFiles/getIntersectionNode.dir/build
+.PHONY : getIntersectionNode/fast
+
+#=============================================================================
+# Target rules for targets named detectCycle
+
+# Build rule for target.
+detectCycle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 detectCycle
+.PHONY : detectCycle
+
+# fast build rule for target.
+detectCycle/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\detectCycle.dir\build.make LeetCode/List/CMakeFiles/detectCycle.dir/build
+.PHONY : detectCycle/fast
+
+#=============================================================================
+# Target rules for targets named fin
+
+# Build rule for target.
+fin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fin
+.PHONY : fin
+
+# fast build rule for target.
+fin/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\dp\CMakeFiles\fin.dir\build.make LeetCode/dp/CMakeFiles/fin.dir/build
+.PHONY : fin/fast
+
+#=============================================================================
+# Target rules for targets named integerBreak
+
+# Build rule for target.
+integerBreak: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 integerBreak
+.PHONY : integerBreak
+
+# fast build rule for target.
+integerBreak/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\dp\CMakeFiles\integerBreak.dir\build.make LeetCode/dp/CMakeFiles/integerBreak.dir/build
+.PHONY : integerBreak/fast
+
+#=============================================================================
+# Target rules for targets named dailyTemperatures
+
+# Build rule for target.
+dailyTemperatures: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dailyTemperatures
+.PHONY : dailyTemperatures
+
+# fast build rule for target.
+dailyTemperatures/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\dailyTemperatures.dir\build.make LeetCode/MonotonicStack/CMakeFiles/dailyTemperatures.dir/build
+.PHONY : dailyTemperatures/fast
+
+#=============================================================================
+# Target rules for targets named nextGreaterElement1
+
+# Build rule for target.
+nextGreaterElement1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nextGreaterElement1
+.PHONY : nextGreaterElement1
+
+# fast build rule for target.
+nextGreaterElement1/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\nextGreaterElement1.dir\build.make LeetCode/MonotonicStack/CMakeFiles/nextGreaterElement1.dir/build
+.PHONY : nextGreaterElement1/fast
+
+#=============================================================================
+# Target rules for targets named nextGreaterElements2
+
+# Build rule for target.
+nextGreaterElements2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nextGreaterElements2
+.PHONY : nextGreaterElements2
+
+# fast build rule for target.
+nextGreaterElements2/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\nextGreaterElements2.dir\build.make LeetCode/MonotonicStack/CMakeFiles/nextGreaterElements2.dir/build
+.PHONY : nextGreaterElements2/fast
+
+#=============================================================================
+# Target rules for targets named trap
+
+# Build rule for target.
+trap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 trap
+.PHONY : trap
+
+# fast build rule for target.
+trap/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\trap.dir\build.make LeetCode/MonotonicStack/CMakeFiles/trap.dir/build
+.PHONY : trap/fast
+
+#=============================================================================
+# Target rules for targets named largestRectangleArea
+
+# Build rule for target.
+largestRectangleArea: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 largestRectangleArea
+.PHONY : largestRectangleArea
+
+# fast build rule for target.
+largestRectangleArea/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\MonotonicStack\CMakeFiles\largestRectangleArea.dir\build.make LeetCode/MonotonicStack/CMakeFiles/largestRectangleArea.dir/build
+.PHONY : largestRectangleArea/fast
+
+#=============================================================================
+# Target rules for targets named isAnagram
+
+# Build rule for target.
+isAnagram: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isAnagram
+.PHONY : isAnagram
+
+# fast build rule for target.
+isAnagram/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\isAnagram.dir\build.make LeetCode/hash/CMakeFiles/isAnagram.dir/build
+.PHONY : isAnagram/fast
+
+#=============================================================================
+# Target rules for targets named intersection
+
+# Build rule for target.
+intersection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 intersection
+.PHONY : intersection
+
+# fast build rule for target.
+intersection/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\intersection.dir\build.make LeetCode/hash/CMakeFiles/intersection.dir/build
+.PHONY : intersection/fast
+
+#=============================================================================
+# Target rules for targets named isHappy
+
+# Build rule for target.
+isHappy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 isHappy
+.PHONY : isHappy
+
+# fast build rule for target.
+isHappy/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\isHappy.dir\build.make LeetCode/hash/CMakeFiles/isHappy.dir/build
+.PHONY : isHappy/fast
+
+#=============================================================================
+# Target rules for targets named twoSum
+
+# Build rule for target.
+twoSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 twoSum
+.PHONY : twoSum
+
+# fast build rule for target.
+twoSum/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\twoSum.dir\build.make LeetCode/hash/CMakeFiles/twoSum.dir/build
+.PHONY : twoSum/fast
+
+#=============================================================================
+# Target rules for targets named fourSumCount
+
+# Build rule for target.
+fourSumCount: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fourSumCount
+.PHONY : fourSumCount
+
+# fast build rule for target.
+fourSumCount/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\fourSumCount.dir\build.make LeetCode/hash/CMakeFiles/fourSumCount.dir/build
+.PHONY : fourSumCount/fast
+
+#=============================================================================
+# Target rules for targets named canConstruct
+
+# Build rule for target.
+canConstruct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 canConstruct
+.PHONY : canConstruct
+
+# fast build rule for target.
+canConstruct/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\canConstruct.dir\build.make LeetCode/hash/CMakeFiles/canConstruct.dir/build
+.PHONY : canConstruct/fast
+
+#=============================================================================
+# Target rules for targets named threeSum
+
+# Build rule for target.
+threeSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 threeSum
+.PHONY : threeSum
+
+# fast build rule for target.
+threeSum/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\hash\CMakeFiles\threeSum.dir\build.make LeetCode/hash/CMakeFiles/threeSum.dir/build
+.PHONY : threeSum/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -460,6 +694,58 @@ city/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/build
 .PHONY : city/fast
 
+#=============================================================================
+# Target rules for targets named A
+
+# Build rule for target.
+A : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 A
+.PHONY : A
+
+# fast build rule for target.
+A/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\A.dir\build.make dotOJ/homework2/CMakeFiles/A.dir/build
+.PHONY : A/fast
+
+#=============================================================================
+# Target rules for targets named B
+
+# Build rule for target.
+B : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 B
+.PHONY : B
+
+# fast build rule for target.
+B/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\B.dir\build.make dotOJ/homework2/CMakeFiles/B.dir/build
+.PHONY : B/fast
+
+#=============================================================================
+# Target rules for targets named C
+
+# Build rule for target.
+C : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C
+.PHONY : C
+
+# fast build rule for target.
+C/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\C.dir\build.make dotOJ/homework2/CMakeFiles/C.dir/build
+.PHONY : C/fast
+
+#=============================================================================
+# Target rules for targets named D
+
+# Build rule for target.
+D : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 D
+.PHONY : D
+
+# fast build rule for target.
+D/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\D.dir\build.make dotOJ/homework2/CMakeFiles/D.dir/build
+.PHONY : D/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -493,31 +779,53 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... A
 	@echo ... ArrayList
+	@echo ... B
+	@echo ... C
 	@echo ... C__
+	@echo ... D
 	@echo ... FLY
 	@echo ... LandZoning
 	@echo ... MyLinkedList
 	@echo ... ZoomSum
 	@echo ... apple
+	@echo ... canConstruct
 	@echo ... city
 	@echo ... computer
+	@echo ... dailyTemperatures
+	@echo ... detectCycle
 	@echo ... dictionary
+	@echo ... fin
+	@echo ... fourSumCount
 	@echo ... function
 	@echo ... generateMatrix
+	@echo ... getIntersectionNode
 	@echo ... insert
+	@echo ... integerBreak
+	@echo ... intersection
+	@echo ... isAnagram
+	@echo ... isHappy
 	@echo ... isPerfectSquare
 	@echo ... key
+	@echo ... largestRectangleArea
 	@echo ... maxLevel
 	@echo ... minSubArrayLen
+	@echo ... nextGreaterElement1
+	@echo ... nextGreaterElements2
 	@echo ... removeDuplicates
 	@echo ... removeElements
+	@echo ... removeNthFromEnd
 	@echo ... reverseList
 	@echo ... search
 	@echo ... short
 	@echo ... sort
 	@echo ... sortedSquares
 	@echo ... sqrt
+	@echo ... swapPairs
+	@echo ... threeSum
+	@echo ... trap
+	@echo ... twoSum
 	@echo ... watch
 	@echo ... main.obj
 	@echo ... main.i

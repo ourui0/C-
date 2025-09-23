@@ -164,6 +164,62 @@ reverseList/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\reverseList.dir\build.make LeetCode/List/CMakeFiles/reverseList.dir/build
 .PHONY : reverseList/fast
 
+# Convenience name for target.
+LeetCode/List/CMakeFiles/swapPairs.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/List/CMakeFiles/swapPairs.dir/rule
+.PHONY : LeetCode/List/CMakeFiles/swapPairs.dir/rule
+
+# Convenience name for target.
+swapPairs: LeetCode/List/CMakeFiles/swapPairs.dir/rule
+.PHONY : swapPairs
+
+# fast build rule for target.
+swapPairs/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/build
+.PHONY : swapPairs/fast
+
+# Convenience name for target.
+LeetCode/List/CMakeFiles/removeNthFromEnd.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/List/CMakeFiles/removeNthFromEnd.dir/rule
+.PHONY : LeetCode/List/CMakeFiles/removeNthFromEnd.dir/rule
+
+# Convenience name for target.
+removeNthFromEnd: LeetCode/List/CMakeFiles/removeNthFromEnd.dir/rule
+.PHONY : removeNthFromEnd
+
+# fast build rule for target.
+removeNthFromEnd/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeNthFromEnd.dir\build.make LeetCode/List/CMakeFiles/removeNthFromEnd.dir/build
+.PHONY : removeNthFromEnd/fast
+
+# Convenience name for target.
+LeetCode/List/CMakeFiles/getIntersectionNode.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/List/CMakeFiles/getIntersectionNode.dir/rule
+.PHONY : LeetCode/List/CMakeFiles/getIntersectionNode.dir/rule
+
+# Convenience name for target.
+getIntersectionNode: LeetCode/List/CMakeFiles/getIntersectionNode.dir/rule
+.PHONY : getIntersectionNode
+
+# fast build rule for target.
+getIntersectionNode/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\getIntersectionNode.dir\build.make LeetCode/List/CMakeFiles/getIntersectionNode.dir/build
+.PHONY : getIntersectionNode/fast
+
+# Convenience name for target.
+LeetCode/List/CMakeFiles/detectCycle.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/List/CMakeFiles/detectCycle.dir/rule
+.PHONY : LeetCode/List/CMakeFiles/detectCycle.dir/rule
+
+# Convenience name for target.
+detectCycle: LeetCode/List/CMakeFiles/detectCycle.dir/rule
+.PHONY : detectCycle
+
+# fast build rule for target.
+detectCycle/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\detectCycle.dir\build.make LeetCode/List/CMakeFiles/detectCycle.dir/build
+.PHONY : detectCycle/fast
+
 MyLinkedList.obj: MyLinkedList.cpp.obj
 .PHONY : MyLinkedList.obj
 
@@ -187,6 +243,54 @@ MyLinkedList.s: MyLinkedList.cpp.s
 MyLinkedList.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\MyLinkedList.dir\build.make LeetCode/List/CMakeFiles/MyLinkedList.dir/MyLinkedList.cpp.s
 .PHONY : MyLinkedList.cpp.s
+
+detectCycle.obj: detectCycle.cpp.obj
+.PHONY : detectCycle.obj
+
+# target to build an object file
+detectCycle.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\detectCycle.dir\build.make LeetCode/List/CMakeFiles/detectCycle.dir/detectCycle.cpp.obj
+.PHONY : detectCycle.cpp.obj
+
+detectCycle.i: detectCycle.cpp.i
+.PHONY : detectCycle.i
+
+# target to preprocess a source file
+detectCycle.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\detectCycle.dir\build.make LeetCode/List/CMakeFiles/detectCycle.dir/detectCycle.cpp.i
+.PHONY : detectCycle.cpp.i
+
+detectCycle.s: detectCycle.cpp.s
+.PHONY : detectCycle.s
+
+# target to generate assembly for a file
+detectCycle.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\detectCycle.dir\build.make LeetCode/List/CMakeFiles/detectCycle.dir/detectCycle.cpp.s
+.PHONY : detectCycle.cpp.s
+
+getIntersectionNode.obj: getIntersectionNode.cpp.obj
+.PHONY : getIntersectionNode.obj
+
+# target to build an object file
+getIntersectionNode.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\getIntersectionNode.dir\build.make LeetCode/List/CMakeFiles/getIntersectionNode.dir/getIntersectionNode.cpp.obj
+.PHONY : getIntersectionNode.cpp.obj
+
+getIntersectionNode.i: getIntersectionNode.cpp.i
+.PHONY : getIntersectionNode.i
+
+# target to preprocess a source file
+getIntersectionNode.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\getIntersectionNode.dir\build.make LeetCode/List/CMakeFiles/getIntersectionNode.dir/getIntersectionNode.cpp.i
+.PHONY : getIntersectionNode.cpp.i
+
+getIntersectionNode.s: getIntersectionNode.cpp.s
+.PHONY : getIntersectionNode.s
+
+# target to generate assembly for a file
+getIntersectionNode.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\getIntersectionNode.dir\build.make LeetCode/List/CMakeFiles/getIntersectionNode.dir/getIntersectionNode.cpp.s
+.PHONY : getIntersectionNode.cpp.s
 
 removeElements.obj: removeElements.cpp.obj
 .PHONY : removeElements.obj
@@ -212,6 +316,30 @@ removeElements.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeElements.dir\build.make LeetCode/List/CMakeFiles/removeElements.dir/removeElements.cpp.s
 .PHONY : removeElements.cpp.s
 
+removeNthFromEnd.obj: removeNthFromEnd.cpp.obj
+.PHONY : removeNthFromEnd.obj
+
+# target to build an object file
+removeNthFromEnd.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeNthFromEnd.dir\build.make LeetCode/List/CMakeFiles/removeNthFromEnd.dir/removeNthFromEnd.cpp.obj
+.PHONY : removeNthFromEnd.cpp.obj
+
+removeNthFromEnd.i: removeNthFromEnd.cpp.i
+.PHONY : removeNthFromEnd.i
+
+# target to preprocess a source file
+removeNthFromEnd.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeNthFromEnd.dir\build.make LeetCode/List/CMakeFiles/removeNthFromEnd.dir/removeNthFromEnd.cpp.i
+.PHONY : removeNthFromEnd.cpp.i
+
+removeNthFromEnd.s: removeNthFromEnd.cpp.s
+.PHONY : removeNthFromEnd.s
+
+# target to generate assembly for a file
+removeNthFromEnd.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\removeNthFromEnd.dir\build.make LeetCode/List/CMakeFiles/removeNthFromEnd.dir/removeNthFromEnd.cpp.s
+.PHONY : removeNthFromEnd.cpp.s
+
 reverseList.obj: reverseList.cpp.obj
 .PHONY : reverseList.obj
 
@@ -236,6 +364,30 @@ reverseList.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\reverseList.dir\build.make LeetCode/List/CMakeFiles/reverseList.dir/reverseList.cpp.s
 .PHONY : reverseList.cpp.s
 
+swapPairs.obj: swapPairs.cpp.obj
+.PHONY : swapPairs.obj
+
+# target to build an object file
+swapPairs.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/swapPairs.cpp.obj
+.PHONY : swapPairs.cpp.obj
+
+swapPairs.i: swapPairs.cpp.i
+.PHONY : swapPairs.i
+
+# target to preprocess a source file
+swapPairs.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/swapPairs.cpp.i
+.PHONY : swapPairs.cpp.i
+
+swapPairs.s: swapPairs.cpp.s
+.PHONY : swapPairs.s
+
+# target to generate assembly for a file
+swapPairs.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\List\CMakeFiles\swapPairs.dir\build.make LeetCode/List/CMakeFiles/swapPairs.dir/swapPairs.cpp.s
+.PHONY : swapPairs.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -246,17 +398,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MyLinkedList
+	@echo ... detectCycle
+	@echo ... getIntersectionNode
 	@echo ... removeElements
+	@echo ... removeNthFromEnd
 	@echo ... reverseList
+	@echo ... swapPairs
 	@echo ... MyLinkedList.obj
 	@echo ... MyLinkedList.i
 	@echo ... MyLinkedList.s
+	@echo ... detectCycle.obj
+	@echo ... detectCycle.i
+	@echo ... detectCycle.s
+	@echo ... getIntersectionNode.obj
+	@echo ... getIntersectionNode.i
+	@echo ... getIntersectionNode.s
 	@echo ... removeElements.obj
 	@echo ... removeElements.i
 	@echo ... removeElements.s
+	@echo ... removeNthFromEnd.obj
+	@echo ... removeNthFromEnd.i
+	@echo ... removeNthFromEnd.s
 	@echo ... reverseList.obj
 	@echo ... reverseList.i
 	@echo ... reverseList.s
+	@echo ... swapPairs.obj
+	@echo ... swapPairs.i
+	@echo ... swapPairs.s
 .PHONY : help
 
 
