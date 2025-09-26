@@ -1,4 +1,4 @@
-# Install script for directory: D:/C-/LeetCode/hash
+# Install script for directory: D:/C++/LeetCode/hash
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/CLion 2022.3/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Downloads/CLion/bin/mingw/bin/objdump.exe")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/C-/cmake-build-debug/LeetCode/hash/install_local_manifest.txt"
+  file(WRITE "D:/C++/cmake-build-debug/LeetCode/hash/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
