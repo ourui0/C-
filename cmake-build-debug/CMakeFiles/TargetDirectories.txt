@@ -78,3 +78,7 @@ D:/C++/cmake-build-debug/dotOJ/homework2/CMakeFiles/C.dir
 D:/C++/cmake-build-debug/dotOJ/homework2/CMakeFiles/D.dir
 D:/C++/cmake-build-debug/dotOJ/homework2/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/dotOJ/homework2/CMakeFiles/rebuild_cache.dir
+D:/C++/cmake-build-debug/dotOJ/homework3/CMakeFiles/min_heap.dir
+D:/C++/cmake-build-debug/dotOJ/homework3/CMakeFiles/DB.dir
+D:/C++/cmake-build-debug/dotOJ/homework3/CMakeFiles/edit_cache.dir
+D:/C++/cmake-build-debug/dotOJ/homework3/CMakeFiles/rebuild_cache.dir

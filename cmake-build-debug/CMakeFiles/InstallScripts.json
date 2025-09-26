@@ -14,7 +14,8 @@
 		"D:/C++/cmake-build-debug/homework/cmake_install.cmake",
 		"D:/C++/cmake-build-debug/dotOJ/cmake_install.cmake",
 		"D:/C++/cmake-build-debug/dotOJ/homework1/cmake_install.cmake",
-		"D:/C++/cmake-build-debug/dotOJ/homework2/cmake_install.cmake"
+		"D:/C++/cmake-build-debug/dotOJ/homework2/cmake_install.cmake",
+		"D:/C++/cmake-build-debug/dotOJ/homework3/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
