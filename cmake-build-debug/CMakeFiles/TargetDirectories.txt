@@ -57,6 +57,10 @@ D:/C++/cmake-build-debug/lab/lab1/CMakeFiles/maxLevel.dir
 D:/C++/cmake-build-debug/lab/lab1/CMakeFiles/sort.dir
 D:/C++/cmake-build-debug/lab/lab1/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/lab/lab1/CMakeFiles/rebuild_cache.dir
+D:/C++/cmake-build-debug/lab/lab2/CMakeFiles/LA.dir
+D:/C++/cmake-build-debug/lab/lab2/CMakeFiles/LB.dir
+D:/C++/cmake-build-debug/lab/lab2/CMakeFiles/edit_cache.dir
+D:/C++/cmake-build-debug/lab/lab2/CMakeFiles/rebuild_cache.dir
 D:/C++/cmake-build-debug/homework/CMakeFiles/watch.dir
 D:/C++/cmake-build-debug/homework/CMakeFiles/function.dir
 D:/C++/cmake-build-debug/homework/CMakeFiles/dictionary.dir
