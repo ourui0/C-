@@ -22,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/C-/dotOJ/CMakeLists.txt"
   "D:/C-/dotOJ/homework1/CMakeLists.txt"
   "D:/C-/dotOJ/homework2/CMakeLists.txt"
+  "D:/C-/dotOJ/homework3/CMakeLists.txt"
   "D:/C-/homework/CMakeLists.txt"
   "D:/C-/lab/CMakeLists.txt"
   "D:/C-/lab/lab1/CMakeLists.txt"
@@ -81,6 +82,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dotOJ/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/homework1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/homework2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dotOJ/homework3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -137,4 +139,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "dotOJ/homework2/CMakeFiles/B.dir/DependInfo.cmake"
   "dotOJ/homework2/CMakeFiles/C.dir/DependInfo.cmake"
   "dotOJ/homework2/CMakeFiles/D.dir/DependInfo.cmake"
+  "dotOJ/homework3/CMakeFiles/min_heap.dir/DependInfo.cmake"
+  "dotOJ/homework3/CMakeFiles/DB.dir/DependInfo.cmake"
+  "dotOJ/homework3/CMakeFiles/CitySkyLine.dir/DependInfo.cmake"
   )

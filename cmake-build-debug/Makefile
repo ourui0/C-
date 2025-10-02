@@ -798,6 +798,45 @@ D/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework2\CMakeFiles\D.dir\build.make dotOJ/homework2/CMakeFiles/D.dir/build
 .PHONY : D/fast
 
+#=============================================================================
+# Target rules for targets named min_heap
+
+# Build rule for target.
+min_heap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 min_heap
+.PHONY : min_heap
+
+# fast build rule for target.
+min_heap/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\min_heap.dir\build.make dotOJ/homework3/CMakeFiles/min_heap.dir/build
+.PHONY : min_heap/fast
+
+#=============================================================================
+# Target rules for targets named DB
+
+# Build rule for target.
+DB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DB
+.PHONY : DB
+
+# fast build rule for target.
+DB/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\DB.dir\build.make dotOJ/homework3/CMakeFiles/DB.dir/build
+.PHONY : DB/fast
+
+#=============================================================================
+# Target rules for targets named CitySkyLine
+
+# Build rule for target.
+CitySkyLine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CitySkyLine
+.PHONY : CitySkyLine
+
+# fast build rule for target.
+CitySkyLine/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine.dir/build
+.PHONY : CitySkyLine/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -836,7 +875,9 @@ help:
 	@echo ... B
 	@echo ... C
 	@echo ... C__
+	@echo ... CitySkyLine
 	@echo ... D
+	@echo ... DB
 	@echo ... FLY
 	@echo ... LandZoning
 	@echo ... MyLinkedList
@@ -863,6 +904,7 @@ help:
 	@echo ... largestRectangleArea
 	@echo ... maxLevel
 	@echo ... minSubArrayLen
+	@echo ... min_heap
 	@echo ... nextGreaterElement1
 	@echo ... nextGreaterElements2
 	@echo ... removeDuplicates

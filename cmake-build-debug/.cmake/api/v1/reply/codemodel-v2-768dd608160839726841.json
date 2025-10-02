@@ -57,16 +57,16 @@
 					"source" : "LeetCode/array",
 					"targetIndexes" : 
 					[
-						7,
 						9,
-						20,
+						11,
 						22,
-						27,
-						31,
-						34,
-						42,
+						24,
+						29,
+						33,
+						37,
 						45,
-						46
+						48,
+						49
 					]
 				},
 				{
@@ -81,13 +81,13 @@
 					"source" : "LeetCode/List",
 					"targetIndexes" : 
 					[
-						8,
-						15,
-						21,
-						35,
-						36,
+						10,
+						17,
+						23,
 						38,
-						47
+						39,
+						41,
+						50
 					]
 				},
 				{
@@ -102,8 +102,8 @@
 					"source" : "LeetCode/dp",
 					"targetIndexes" : 
 					[
-						17,
-						23
+						19,
+						25
 					]
 				},
 				{
@@ -118,11 +118,11 @@
 					"source" : "LeetCode/MonotonicStack",
 					"targetIndexes" : 
 					[
-						14,
-						29,
-						32,
-						33,
-						49
+						16,
+						31,
+						35,
+						36,
+						52
 					]
 				},
 				{
@@ -137,13 +137,13 @@
 					"source" : "LeetCode/hash",
 					"targetIndexes" : 
 					[
-						11,
-						18,
-						24,
-						25,
+						13,
+						20,
 						26,
-						48,
-						50
+						27,
+						28,
+						51,
+						53
 					]
 				},
 				{
@@ -158,10 +158,10 @@
 					"source" : "LeetCode/string",
 					"targetIndexes" : 
 					[
-						37,
-						39,
 						40,
-						41
+						42,
+						43,
+						44
 					]
 				},
 				{
@@ -191,9 +191,9 @@
 					"source" : "lab/lab1",
 					"targetIndexes" : 
 					[
-						10,
-						30,
-						44
+						12,
+						32,
+						47
 					]
 				},
 				{
@@ -208,11 +208,11 @@
 					"source" : "homework",
 					"targetIndexes" : 
 					[
-						16,
-						19,
-						28,
-						43,
-						51
+						18,
+						21,
+						30,
+						46,
+						54
 					]
 				},
 				{
@@ -220,7 +220,8 @@
 					"childIndexes" : 
 					[
 						12,
-						13
+						13,
+						14
 					],
 					"jsonFile" : "directory-dotOJ-Debug-d993f94e1fa7c7202b2d.json",
 					"minimumCMakeVersion" : 
@@ -244,9 +245,9 @@
 					"targetIndexes" : 
 					[
 						1,
-						6,
-						12,
-						13
+						8,
+						14,
+						15
 					]
 				},
 				{
@@ -264,7 +265,24 @@
 						0,
 						2,
 						3,
-						5
+						6
+					]
+				},
+				{
+					"build" : "dotOJ/homework3",
+					"jsonFile" : "directory-dotOJ.homework3-Debug-7b2d3adbee7608c4bc2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 0,
+					"source" : "dotOJ/homework3",
+					"targetIndexes" : 
+					[
+						5,
+						7,
+						34
 					]
 				}
 			],
@@ -287,7 +305,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					],
 					"name" : "C__",
 					"targetIndexes" : 
@@ -343,7 +362,10 @@
 						48,
 						49,
 						50,
-						51
+						51,
+						52,
+						53,
+						54
 					]
 				}
 			],
@@ -385,10 +407,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 14,
+					"id" : "CitySkyLine::@6fc6fefc32ca6e267b6c",
+					"jsonFile" : "target-CitySkyLine-Debug-2cea9eaff4027ffb38e5.json",
+					"name" : "CitySkyLine",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 13,
 					"id" : "D::@afcdbd21a7a4c509eec6",
 					"jsonFile" : "target-D-Debug-5f59469e22896b5a4b85.json",
 					"name" : "D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "DB::@6fc6fefc32ca6e267b6c",
+					"jsonFile" : "target-DB-Debug-f7265cd05b2c4dd32bbb.json",
+					"name" : "DB",
 					"projectIndex" : 0
 				},
 				{
@@ -436,7 +472,7 @@
 				{
 					"directoryIndex" : 12,
 					"id" : "city::@ee3f529badf23dd53ee7",
-					"jsonFile" : "target-city-Debug-de021b0270501607b44e.json",
+					"jsonFile" : "target-city-Debug-a8cff9f9a773a9e019fb.json",
 					"name" : "city",
 					"projectIndex" : 0
 				},
@@ -571,6 +607,13 @@
 					"id" : "minSubArrayLen::@cead1f0003cc5b8cdc52",
 					"jsonFile" : "target-minSubArrayLen-Debug-db823a0343a5e1439c25.json",
 					"name" : "minSubArrayLen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "min_heap::@6fc6fefc32ca6e267b6c",
+					"jsonFile" : "target-min_heap-Debug-ae6ea38022567d966a10.json",
+					"name" : "min_heap",
 					"projectIndex" : 0
 				},
 				{

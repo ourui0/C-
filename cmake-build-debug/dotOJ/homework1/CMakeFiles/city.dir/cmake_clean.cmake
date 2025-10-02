@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/city.dir/city.cpp.obj"
-  "CMakeFiles/city.dir/city.cpp.obj.d"
+  "CMakeFiles/city.dir/CitySkyLine1.cpp.obj"
+  "CMakeFiles/city.dir/CitySkyLine1.cpp.obj.d"
   "city.exe"
   "city.exe.manifest"
   "city.pdb"
