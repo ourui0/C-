@@ -136,6 +136,19 @@ C__/fast:
 .PHONY : C__/fast
 
 #=============================================================================
+# Target rules for targets named CCC
+
+# Build rule for target.
+CCC: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CCC
+.PHONY : CCC
+
+# fast build rule for target.
+CCC/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/build
+.PHONY : CCC/fast
+
+#=============================================================================
 # Target rules for targets named insert
 
 # Build rule for target.
@@ -630,6 +643,32 @@ sort/fast:
 .PHONY : sort/fast
 
 #=============================================================================
+# Target rules for targets named LA
+
+# Build rule for target.
+LA: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LA
+.PHONY : LA
+
+# fast build rule for target.
+LA/fast:
+	$(MAKE) $(MAKESILENT) -f lab\lab2\CMakeFiles\LA.dir\build.make lab/lab2/CMakeFiles/LA.dir/build
+.PHONY : LA/fast
+
+#=============================================================================
+# Target rules for targets named LB
+
+# Build rule for target.
+LB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LB
+.PHONY : LB
+
+# fast build rule for target.
+LB/fast:
+	$(MAKE) $(MAKESILENT) -f lab\lab2\CMakeFiles\LB.dir\build.make lab/lab2/CMakeFiles/LB.dir/build
+.PHONY : LB/fast
+
+#=============================================================================
 # Target rules for targets named watch
 
 # Build rule for target.
@@ -825,17 +864,106 @@ DB/fast:
 .PHONY : DB/fast
 
 #=============================================================================
-# Target rules for targets named CitySkyLine
+# Target rules for targets named CitySkyLine2
 
 # Build rule for target.
-CitySkyLine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CitySkyLine
-.PHONY : CitySkyLine
+CitySkyLine2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CitySkyLine2
+.PHONY : CitySkyLine2
 
 # fast build rule for target.
-CitySkyLine/fast:
-	$(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine.dir/build
-.PHONY : CitySkyLine/fast
+CitySkyLine2/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine2.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/build
+.PHONY : CitySkyLine2/fast
+
+#=============================================================================
+# Target rules for targets named CitySkyLine3
+
+# Build rule for target.
+CitySkyLine3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CitySkyLine3
+.PHONY : CitySkyLine3
+
+# fast build rule for target.
+CitySkyLine3/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine3.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/build
+.PHONY : CitySkyLine3/fast
+
+#=============================================================================
+# Target rules for targets named SpecialSort
+
+# Build rule for target.
+SpecialSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SpecialSort
+.PHONY : SpecialSort
+
+# fast build rule for target.
+SpecialSort/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework4\CMakeFiles\SpecialSort.dir\build.make dotOJ/homework4/CMakeFiles/SpecialSort.dir/build
+.PHONY : SpecialSort/fast
+
+#=============================================================================
+# Target rules for targets named 1e7sort
+
+# Build rule for target.
+1e7sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1e7sort
+.PHONY : 1e7sort
+
+# fast build rule for target.
+1e7sort/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework4\CMakeFiles\1e7sort.dir\build.make dotOJ/homework4/CMakeFiles/1e7sort.dir/build
+.PHONY : 1e7sort/fast
+
+#=============================================================================
+# Target rules for targets named 0x
+
+# Build rule for target.
+0x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0x
+.PHONY : 0x
+
+# fast build rule for target.
+0x/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework4\CMakeFiles\0x.dir\build.make dotOJ/homework4/CMakeFiles/0x.dir/build
+.PHONY : 0x/fast
+
+#=============================================================================
+# Target rules for targets named D_sort
+
+# Build rule for target.
+D_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 D_sort
+.PHONY : D_sort
+
+# fast build rule for target.
+D_sort/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework4\CMakeFiles\D_sort.dir\build.make dotOJ/homework4/CMakeFiles/D_sort.dir/build
+.PHONY : D_sort/fast
+
+m.obj: m.c.obj
+.PHONY : m.obj
+
+# target to build an object file
+m.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/m.c.obj
+.PHONY : m.c.obj
+
+m.i: m.c.i
+.PHONY : m.i
+
+# target to preprocess a source file
+m.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/m.c.i
+.PHONY : m.c.i
+
+m.s: m.c.s
+.PHONY : m.s
+
+# target to generate assembly for a file
+m.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/m.c.s
+.PHONY : m.c.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -870,17 +998,25 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 0x
+	@echo ... 1e7sort
 	@echo ... A
 	@echo ... ArrayList
 	@echo ... B
 	@echo ... C
+	@echo ... CCC
 	@echo ... C__
-	@echo ... CitySkyLine
+	@echo ... CitySkyLine2
+	@echo ... CitySkyLine3
 	@echo ... D
 	@echo ... DB
+	@echo ... D_sort
 	@echo ... FLY
+	@echo ... LA
+	@echo ... LB
 	@echo ... LandZoning
 	@echo ... MyLinkedList
+	@echo ... SpecialSort
 	@echo ... ZoomSum
 	@echo ... apple
 	@echo ... canConstruct
@@ -925,6 +1061,9 @@ help:
 	@echo ... trap
 	@echo ... twoSum
 	@echo ... watch
+	@echo ... m.obj
+	@echo ... m.i
+	@echo ... m.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

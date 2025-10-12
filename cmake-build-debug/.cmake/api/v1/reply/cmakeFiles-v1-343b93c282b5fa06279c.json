@@ -243,6 +243,9 @@
 			"path" : "lab/lab1/CMakeLists.txt"
 		},
 		{
+			"path" : "lab/lab2/CMakeLists.txt"
+		},
+		{
 			"path" : "homework/CMakeLists.txt"
 		},
 		{
@@ -256,6 +259,9 @@
 		},
 		{
 			"path" : "dotOJ/homework3/CMakeLists.txt"
+		},
+		{
+			"path" : "dotOJ/homework4/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "dotOJ/homework3/CitySkyLine.exe"
+			"path" : "lab/lab2/LB.exe"
 		},
 		{
-			"path" : "dotOJ/homework3/CitySkyLine.pdb"
+			"path" : "lab/lab2/LB.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"dotOJ/homework3/CMakeLists.txt"
+			"lab/lab2/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 2,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				1
 			]
 		}
 	],
-	"id" : "CitySkyLine::@6fc6fefc32ca6e267b6c",
+	"id" : "LB::@a046c616ef06cb4d05cd",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,20 +72,27 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "CitySkyLine",
-	"nameOnDisk" : "CitySkyLine.exe",
+	"name" : "LB",
+	"nameOnDisk" : "LB.exe",
 	"paths" : 
 	{
-		"build" : "dotOJ/homework3",
-		"source" : "dotOJ/homework3"
+		"build" : "lab/lab2",
+		"source" : "lab/lab2"
 	},
 	"sourceGroups" : 
 	[
 		{
-			"name" : "Source Files",
+			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
 				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
 			]
 		}
 	],
@@ -93,9 +100,14 @@
 	[
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "dotOJ/homework3/CitySkyLine2.cpp",
+			"path" : "lab/lab2/B.h",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lab/lab2/B.cpp",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

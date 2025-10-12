@@ -151,25 +151,39 @@ DB/fast:
 .PHONY : DB/fast
 
 # Convenience name for target.
-dotOJ/homework3/CMakeFiles/CitySkyLine.dir/rule:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework3/CMakeFiles/CitySkyLine.dir/rule
-.PHONY : dotOJ/homework3/CMakeFiles/CitySkyLine.dir/rule
+dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/rule
+.PHONY : dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/rule
 
 # Convenience name for target.
-CitySkyLine: dotOJ/homework3/CMakeFiles/CitySkyLine.dir/rule
-.PHONY : CitySkyLine
+CitySkyLine2: dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/rule
+.PHONY : CitySkyLine2
 
 # fast build rule for target.
-CitySkyLine/fast:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine.dir/build
-.PHONY : CitySkyLine/fast
+CitySkyLine2/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine2.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/build
+.PHONY : CitySkyLine2/fast
+
+# Convenience name for target.
+dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/rule
+.PHONY : dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/rule
+
+# Convenience name for target.
+CitySkyLine3: dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/rule
+.PHONY : CitySkyLine3
+
+# fast build rule for target.
+CitySkyLine3/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine3.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/build
+.PHONY : CitySkyLine3/fast
 
 CitySkyLine2.obj: CitySkyLine2.cpp.obj
 .PHONY : CitySkyLine2.obj
 
 # target to build an object file
 CitySkyLine2.cpp.obj:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine.dir/CitySkyLine2.cpp.obj
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine2.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/CitySkyLine2.cpp.obj
 .PHONY : CitySkyLine2.cpp.obj
 
 CitySkyLine2.i: CitySkyLine2.cpp.i
@@ -177,7 +191,7 @@ CitySkyLine2.i: CitySkyLine2.cpp.i
 
 # target to preprocess a source file
 CitySkyLine2.cpp.i:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine.dir/CitySkyLine2.cpp.i
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine2.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/CitySkyLine2.cpp.i
 .PHONY : CitySkyLine2.cpp.i
 
 CitySkyLine2.s: CitySkyLine2.cpp.s
@@ -185,8 +199,32 @@ CitySkyLine2.s: CitySkyLine2.cpp.s
 
 # target to generate assembly for a file
 CitySkyLine2.cpp.s:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine.dir/CitySkyLine2.cpp.s
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine2.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine2.dir/CitySkyLine2.cpp.s
 .PHONY : CitySkyLine2.cpp.s
+
+CitySkyLine3.obj: CitySkyLine3.cpp.obj
+.PHONY : CitySkyLine3.obj
+
+# target to build an object file
+CitySkyLine3.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine3.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/CitySkyLine3.cpp.obj
+.PHONY : CitySkyLine3.cpp.obj
+
+CitySkyLine3.i: CitySkyLine3.cpp.i
+.PHONY : CitySkyLine3.i
+
+# target to preprocess a source file
+CitySkyLine3.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine3.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/CitySkyLine3.cpp.i
+.PHONY : CitySkyLine3.cpp.i
+
+CitySkyLine3.s: CitySkyLine3.cpp.s
+.PHONY : CitySkyLine3.s
+
+# target to generate assembly for a file
+CitySkyLine3.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework3\CMakeFiles\CitySkyLine3.dir\build.make dotOJ/homework3/CMakeFiles/CitySkyLine3.dir/CitySkyLine3.cpp.s
+.PHONY : CitySkyLine3.cpp.s
 
 DB.obj: DB.cpp.obj
 .PHONY : DB.obj
@@ -245,12 +283,16 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CitySkyLine
+	@echo ... CitySkyLine2
+	@echo ... CitySkyLine3
 	@echo ... DB
 	@echo ... min_heap
 	@echo ... CitySkyLine2.obj
 	@echo ... CitySkyLine2.i
 	@echo ... CitySkyLine2.s
+	@echo ... CitySkyLine3.obj
+	@echo ... CitySkyLine3.i
+	@echo ... CitySkyLine3.s
 	@echo ... DB.obj
 	@echo ... DB.i
 	@echo ... DB.s
