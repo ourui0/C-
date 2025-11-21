@@ -17,7 +17,11 @@
 		"D:/C-/cmake-build-debug/dotOJ/homework1/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/dotOJ/homework2/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/dotOJ/homework3/cmake_install.cmake",
-		"D:/C-/cmake-build-debug/dotOJ/homework4/cmake_install.cmake"
+		"D:/C-/cmake-build-debug/dotOJ/homework4/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework5/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework6/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework7/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework8/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

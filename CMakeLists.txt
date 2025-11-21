@@ -9,5 +9,4 @@ add_subdirectory(homework)
 add_subdirectory(dotOJ)
 
 add_executable(C__ main.cpp)
-add_executable(CCC m.c)
 
