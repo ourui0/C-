@@ -66,7 +66,7 @@
 						56,
 						65,
 						68,
-						69
+						70
 					]
 				},
 				{
@@ -87,7 +87,7 @@
 						57,
 						58,
 						60,
-						71
+						72
 					]
 				},
 				{
@@ -122,7 +122,7 @@
 						46,
 						52,
 						53,
-						73
+						74
 					]
 				},
 				{
@@ -142,8 +142,8 @@
 						41,
 						42,
 						43,
-						72,
-						74
+						73,
+						75
 					]
 				},
 				{
@@ -229,7 +229,7 @@
 						35,
 						45,
 						66,
-						75
+						76
 					]
 				},
 				{
@@ -243,7 +243,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					],
 					"jsonFile" : "directory-dotOJ-Debug-d993f94e1fa7c7202b2d.json",
 					"minimumCMakeVersion" : 
@@ -375,7 +376,7 @@
 					[
 						9,
 						23,
-						70
+						71
 					]
 				},
 				{
@@ -394,6 +395,21 @@
 						28,
 						30,
 						64
+					]
+				},
+				{
+					"build" : "dotOJ/homework9",
+					"jsonFile" : "directory-dotOJ.homework9-Debug-fb7aef6db39484d5648c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "dotOJ/homework9",
+					"targetIndexes" : 
+					[
+						69
 					]
 				}
 			],
@@ -423,7 +439,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					],
 					"name" : "C__",
 					"targetIndexes" : 
@@ -503,7 +520,8 @@
 						72,
 						73,
 						74,
-						75
+						75,
+						76
 					]
 				}
 			],
@@ -990,6 +1008,13 @@
 					"id" : "sortedSquares::@cead1f0003cc5b8cdc52",
 					"jsonFile" : "target-sortedSquares-Debug-f0db2bdbbf12b821ba2d.json",
 					"name" : "sortedSquares",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "special_sort::@4bb93beacdbe2d9b5b7f",
+					"jsonFile" : "target-special_sort-Debug-8d10674d074057bff9a5.json",
+					"name" : "special_sort",
 					"projectIndex" : 0
 				},
 				{

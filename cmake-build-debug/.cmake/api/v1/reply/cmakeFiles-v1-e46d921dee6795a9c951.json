@@ -274,6 +274,9 @@
 		},
 		{
 			"path" : "dotOJ/homework8/CMakeLists.txt"
+		},
+		{
+			"path" : "dotOJ/homework9/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

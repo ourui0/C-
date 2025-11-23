@@ -1110,6 +1110,19 @@ desert/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework8\CMakeFiles\desert.dir\build.make dotOJ/homework8/CMakeFiles/desert.dir/build
 .PHONY : desert/fast
 
+#=============================================================================
+# Target rules for targets named special_sort
+
+# Build rule for target.
+special_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 special_sort
+.PHONY : special_sort
+
+# fast build rule for target.
+special_sort/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\special_sort.dir\build.make dotOJ/homework9/CMakeFiles/special_sort.dir/build
+.PHONY : special_sort/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1212,6 +1225,7 @@ help:
 	@echo ... short
 	@echo ... sort
 	@echo ... sortedSquares
+	@echo ... special_sort
 	@echo ... sqrt
 	@echo ... string_F
 	@echo ... swapPairs

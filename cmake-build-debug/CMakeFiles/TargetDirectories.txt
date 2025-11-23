@@ -116,3 +116,6 @@ D:/C-/cmake-build-debug/dotOJ/homework8/CMakeFiles/DFS.dir
 D:/C-/cmake-build-debug/dotOJ/homework8/CMakeFiles/desert.dir
 D:/C-/cmake-build-debug/dotOJ/homework8/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework8/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/dotOJ/homework9/CMakeFiles/special_sort.dir
+D:/C-/cmake-build-debug/dotOJ/homework9/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/dotOJ/homework9/CMakeFiles/rebuild_cache.dir
