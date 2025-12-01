@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/C-/dotOJ/homework1/city.cpp" "dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj" "gcc" "dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj.d"
+  "D:/C-/dotOJ/homework1/CitySkyLine1.cpp" "dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj" "gcc" "dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -71,28 +71,28 @@ include dotOJ/homework1/CMakeFiles/city.dir/flags.make
 dotOJ/homework1/CMakeFiles/city.dir/codegen:
 .PHONY : dotOJ/homework1/CMakeFiles/city.dir/codegen
 
-dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj: dotOJ/homework1/CMakeFiles/city.dir/flags.make
-dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj: D:/C-/dotOJ/homework1/city.cpp
-dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj: dotOJ/homework1/CMakeFiles/city.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj"
-	cd /d D:\C-\cmake-build-debug\dotOJ\homework1 && D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj -MF CMakeFiles\city.dir\city.cpp.obj.d -o CMakeFiles\city.dir\city.cpp.obj -c D:\C-\dotOJ\homework1\city.cpp
+dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj: dotOJ/homework1/CMakeFiles/city.dir/flags.make
+dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj: D:/C-/dotOJ/homework1/CitySkyLine1.cpp
+dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj: dotOJ/homework1/CMakeFiles/city.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\C-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj"
+	cd /d D:\C-\cmake-build-debug\dotOJ\homework1 && D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj -MF CMakeFiles\city.dir\CitySkyLine1.cpp.obj.d -o CMakeFiles\city.dir\CitySkyLine1.cpp.obj -c D:\C-\dotOJ\homework1\CitySkyLine1.cpp
 
-dotOJ/homework1/CMakeFiles/city.dir/city.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/city.dir/city.cpp.i"
-	cd /d D:\C-\cmake-build-debug\dotOJ\homework1 && D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C-\dotOJ\homework1\city.cpp > CMakeFiles\city.dir\city.cpp.i
+dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/city.dir/CitySkyLine1.cpp.i"
+	cd /d D:\C-\cmake-build-debug\dotOJ\homework1 && D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C-\dotOJ\homework1\CitySkyLine1.cpp > CMakeFiles\city.dir\CitySkyLine1.cpp.i
 
-dotOJ/homework1/CMakeFiles/city.dir/city.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/city.dir/city.cpp.s"
-	cd /d D:\C-\cmake-build-debug\dotOJ\homework1 && D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C-\dotOJ\homework1\city.cpp -o CMakeFiles\city.dir\city.cpp.s
+dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/city.dir/CitySkyLine1.cpp.s"
+	cd /d D:\C-\cmake-build-debug\dotOJ\homework1 && D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C-\dotOJ\homework1\CitySkyLine1.cpp -o CMakeFiles\city.dir\CitySkyLine1.cpp.s
 
 # Object files for target city
 city_OBJECTS = \
-"CMakeFiles/city.dir/city.cpp.obj"
+"CMakeFiles/city.dir/CitySkyLine1.cpp.obj"
 
 # External object files for target city
 city_EXTERNAL_OBJECTS =
 
-dotOJ/homework1/city.exe: dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj
+dotOJ/homework1/city.exe: dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj
 dotOJ/homework1/city.exe: dotOJ/homework1/CMakeFiles/city.dir/build.make
 dotOJ/homework1/city.exe: dotOJ/homework1/CMakeFiles/city.dir/linkLibs.rsp
 dotOJ/homework1/city.exe: dotOJ/homework1/CMakeFiles/city.dir/objects1.rsp

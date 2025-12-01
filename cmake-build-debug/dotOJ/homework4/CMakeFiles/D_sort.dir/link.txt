@@ -1,0 +1,3 @@
+"D:\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\D_sort.dir/objects.a
+D:\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\D_sort.dir/objects.a @CMakeFiles\D_sort.dir\objects1.rsp
+D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\D_sort.dir/objects.a -Wl,--no-whole-archive -o D_sort.exe -Wl,--out-implib,libD_sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\D_sort.dir\linkLibs.rsp

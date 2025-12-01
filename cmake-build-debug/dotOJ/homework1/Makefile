@@ -202,6 +202,30 @@ ArrayList.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\ArrayList.dir\build.make dotOJ/homework1/CMakeFiles/ArrayList.dir/ArrayList.cpp.s
 .PHONY : ArrayList.cpp.s
 
+CitySkyLine1.obj: CitySkyLine1.cpp.obj
+.PHONY : CitySkyLine1.obj
+
+# target to build an object file
+CitySkyLine1.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.obj
+.PHONY : CitySkyLine1.cpp.obj
+
+CitySkyLine1.i: CitySkyLine1.cpp.i
+.PHONY : CitySkyLine1.i
+
+# target to preprocess a source file
+CitySkyLine1.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.i
+.PHONY : CitySkyLine1.cpp.i
+
+CitySkyLine1.s: CitySkyLine1.cpp.s
+.PHONY : CitySkyLine1.s
+
+# target to generate assembly for a file
+CitySkyLine1.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/CitySkyLine1.cpp.s
+.PHONY : CitySkyLine1.cpp.s
+
 FLY.obj: FLY.cpp.obj
 .PHONY : FLY.obj
 
@@ -225,30 +249,6 @@ FLY.s: FLY.cpp.s
 FLY.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\FLY.dir\build.make dotOJ/homework1/CMakeFiles/FLY.dir/FLY.cpp.s
 .PHONY : FLY.cpp.s
-
-city.obj: city.cpp.obj
-.PHONY : city.obj
-
-# target to build an object file
-city.cpp.obj:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/city.cpp.obj
-.PHONY : city.cpp.obj
-
-city.i: city.cpp.i
-.PHONY : city.i
-
-# target to preprocess a source file
-city.cpp.i:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/city.cpp.i
-.PHONY : city.cpp.i
-
-city.s: city.cpp.s
-.PHONY : city.s
-
-# target to generate assembly for a file
-city.cpp.s:
-	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework1\CMakeFiles\city.dir\build.make dotOJ/homework1/CMakeFiles/city.dir/city.cpp.s
-.PHONY : city.cpp.s
 
 computer.obj: computer.cpp.obj
 .PHONY : computer.obj
@@ -290,12 +290,12 @@ help:
 	@echo ... ArrayList.obj
 	@echo ... ArrayList.i
 	@echo ... ArrayList.s
+	@echo ... CitySkyLine1.obj
+	@echo ... CitySkyLine1.i
+	@echo ... CitySkyLine1.s
 	@echo ... FLY.obj
 	@echo ... FLY.i
 	@echo ... FLY.s
-	@echo ... city.obj
-	@echo ... city.i
-	@echo ... city.s
 	@echo ... computer.obj
 	@echo ... computer.i
 	@echo ... computer.s

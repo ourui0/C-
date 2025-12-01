@@ -3,20 +3,26 @@
 //
 #include<bits/stdc++.h>
 using namespace std;
-vector<int> heap(1000000,INT_MAX);
-int Size = 0;
-
+vector<int> min_heap(200000,INT_MAX);
+priority_queue<int> max_heap;
+int min_Size = 0;
 void push(int x) {
-    Size++;
-    heap[Size] = x;
-    int pos = Size;
-
+    min_Size++;
+    if (empty(max_heap) || x > max_heap.top()) {
+        min_heap[min_Size] = x;
+    }
+    else {
+        min_heap[min_Size] = max_heap.top();
+        max_heap.pop();
+        max_heap.push(x);
+    }
+    int pos = min_Size;
     // 向上调整 - 时间复杂度 O(log n)
     while (pos > 1) {
         int parent = pos / 2;
-        if (heap[pos] < heap[parent]) {
+        if (min_heap[pos] < min_heap[parent]) {
             // 更新映射
-            swap(heap[pos], heap[parent]);
+            swap(min_heap[pos], min_heap[parent]);
             pos = parent;
         } else {
             break;
@@ -25,33 +31,33 @@ void push(int x) {
 }
 
 void pop() {
-    if (Size == 0) return;
+    if (min_Size == 0) return;
 
     // 删除堆顶元素的映射
 
     // 将最后一个元素移到堆顶
-    heap[1] = heap[Size];
-    heap[Size] = INT_MAX;
-    Size--;
+    min_heap[1] = min_heap[min_Size];
+    min_heap[min_Size] = INT_MAX;
+    min_Size--;
 
     // 向下调整 - 时间复杂度 O(log n)
     int pos = 1;
-    while (pos * 2 <= Size) { // 确保有左孩子
+    while (pos * 2 <= min_Size) { // 确保有左孩子
         int left = pos * 2;
         int right = pos * 2 + 1;
         int smallest = pos;
 
         // 找到三个节点中最小的
-        if (left <= Size && heap[left] < heap[smallest]) {
+        if (left <= min_Size && min_heap[left] < min_heap[smallest]) {
             smallest = left;
         }
-        if (right <= Size && heap[right] < heap[smallest]) {
+        if (right <= min_Size && min_heap[right] < min_heap[smallest]) {
             smallest = right;
         }
 
         if (smallest != pos) {
             // 交换并更新映射
-            swap(heap[pos], heap[smallest]);
+            swap(min_heap[pos], min_heap[smallest]);
             pos = smallest;
         } else {
             break;
@@ -60,7 +66,9 @@ void pop() {
 }
 
 void DB() {
-    cout<<heap[1]<<'\n';
+    cout<<min_heap[1]<<"\n";
+    max_heap.push(min_heap[1]);
+    pop();
 }
 int main() {
     ios::sync_with_stdio(false);
@@ -85,9 +93,12 @@ int main() {
             break;
         }
         if (i + 1 == N[j]) {
-            j++;
             DB();
-            i--;
+            while (N[j] == N[j + 1]) {
+                j++;
+                DB();
+            }
+            j++;
         }
     }
     return 0;
