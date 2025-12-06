@@ -1,0 +1,3 @@
+"D:\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\prune.dir/objects.a
+D:\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\prune.dir/objects.a @CMakeFiles\prune.dir\objects1.rsp
+D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\prune.dir/objects.a -Wl,--no-whole-archive -o prune.exe -Wl,--out-implib,libprune.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\prune.dir\linkLibs.rsp

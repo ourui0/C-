@@ -136,19 +136,6 @@ C__/fast:
 .PHONY : C__/fast
 
 #=============================================================================
-# Target rules for targets named CCC
-
-# Build rule for target.
-CCC: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CCC
-.PHONY : CCC
-
-# fast build rule for target.
-CCC/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/build
-.PHONY : CCC/fast
-
-#=============================================================================
 # Target rules for targets named insert
 
 # Build rule for target.
@@ -941,29 +928,200 @@ D_sort/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework4\CMakeFiles\D_sort.dir\build.make dotOJ/homework4/CMakeFiles/D_sort.dir/build
 .PHONY : D_sort/fast
 
-m.obj: m.c.obj
-.PHONY : m.obj
+#=============================================================================
+# Target rules for targets named prune
 
-# target to build an object file
-m.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/m.c.obj
-.PHONY : m.c.obj
+# Build rule for target.
+prune: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 prune
+.PHONY : prune
 
-m.i: m.c.i
-.PHONY : m.i
+# fast build rule for target.
+prune/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework5\CMakeFiles\prune.dir\build.make dotOJ/homework5/CMakeFiles/prune.dir/build
+.PHONY : prune/fast
 
-# target to preprocess a source file
-m.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/m.c.i
-.PHONY : m.c.i
+#=============================================================================
+# Target rules for targets named qnm
 
-m.s: m.c.s
-.PHONY : m.s
+# Build rule for target.
+qnm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 qnm
+.PHONY : qnm
 
-# target to generate assembly for a file
-m.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CCC.dir\build.make CMakeFiles/CCC.dir/m.c.s
-.PHONY : m.c.s
+# fast build rule for target.
+qnm/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework5\CMakeFiles\qnm.dir\build.make dotOJ/homework5/CMakeFiles/qnm.dir/build
+.PHONY : qnm/fast
+
+#=============================================================================
+# Target rules for targets named FlyBoat
+
+# Build rule for target.
+FlyBoat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FlyBoat
+.PHONY : FlyBoat
+
+# fast build rule for target.
+FlyBoat/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework5\CMakeFiles\FlyBoat.dir\build.make dotOJ/homework5/CMakeFiles/FlyBoat.dir/build
+.PHONY : FlyBoat/fast
+
+#=============================================================================
+# Target rules for targets named binary
+
+# Build rule for target.
+binary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 binary
+.PHONY : binary
+
+# fast build rule for target.
+binary/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework5\CMakeFiles\binary.dir\build.make dotOJ/homework5/CMakeFiles/binary.dir/build
+.PHONY : binary/fast
+
+#=============================================================================
+# Target rules for targets named hash_set
+
+# Build rule for target.
+hash_set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hash_set
+.PHONY : hash_set
+
+# fast build rule for target.
+hash_set/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework6\CMakeFiles\hash_set.dir\build.make dotOJ/homework6/CMakeFiles/hash_set.dir/build
+.PHONY : hash_set/fast
+
+#=============================================================================
+# Target rules for targets named meet
+
+# Build rule for target.
+meet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 meet
+.PHONY : meet
+
+# fast build rule for target.
+meet/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework6\CMakeFiles\meet.dir\build.make dotOJ/homework6/CMakeFiles/meet.dir/build
+.PHONY : meet/fast
+
+#=============================================================================
+# Target rules for targets named maintenance
+
+# Build rule for target.
+maintenance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maintenance
+.PHONY : maintenance
+
+# fast build rule for target.
+maintenance/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework6\CMakeFiles\maintenance.dir\build.make dotOJ/homework6/CMakeFiles/maintenance.dir/build
+.PHONY : maintenance/fast
+
+#=============================================================================
+# Target rules for targets named string_F
+
+# Build rule for target.
+string_F: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string_F
+.PHONY : string_F
+
+# fast build rule for target.
+string_F/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework7\CMakeFiles\string_F.dir\build.make dotOJ/homework7/CMakeFiles/string_F.dir/build
+.PHONY : string_F/fast
+
+#=============================================================================
+# Target rules for targets named assert
+
+# Build rule for target.
+assert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 assert
+.PHONY : assert
+
+# fast build rule for target.
+assert/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework7\CMakeFiles\assert.dir\build.make dotOJ/homework7/CMakeFiles/assert.dir/build
+.PHONY : assert/fast
+
+#=============================================================================
+# Target rules for targets named CitySkyLine4
+
+# Build rule for target.
+CitySkyLine4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CitySkyLine4
+.PHONY : CitySkyLine4
+
+# fast build rule for target.
+CitySkyLine4/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework7\CMakeFiles\CitySkyLine4.dir\build.make dotOJ/homework7/CMakeFiles/CitySkyLine4.dir/build
+.PHONY : CitySkyLine4/fast
+
+#=============================================================================
+# Target rules for targets named construct
+
+# Build rule for target.
+construct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 construct
+.PHONY : construct
+
+# fast build rule for target.
+construct/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework8\CMakeFiles\construct.dir\build.make dotOJ/homework8/CMakeFiles/construct.dir/build
+.PHONY : construct/fast
+
+#=============================================================================
+# Target rules for targets named ring
+
+# Build rule for target.
+ring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ring
+.PHONY : ring
+
+# fast build rule for target.
+ring/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework8\CMakeFiles\ring.dir\build.make dotOJ/homework8/CMakeFiles/ring.dir/build
+.PHONY : ring/fast
+
+#=============================================================================
+# Target rules for targets named DFS
+
+# Build rule for target.
+DFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DFS
+.PHONY : DFS
+
+# fast build rule for target.
+DFS/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework8\CMakeFiles\DFS.dir\build.make dotOJ/homework8/CMakeFiles/DFS.dir/build
+.PHONY : DFS/fast
+
+#=============================================================================
+# Target rules for targets named desert
+
+# Build rule for target.
+desert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 desert
+.PHONY : desert
+
+# fast build rule for target.
+desert/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework8\CMakeFiles\desert.dir\build.make dotOJ/homework8/CMakeFiles/desert.dir/build
+.PHONY : desert/fast
+
+#=============================================================================
+# Target rules for targets named special_sort
+
+# Build rule for target.
+special_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 special_sort
+.PHONY : special_sort
+
+# fast build rule for target.
+special_sort/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\special_sort.dir\build.make dotOJ/homework9/CMakeFiles/special_sort.dir/build
+.PHONY : special_sort/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -1004,14 +1162,16 @@ help:
 	@echo ... ArrayList
 	@echo ... B
 	@echo ... C
-	@echo ... CCC
 	@echo ... C__
 	@echo ... CitySkyLine2
 	@echo ... CitySkyLine3
+	@echo ... CitySkyLine4
 	@echo ... D
 	@echo ... DB
+	@echo ... DFS
 	@echo ... D_sort
 	@echo ... FLY
+	@echo ... FlyBoat
 	@echo ... LA
 	@echo ... LB
 	@echo ... LandZoning
@@ -1019,10 +1179,14 @@ help:
 	@echo ... SpecialSort
 	@echo ... ZoomSum
 	@echo ... apple
+	@echo ... assert
+	@echo ... binary
 	@echo ... canConstruct
 	@echo ... city
 	@echo ... computer
+	@echo ... construct
 	@echo ... dailyTemperatures
+	@echo ... desert
 	@echo ... detectCycle
 	@echo ... dictionary
 	@echo ... fin
@@ -1030,6 +1194,7 @@ help:
 	@echo ... function
 	@echo ... generateMatrix
 	@echo ... getIntersectionNode
+	@echo ... hash_set
 	@echo ... insert
 	@echo ... integerBreak
 	@echo ... intersection
@@ -1038,11 +1203,15 @@ help:
 	@echo ... isPerfectSquare
 	@echo ... key
 	@echo ... largestRectangleArea
+	@echo ... maintenance
 	@echo ... maxLevel
+	@echo ... meet
 	@echo ... minSubArrayLen
 	@echo ... min_heap
 	@echo ... nextGreaterElement1
 	@echo ... nextGreaterElements2
+	@echo ... prune
+	@echo ... qnm
 	@echo ... removeDuplicates
 	@echo ... removeElements
 	@echo ... removeNthFromEnd
@@ -1051,19 +1220,19 @@ help:
 	@echo ... reverseStr
 	@echo ... reverseString
 	@echo ... reverseWords
+	@echo ... ring
 	@echo ... search
 	@echo ... short
 	@echo ... sort
 	@echo ... sortedSquares
+	@echo ... special_sort
 	@echo ... sqrt
+	@echo ... string_F
 	@echo ... swapPairs
 	@echo ... threeSum
 	@echo ... trap
 	@echo ... twoSum
 	@echo ... watch
-	@echo ... m.obj
-	@echo ... m.i
-	@echo ... m.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

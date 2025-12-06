@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CCC.exe"
+			"path" : "dotOJ/homework5/FlyBoat.exe"
 		},
 		{
-			"path" : "CCC.pdb"
+			"path" : "dotOJ/homework5/FlyBoat.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"dotOJ/homework5/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 3,
 				"parent" : 0
 			}
 		]
@@ -38,17 +38,25 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
 				}
 			],
-			"language" : "C",
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "CCC::@6890427a1f51a3e7e1df",
+	"id" : "FlyBoat::@53d5b53a3d69e0a285da",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -62,14 +70,14 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
-	"name" : "CCC",
-	"nameOnDisk" : "CCC.exe",
+	"name" : "FlyBoat",
+	"nameOnDisk" : "FlyBoat.exe",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "dotOJ/homework5",
+		"source" : "dotOJ/homework5"
 	},
 	"sourceGroups" : 
 	[
@@ -86,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "m.c",
+			"path" : "dotOJ/homework5/FlyBoat.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

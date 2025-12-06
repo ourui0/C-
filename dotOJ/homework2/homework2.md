@@ -109,4 +109,114 @@ J --> K[原问题的解]
 
 
 
-题解就放弃了吧，考试直接等死，现在不想写 !
+# 题解
+
+![img.png](img.png)
+
+## 分治思想
+
+利用分治思想解题，要先思考如何分，以及为什么要这样分
+
+比如这题就可以将连续数组分为左右两个部分，递归讨论最大和位置
+
+```
+最大连续和 = max{
+左半边最大和，
+右半边最大和，
+过中间的最大和
+}
+```
+## 代码实现
+```c++
+long long Msolve(vector<int> &nums, int left, int mid, int right) {
+    long long leftSum = LLONG_MIN; // 使用long long的最小值
+    long long sum = 0;
+    for (int i = mid; i >= left; i--) {
+        sum += nums[i];
+        leftSum = max(leftSum, sum);
+    }
+
+    long long rightSum = LLONG_MIN;
+    sum = 0;
+    for (int i = mid + 1; i <= right; i++) {
+        sum += nums[i];
+        rightSum = max(rightSum, sum);
+    }
+
+    return leftSum + rightSum;
+}
+long long solve(vector<int> &nums,int left,int right) {
+    if (left == right)return nums[left];
+    int mid = left + (right - left) / 2;
+
+    long long l = solve(nums,left,mid);
+
+    long long r = solve(nums,mid + 1,right);
+
+    long long m = Msolve(nums,left,mid,right);
+
+    return max({l,r,m});
+}
+```
+其中需要注意这里尽量使用引用函数，不然的话其实约等于多进行一个拷贝函数，会提高时间复杂度
+
+## 动态规划
+
+dp需要找到表达式
+
+经过思考我们可以发现表达式应该为
+
+```c++
+dp[i] = max(nums[i],dp[i - 1] + nums[i]); 
+```
+其中需要注意这样的表达是到i这个位置的时候最大的连续和
+所以我们需要找到这个数组里的最大值
+## 代码实现
+```c++
+long long solve(vector<int> &nums,int n){
+     vector<long long> dp(n);
+     long long Max = LLong_MIN;
+     for (int i = 0;i < n;i++){
+         dp[i] = max(nums[i],dp[i - 1] + nums[i]);
+         Max = max(dp[i],Max);
+     }
+     return Max;
+}
+```
+
+## 利用前缀和优化
+
+前缀和数组可以保证我们可以通过一次遍历就找到每一个i，j之间的和，那么我们就可以始终维护一个前
+n个数字内的最小和（小于0），同时维护一个最大值，这样就可以找到答案，和dp实现类似
+
+## 代码实现
+
+```c++
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    int T;
+    cin>>T;
+    while(T--) {
+        int n;
+        cin>>n;
+        long long sum = 0;
+        long long Min = 0;//不能设为INT_MAX,要确保前缀和小于0
+        long long Max = INT_MIN;
+        for (int i = 0; i < n; ++i) {
+            long long x;
+            cin >> x;
+            sum += x;
+            Max = max(Max, sum - Min);
+            Min  = min(Min, sum);
+        }
+        cout<<Max<<endl;
+    }
+    return 0;
+}
+```
+
+剩下两题难度较大，感觉这里就不做详细解析了，可以自己去oj上找题目回忆。
+
+下述介绍一下三分查找
+

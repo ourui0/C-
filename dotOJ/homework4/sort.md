@@ -193,7 +193,7 @@ void countingSort(vector<int>& arr, int max_val) {
 
 ## 完整基数排序流程
 
-```cpp
+```c++
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -253,7 +253,7 @@ void radixSort(vector<int>& arr) {
 
 ### 步骤1：计算前缀和
 
-```cpp
+```c++
 for (int i = 1; i < 10; i++) {
     count[i] += count[i - 1];
 }
@@ -279,7 +279,7 @@ for (int i = 1; i < 10; i++) {
 
 ### 步骤2：构建输出数组
 
-```cpp
+```c++
 for (int i = arr.size() - 1; i >= 0; i--) {
     int d = getDigit(arr[i], digit);
     output[count[d] - 1] = arr[i];
