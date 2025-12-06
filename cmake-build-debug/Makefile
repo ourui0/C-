@@ -1123,6 +1123,58 @@ special_sort/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\special_sort.dir\build.make dotOJ/homework9/CMakeFiles/special_sort.dir/build
 .PHONY : special_sort/fast
 
+#=============================================================================
+# Target rules for targets named smallestTree
+
+# Build rule for target.
+smallestTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 smallestTree
+.PHONY : smallestTree
+
+# fast build rule for target.
+smallestTree/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallestTree.dir\build.make dotOJ/homework9/CMakeFiles/smallestTree.dir/build
+.PHONY : smallestTree/fast
+
+#=============================================================================
+# Target rules for targets named smallGame
+
+# Build rule for target.
+smallGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 smallGame
+.PHONY : smallGame
+
+# fast build rule for target.
+smallGame/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallGame.dir\build.make dotOJ/homework9/CMakeFiles/smallGame.dir/build
+.PHONY : smallGame/fast
+
+#=============================================================================
+# Target rules for targets named smallCM_T
+
+# Build rule for target.
+smallCM_T: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 smallCM_T
+.PHONY : smallCM_T
+
+# fast build rule for target.
+smallCM_T/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallCM_T.dir\build.make dotOJ/homework9/CMakeFiles/smallCM_T.dir/build
+.PHONY : smallCM_T/fast
+
+#=============================================================================
+# Target rules for targets named TC
+
+# Build rule for target.
+TC: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TC
+.PHONY : TC
+
+# fast build rule for target.
+TC/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\TC.dir\build.make dotOJ/homework10/CMakeFiles/TC.dir/build
+.PHONY : TC/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1177,6 +1229,7 @@ help:
 	@echo ... LandZoning
 	@echo ... MyLinkedList
 	@echo ... SpecialSort
+	@echo ... TC
 	@echo ... ZoomSum
 	@echo ... apple
 	@echo ... assert
@@ -1223,6 +1276,9 @@ help:
 	@echo ... ring
 	@echo ... search
 	@echo ... short
+	@echo ... smallCM_T
+	@echo ... smallGame
+	@echo ... smallestTree
 	@echo ... sort
 	@echo ... sortedSquares
 	@echo ... special_sort
