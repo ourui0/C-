@@ -1,0 +1,3 @@
+"D:\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\smallCM_T.dir/objects.a
+D:\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\smallCM_T.dir/objects.a @CMakeFiles\smallCM_T.dir\objects1.rsp
+D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\smallCM_T.dir/objects.a -Wl,--no-whole-archive -o smallCM_T.exe -Wl,--out-implib,libsmallCM_T.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\smallCM_T.dir\linkLibs.rsp

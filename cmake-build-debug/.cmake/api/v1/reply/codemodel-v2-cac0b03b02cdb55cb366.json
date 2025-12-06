@@ -58,15 +58,15 @@
 					"targetIndexes" : 
 					[
 						18,
-						21,
-						36,
-						39,
-						44,
-						50,
-						56,
-						65,
-						68,
-						70
+						22,
+						37,
+						40,
+						45,
+						51,
+						57,
+						66,
+						72,
+						74
 					]
 				},
 				{
@@ -82,12 +82,12 @@
 					"targetIndexes" : 
 					[
 						19,
-						31,
-						37,
-						57,
+						32,
+						38,
 						58,
-						60,
-						72
+						59,
+						61,
+						76
 					]
 				},
 				{
@@ -102,8 +102,8 @@
 					"source" : "LeetCode/dp",
 					"targetIndexes" : 
 					[
-						33,
-						40
+						34,
+						41
 					]
 				},
 				{
@@ -118,11 +118,11 @@
 					"source" : "LeetCode/MonotonicStack",
 					"targetIndexes" : 
 					[
-						29,
-						46,
-						52,
+						30,
+						47,
 						53,
-						74
+						54,
+						78
 					]
 				},
 				{
@@ -137,13 +137,13 @@
 					"source" : "LeetCode/hash",
 					"targetIndexes" : 
 					[
-						25,
-						34,
-						41,
+						26,
+						35,
 						42,
 						43,
-						73,
-						75
+						44,
+						77,
+						79
 					]
 				},
 				{
@@ -158,10 +158,10 @@
 					"source" : "LeetCode/string",
 					"targetIndexes" : 
 					[
-						59,
-						61,
+						60,
 						62,
-						63
+						63,
+						64
 					]
 				},
 				{
@@ -192,9 +192,9 @@
 					"source" : "lab/lab1",
 					"targetIndexes" : 
 					[
-						22,
-						48,
-						67
+						23,
+						49,
+						71
 					]
 				},
 				{
@@ -225,11 +225,11 @@
 					"source" : "homework",
 					"targetIndexes" : 
 					[
-						32,
-						35,
-						45,
-						66,
-						76
+						33,
+						36,
+						46,
+						67,
+						80
 					]
 				},
 				{
@@ -244,7 +244,8 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22
 					],
 					"jsonFile" : "directory-dotOJ-Debug-d993f94e1fa7c7202b2d.json",
 					"minimumCMakeVersion" : 
@@ -269,8 +270,8 @@
 					[
 						3,
 						14,
-						26,
-						27
+						27,
+						28
 					]
 				},
 				{
@@ -306,7 +307,7 @@
 						7,
 						8,
 						11,
-						51
+						52
 					]
 				},
 				{
@@ -340,9 +341,9 @@
 					"targetIndexes" : 
 					[
 						15,
-						24,
-						54,
-						55
+						25,
+						55,
+						56
 					]
 				},
 				{
@@ -357,9 +358,9 @@
 					"source" : "dotOJ/homework6",
 					"targetIndexes" : 
 					[
-						38,
-						47,
-						49
+						39,
+						48,
+						50
 					]
 				},
 				{
@@ -375,8 +376,8 @@
 					"targetIndexes" : 
 					[
 						9,
-						23,
-						71
+						24,
+						75
 					]
 				},
 				{
@@ -392,9 +393,9 @@
 					"targetIndexes" : 
 					[
 						12,
-						28,
-						30,
-						64
+						29,
+						31,
+						65
 					]
 				},
 				{
@@ -409,7 +410,25 @@
 					"source" : "dotOJ/homework9",
 					"targetIndexes" : 
 					[
-						69
+						68,
+						69,
+						70,
+						73
+					]
+				},
+				{
+					"build" : "dotOJ/homework10",
+					"jsonFile" : "directory-dotOJ.homework10-Debug-b4cfa511556c6790b64a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "dotOJ/homework10",
+					"targetIndexes" : 
+					[
+						21
 					]
 				}
 			],
@@ -440,7 +459,8 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22
 					],
 					"name" : "C__",
 					"targetIndexes" : 
@@ -521,7 +541,11 @@
 						73,
 						74,
 						75,
-						76
+						76,
+						77,
+						78,
+						79,
+						80
 					]
 				}
 			],
@@ -672,6 +696,13 @@
 					"id" : "SpecialSort::@0c4904adadd14530ca29",
 					"jsonFile" : "target-SpecialSort-Debug-24436618676895dce125.json",
 					"name" : "SpecialSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "TC::@3268da8752efc982fb69",
+					"jsonFile" : "target-TC-Debug-8cd1abae9c9648ce8274.json",
+					"name" : "TC",
 					"projectIndex" : 0
 				},
 				{
@@ -994,6 +1025,27 @@
 					"id" : "short::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-short-Debug-774da8f86e90d367ab76.json",
 					"name" : "short",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "smallCM_T::@4bb93beacdbe2d9b5b7f",
+					"jsonFile" : "target-smallCM_T-Debug-27a2d635c862f95049a3.json",
+					"name" : "smallCM_T",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "smallGame::@4bb93beacdbe2d9b5b7f",
+					"jsonFile" : "target-smallGame-Debug-62cffd0168790ebda93f.json",
+					"name" : "smallGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "smallestTree::@4bb93beacdbe2d9b5b7f",
+					"jsonFile" : "target-smallestTree-Debug-f70d2f4ac9505d528d0d.json",
+					"name" : "smallestTree",
 					"projectIndex" : 0
 				},
 				{

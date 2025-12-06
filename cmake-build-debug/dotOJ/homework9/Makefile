@@ -136,6 +136,120 @@ special_sort/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\special_sort.dir\build.make dotOJ/homework9/CMakeFiles/special_sort.dir/build
 .PHONY : special_sort/fast
 
+# Convenience name for target.
+dotOJ/homework9/CMakeFiles/smallestTree.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework9/CMakeFiles/smallestTree.dir/rule
+.PHONY : dotOJ/homework9/CMakeFiles/smallestTree.dir/rule
+
+# Convenience name for target.
+smallestTree: dotOJ/homework9/CMakeFiles/smallestTree.dir/rule
+.PHONY : smallestTree
+
+# fast build rule for target.
+smallestTree/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallestTree.dir\build.make dotOJ/homework9/CMakeFiles/smallestTree.dir/build
+.PHONY : smallestTree/fast
+
+# Convenience name for target.
+dotOJ/homework9/CMakeFiles/smallGame.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework9/CMakeFiles/smallGame.dir/rule
+.PHONY : dotOJ/homework9/CMakeFiles/smallGame.dir/rule
+
+# Convenience name for target.
+smallGame: dotOJ/homework9/CMakeFiles/smallGame.dir/rule
+.PHONY : smallGame
+
+# fast build rule for target.
+smallGame/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallGame.dir\build.make dotOJ/homework9/CMakeFiles/smallGame.dir/build
+.PHONY : smallGame/fast
+
+# Convenience name for target.
+dotOJ/homework9/CMakeFiles/smallCM_T.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework9/CMakeFiles/smallCM_T.dir/rule
+.PHONY : dotOJ/homework9/CMakeFiles/smallCM_T.dir/rule
+
+# Convenience name for target.
+smallCM_T: dotOJ/homework9/CMakeFiles/smallCM_T.dir/rule
+.PHONY : smallCM_T
+
+# fast build rule for target.
+smallCM_T/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallCM_T.dir\build.make dotOJ/homework9/CMakeFiles/smallCM_T.dir/build
+.PHONY : smallCM_T/fast
+
+smallCM_T.obj: smallCM_T.cpp.obj
+.PHONY : smallCM_T.obj
+
+# target to build an object file
+smallCM_T.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallCM_T.dir\build.make dotOJ/homework9/CMakeFiles/smallCM_T.dir/smallCM_T.cpp.obj
+.PHONY : smallCM_T.cpp.obj
+
+smallCM_T.i: smallCM_T.cpp.i
+.PHONY : smallCM_T.i
+
+# target to preprocess a source file
+smallCM_T.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallCM_T.dir\build.make dotOJ/homework9/CMakeFiles/smallCM_T.dir/smallCM_T.cpp.i
+.PHONY : smallCM_T.cpp.i
+
+smallCM_T.s: smallCM_T.cpp.s
+.PHONY : smallCM_T.s
+
+# target to generate assembly for a file
+smallCM_T.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallCM_T.dir\build.make dotOJ/homework9/CMakeFiles/smallCM_T.dir/smallCM_T.cpp.s
+.PHONY : smallCM_T.cpp.s
+
+smallGame.obj: smallGame.cpp.obj
+.PHONY : smallGame.obj
+
+# target to build an object file
+smallGame.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallGame.dir\build.make dotOJ/homework9/CMakeFiles/smallGame.dir/smallGame.cpp.obj
+.PHONY : smallGame.cpp.obj
+
+smallGame.i: smallGame.cpp.i
+.PHONY : smallGame.i
+
+# target to preprocess a source file
+smallGame.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallGame.dir\build.make dotOJ/homework9/CMakeFiles/smallGame.dir/smallGame.cpp.i
+.PHONY : smallGame.cpp.i
+
+smallGame.s: smallGame.cpp.s
+.PHONY : smallGame.s
+
+# target to generate assembly for a file
+smallGame.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallGame.dir\build.make dotOJ/homework9/CMakeFiles/smallGame.dir/smallGame.cpp.s
+.PHONY : smallGame.cpp.s
+
+smallestTree.obj: smallestTree.cpp.obj
+.PHONY : smallestTree.obj
+
+# target to build an object file
+smallestTree.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallestTree.dir\build.make dotOJ/homework9/CMakeFiles/smallestTree.dir/smallestTree.cpp.obj
+.PHONY : smallestTree.cpp.obj
+
+smallestTree.i: smallestTree.cpp.i
+.PHONY : smallestTree.i
+
+# target to preprocess a source file
+smallestTree.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallestTree.dir\build.make dotOJ/homework9/CMakeFiles/smallestTree.dir/smallestTree.cpp.i
+.PHONY : smallestTree.cpp.i
+
+smallestTree.s: smallestTree.cpp.s
+.PHONY : smallestTree.s
+
+# target to generate assembly for a file
+smallestTree.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework9\CMakeFiles\smallestTree.dir\build.make dotOJ/homework9/CMakeFiles/smallestTree.dir/smallestTree.cpp.s
+.PHONY : smallestTree.cpp.s
+
 special_sort2.obj: special_sort2.cpp.obj
 .PHONY : special_sort2.obj
 
@@ -169,7 +283,19 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... smallCM_T
+	@echo ... smallGame
+	@echo ... smallestTree
 	@echo ... special_sort
+	@echo ... smallCM_T.obj
+	@echo ... smallCM_T.i
+	@echo ... smallCM_T.s
+	@echo ... smallGame.obj
+	@echo ... smallGame.i
+	@echo ... smallGame.s
+	@echo ... smallestTree.obj
+	@echo ... smallestTree.i
+	@echo ... smallestTree.s
 	@echo ... special_sort2.obj
 	@echo ... special_sort2.i
 	@echo ... special_sort2.s

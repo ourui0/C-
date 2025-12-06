@@ -21,6 +21,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.2/CMakeSystem.cmake"
   "D:/C-/dotOJ/CMakeLists.txt"
   "D:/C-/dotOJ/homework1/CMakeLists.txt"
+  "D:/C-/dotOJ/homework10/CMakeLists.txt"
   "D:/C-/dotOJ/homework2/CMakeLists.txt"
   "D:/C-/dotOJ/homework3/CMakeLists.txt"
   "D:/C-/dotOJ/homework4/CMakeLists.txt"
@@ -97,6 +98,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dotOJ/homework7/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/homework8/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/homework9/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dotOJ/homework10/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -178,4 +180,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "dotOJ/homework8/CMakeFiles/DFS.dir/DependInfo.cmake"
   "dotOJ/homework8/CMakeFiles/desert.dir/DependInfo.cmake"
   "dotOJ/homework9/CMakeFiles/special_sort.dir/DependInfo.cmake"
+  "dotOJ/homework9/CMakeFiles/smallestTree.dir/DependInfo.cmake"
+  "dotOJ/homework9/CMakeFiles/smallGame.dir/DependInfo.cmake"
+  "dotOJ/homework9/CMakeFiles/smallCM_T.dir/DependInfo.cmake"
+  "dotOJ/homework10/CMakeFiles/TC.dir/DependInfo.cmake"
   )

@@ -3,27 +3,39 @@
 //
 #include<bits/stdc++.h>
 using namespace std;
-
-vector<vector<int>> adj;
-vector<int> topolpgicalSort() {
-    vector<int> result;
-}
 void solve() {
-    int n,m;
+    int n, m;
     cin >> n >> m;
-
-    adj.resize(n);
-
-    for (int i = 0;i < m;i++) {
-        int u,v;
-        cin >> u >> v;
-        u--,v--;
-        adj[u].push_back(v);
+    vector<vector<int>> adj(n + 1);
+    vector<int> index(n + 1, 0);//计算入度
+    for (int i = 0; i < m; ++i) {
+        int a, b;
+        cin >> a >> b;
+        adj[a].push_back(b);
+        index[b]++;
     }
-
-    vector<int> res = topolpgicalSort();
-
-
+    priority_queue<int, vector<int>, greater<int>> pq;
+    for (int i = 1; i <= n; ++i) {
+        if (index[i] == 0) {
+            pq.push(i);
+        }
+    }
+    vector<int> ans;
+    while (!pq.empty()) {
+        int u = pq.top();
+        pq.pop();
+        ans.push_back(u);
+        for (int v : adj[u]) {
+            index[v]--;
+            if (index[v] == 0) {
+                pq.push(v);
+            }
+        }
+    }
+    for (int i = 0; i < n; ++i) {
+        cout << ans[i] << ' ';
+    }
+    cout << '\n';
 }
 int main() {
     ios::sync_with_stdio(false);
