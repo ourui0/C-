@@ -136,6 +136,72 @@ TC/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\TC.dir\build.make dotOJ/homework10/CMakeFiles/TC.dir/build
 .PHONY : TC/fast
 
+# Convenience name for target.
+dotOJ/homework10/CMakeFiles/Card.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework10/CMakeFiles/Card.dir/rule
+.PHONY : dotOJ/homework10/CMakeFiles/Card.dir/rule
+
+# Convenience name for target.
+Card: dotOJ/homework10/CMakeFiles/Card.dir/rule
+.PHONY : Card
+
+# fast build rule for target.
+Card/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\Card.dir\build.make dotOJ/homework10/CMakeFiles/Card.dir/build
+.PHONY : Card/fast
+
+# Convenience name for target.
+dotOJ/homework10/CMakeFiles/dash.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework10/CMakeFiles/dash.dir/rule
+.PHONY : dotOJ/homework10/CMakeFiles/dash.dir/rule
+
+# Convenience name for target.
+dash: dotOJ/homework10/CMakeFiles/dash.dir/rule
+.PHONY : dash
+
+# fast build rule for target.
+dash/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\dash.dir\build.make dotOJ/homework10/CMakeFiles/dash.dir/build
+.PHONY : dash/fast
+
+# Convenience name for target.
+dotOJ/homework10/CMakeFiles/button.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework10/CMakeFiles/button.dir/rule
+.PHONY : dotOJ/homework10/CMakeFiles/button.dir/rule
+
+# Convenience name for target.
+button: dotOJ/homework10/CMakeFiles/button.dir/rule
+.PHONY : button
+
+# fast build rule for target.
+button/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\button.dir\build.make dotOJ/homework10/CMakeFiles/button.dir/build
+.PHONY : button/fast
+
+Card.obj: Card.cpp.obj
+.PHONY : Card.obj
+
+# target to build an object file
+Card.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\Card.dir\build.make dotOJ/homework10/CMakeFiles/Card.dir/Card.cpp.obj
+.PHONY : Card.cpp.obj
+
+Card.i: Card.cpp.i
+.PHONY : Card.i
+
+# target to preprocess a source file
+Card.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\Card.dir\build.make dotOJ/homework10/CMakeFiles/Card.dir/Card.cpp.i
+.PHONY : Card.cpp.i
+
+Card.s: Card.cpp.s
+.PHONY : Card.s
+
+# target to generate assembly for a file
+Card.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\Card.dir\build.make dotOJ/homework10/CMakeFiles/Card.dir/Card.cpp.s
+.PHONY : Card.cpp.s
+
 TC.obj: TC.cpp.obj
 .PHONY : TC.obj
 
@@ -160,6 +226,54 @@ TC.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\TC.dir\build.make dotOJ/homework10/CMakeFiles/TC.dir/TC.cpp.s
 .PHONY : TC.cpp.s
 
+button.obj: button.cpp.obj
+.PHONY : button.obj
+
+# target to build an object file
+button.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\button.dir\build.make dotOJ/homework10/CMakeFiles/button.dir/button.cpp.obj
+.PHONY : button.cpp.obj
+
+button.i: button.cpp.i
+.PHONY : button.i
+
+# target to preprocess a source file
+button.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\button.dir\build.make dotOJ/homework10/CMakeFiles/button.dir/button.cpp.i
+.PHONY : button.cpp.i
+
+button.s: button.cpp.s
+.PHONY : button.s
+
+# target to generate assembly for a file
+button.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\button.dir\build.make dotOJ/homework10/CMakeFiles/button.dir/button.cpp.s
+.PHONY : button.cpp.s
+
+dash.obj: dash.cpp.obj
+.PHONY : dash.obj
+
+# target to build an object file
+dash.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\dash.dir\build.make dotOJ/homework10/CMakeFiles/dash.dir/dash.cpp.obj
+.PHONY : dash.cpp.obj
+
+dash.i: dash.cpp.i
+.PHONY : dash.i
+
+# target to preprocess a source file
+dash.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\dash.dir\build.make dotOJ/homework10/CMakeFiles/dash.dir/dash.cpp.i
+.PHONY : dash.cpp.i
+
+dash.s: dash.cpp.s
+.PHONY : dash.s
+
+# target to generate assembly for a file
+dash.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\dash.dir\build.make dotOJ/homework10/CMakeFiles/dash.dir/dash.cpp.s
+.PHONY : dash.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -169,10 +283,22 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Card
 	@echo ... TC
+	@echo ... button
+	@echo ... dash
+	@echo ... Card.obj
+	@echo ... Card.i
+	@echo ... Card.s
 	@echo ... TC.obj
 	@echo ... TC.i
 	@echo ... TC.s
+	@echo ... button.obj
+	@echo ... button.i
+	@echo ... button.s
+	@echo ... dash.obj
+	@echo ... dash.i
+	@echo ... dash.s
 .PHONY : help
 
 

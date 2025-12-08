@@ -1,102 +1,187 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <vector>
-#include <algorithm>
+<<<<<<< HEAD
+#include <stack>
+=======
+#include <climits>
 #include <cmath>
+>>>>>>> e73e10c2b2fdc97dcb56736553dcf4316e0c3666
 using namespace std;
-using ll = long long;
 
-const int MOD = 998244353;
-const int MAXN = 300005;
-const int MAXM = 500005;
+vector<int> nextGreaterElement(const vector<int>& nums) {
+    int n = nums.size();
+    vector<int> result(n, -1); // 初始化结果数组，全部为-1
+    stack<int> st; // 单调栈，存储的是元素的索引
+=======
+#include <string>
+#include <chrono>
+#include <random>
 
-vector<pair<int, int>> adj[MAXN];
-int dfn[MAXN];
-int low[MAXN];
-int parent[MAXN];
-int timer;
-
-bool is_used[MAXM];
-ll bridge_cnt;
-vector<int> cycle_len;
-
-ll compute(int k) {
-    ll res = 1;
-    for (int i = 0; i < k; ++i) {
-        res = (res * 2) % MOD;
-    }
-    return res;
-}
-
-void Tarjan(int u, int p) {
-    dfn[u] = low[u] = ++timer;
-    parent[u] = p;
-
-    for(auto& edge : adj[u]) {
-        int v = edge.first;
-        int edge_index = edge.second; //唯一标识
-        if(v == p) continue;  //自环，需要跳过
-
-        if(dfn[v]) { // 后向边
-            low[u] = min(low[u], low[v]); //u可以到达v，应该给u去二者之间的最小时间戳
-            if(dfn[v] < dfn[u]) { //先访问的v，意味着这是一个环
-                // if(is_used[edge_index]) continue;
-                // is_used[edge_index] = true;
-                //因为题目中说了，一条边只会在一个环里面，所以这一段不需要
-                int small_cycle_len = 1; //u,v这条边
-                int curr = u;
-                while(curr != v) {
-                    curr = parent[curr];
-                    small_cycle_len++;
-                }
-                cycle_len.push_back(small_cycle_len);
-            }
-        } else {
-            Tarjan(v, u); //对这个新的点，也就是v进行tarjan算法，得到这个对应的访问时间戳，和最小时间戳
-            //在这个时候v的所有子节点以及v子节点的子节点都应已经访问玩，也就是说这个时候v的low和dfn都不会再改变了
-            //tip：在这个时候，我们并不知道这个是环边还是桥
-            low[u] = min(low[u], low[v]); //更新一下low[u]
-            //如果此时的u的最小时间戳还是小于v的话，那就只能是桥
-            if(low[v] > low[u]) {
-                bridge_cnt++;
-            }
+// 你的方法（前向插入）
+std::string replaceForward(std::string s) {
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] >= '0' && s[i] <= '9') {
+            s[i] = 'r';
+            s.insert(i, "numbe");
+            i += 5;
         }
     }
+    return s;
+}
+
+// 优化方法（后向插入）
+std::string replaceBackward(const std::string& input) {
+    int digitCount = 0;
+    for (char c : input) {
+        if (c >= '0' && c <= '9') digitCount++;
+    }
+
+    std::string result;
+    result.resize(input.size() + digitCount * 5);
+
+    int i = input.size() - 1;
+    int j = result.size() - 1;
+
+    while (i >= 0) {
+        if (input[i] >= '0' && input[i] <= '9') {
+            result[j--] = 'r';
+            result[j--] = 'e';
+            result[j--] = 'b';
+            result[j--] = 'm';
+            result[j--] = 'u';
+            result[j--] = 'n';
+        } else {
+            result[j--] = input[i];
+        }
+        i--;
+    }
+
+    return result;
+}
+
+// 生成测试数据
+std::string generateTestString(int length, double digitRatio) {
+    std::string result;
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_real_distribution<> dis(0.0, 1.0);
+
+    for (int i = 0; i < length; i++) {
+        if (dis(gen) < digitRatio) {
+            result += '0' + (i % 10);
+        } else {
+            result += 'a' + (i % 26);
+        }
+    }
+    return result;
+}
+
+void benchmark() {
+    // 测试不同规模的数据
+    std::vector<int> sizes = {1000, 5000, 10000, 50000};
+    std::vector<double> ratios = {0.1, 0.5, 0.9}; // 数字比例
+
+    for (int size : sizes) {
+        for (double ratio : ratios) {
+            auto testStr = generateTestString(size, ratio);
+
+            auto start = std::chrono::high_resolution_clock::now();
+            auto result1 = replaceForward(testStr);
+            auto end = std::chrono::high_resolution_clock::now();
+            auto time1 = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+
+            start = std::chrono::high_resolution_clock::now();
+            auto result2 = replaceBackward(testStr);
+            end = std::chrono::high_resolution_clock::now();
+            auto time2 = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+
+            std::cout << "Size: " << size << ", Digit ratio: " << ratio
+                      << " | Forward: " << time1.count() << "μs"
+                      << " | Backward: " << time2.count() << "μs"
+                      << " | Ratio: " << (time1.count() * 1.0 / time2.count()) << "x"
+                      << std::endl;
+        }
+    }
+}
+>>>>>>> 095ba499753f30d7f15bfae8725601e4f7ccc660
+
+<<<<<<< HEAD
+    // 遍历数组
+    for (int i = 0; i < n; i++) {
+        // 当栈不为空且当前元素大于栈顶元素对应的值时
+        while (!st.empty() && nums[i] > nums[st.top()]) {
+            // 栈顶元素的下一个更大元素就是当前元素
+            result[st.top()] = nums[i];
+            st.pop(); // 弹出栈顶元素
+        }
+        // 将当前元素的索引入栈
+        st.push(i);
+    }
+
+    return result;
 }
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    vector<int> nums = {2, 1, 2, 4, 3};
+    vector<int> result = nextGreaterElement(nums);
 
-    int n, m;
-    cin >> n >> m;
-    for(int i = 1; i <= m; i++) {
-        int u, v;
-        cin >> u >> v;
-        adj[u].push_back({v, i});
-        adj[v].push_back({u, i});
+    cout << "输入数组: ";
+    for (int num : nums) {
+        cout << num << " ";
     }
+    cout << endl;
 
-    ll ans = 1;
-    for(int i = 1; i <= n; i++) {
-        if(!dfn[i]) {
-            timer = 0;
-            bridge_cnt = 0;
-            cycle_len.clear();
-            Tarjan(i, 0);
-            ll temp_ans = 1;
+    cout << "下一个更大元素: ";
+    for (int res : result) {
+        cout << res << " ";
+    }
+    cout << endl;
 
-            temp_ans = (temp_ans * compute(bridge_cnt)) % MOD;
+=======
+int main() {
+<<<<<<< HEAD
+    int N;
+    cin>>N;
 
-            for(int len : cycle_len) {
-                ll cycle_pow = compute(len);
-                ll cycle_contrib = (cycle_pow - 1 + MOD) % MOD;
-                temp_ans = (temp_ans * cycle_contrib) % MOD;
+    vector<int> M(N);
+    vector<int> L(N);
+    for (int i = 0; i < N; i++) {
+        cin>>M[i];
+    }
+    for (int i = 0; i < N; i++) {
+        cin>>L[i];
+    }
+    int length_M = M.size(),length_L = L.size();
+    for (int i = 0; i < N - 1; i++) {
+        //小明删除
+        int min = INT_MAX,min_P = 0;
+        for (int j = 0; j < length_M; j++) {
+            for (int k = 0; k < length_L; k++) {
+                if (abs(M[j] - L[k]) < min) {
+                    min = abs(M[j] - L[k]);
+                    min_P = j;
+                }
             }
-
-            ans = (ans * temp_ans) % MOD;
         }
+        length_M--;
+        M.erase(M.begin() + min_P);
+        int max = INT_MIN,max_P = 0;
+        for (int j = 0; j < length_L; j++) {
+            for (int k = 0; k < length_M; k++) {
+                if (abs(L[j] - M[k]) > max) {
+                    max = abs(L[j] - M[k]);
+                    max_P = j;
+                }
+            }
+        }
+        L.erase(L.begin() + max_P);
+        length_L--;
     }
-
-    cout << ans << "\n";
+    cout<<abs(M[0] - L[0])<<endl;
+>>>>>>> e73e10c2b2fdc97dcb56736553dcf4316e0c3666
     return 0;
+=======
+    benchmark();
+>>>>>>> 095ba499753f30d7f15bfae8725601e4f7ccc660
 }

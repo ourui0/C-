@@ -1175,6 +1175,45 @@ TC/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\TC.dir\build.make dotOJ/homework10/CMakeFiles/TC.dir/build
 .PHONY : TC/fast
 
+#=============================================================================
+# Target rules for targets named Card
+
+# Build rule for target.
+Card: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Card
+.PHONY : Card
+
+# fast build rule for target.
+Card/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\Card.dir\build.make dotOJ/homework10/CMakeFiles/Card.dir/build
+.PHONY : Card/fast
+
+#=============================================================================
+# Target rules for targets named dash
+
+# Build rule for target.
+dash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dash
+.PHONY : dash
+
+# fast build rule for target.
+dash/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\dash.dir\build.make dotOJ/homework10/CMakeFiles/dash.dir/build
+.PHONY : dash/fast
+
+#=============================================================================
+# Target rules for targets named button
+
+# Build rule for target.
+button: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 button
+.PHONY : button
+
+# fast build rule for target.
+button/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\button.dir\build.make dotOJ/homework10/CMakeFiles/button.dir/build
+.PHONY : button/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1215,6 +1254,7 @@ help:
 	@echo ... B
 	@echo ... C
 	@echo ... C__
+	@echo ... Card
 	@echo ... CitySkyLine2
 	@echo ... CitySkyLine3
 	@echo ... CitySkyLine4
@@ -1234,11 +1274,13 @@ help:
 	@echo ... apple
 	@echo ... assert
 	@echo ... binary
+	@echo ... button
 	@echo ... canConstruct
 	@echo ... city
 	@echo ... computer
 	@echo ... construct
 	@echo ... dailyTemperatures
+	@echo ... dash
 	@echo ... desert
 	@echo ... detectCycle
 	@echo ... dictionary

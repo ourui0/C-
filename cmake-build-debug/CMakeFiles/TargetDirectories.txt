@@ -123,5 +123,8 @@ D:/C-/cmake-build-debug/dotOJ/homework9/CMakeFiles/smallCM_T.dir
 D:/C-/cmake-build-debug/dotOJ/homework9/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework9/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/TC.dir
+D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/Card.dir
+D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/dash.dir
+D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/button.dir
 D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/rebuild_cache.dir

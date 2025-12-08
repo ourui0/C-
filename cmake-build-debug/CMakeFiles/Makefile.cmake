@@ -184,4 +184,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "dotOJ/homework9/CMakeFiles/smallGame.dir/DependInfo.cmake"
   "dotOJ/homework9/CMakeFiles/smallCM_T.dir/DependInfo.cmake"
   "dotOJ/homework10/CMakeFiles/TC.dir/DependInfo.cmake"
+  "dotOJ/homework10/CMakeFiles/Card.dir/DependInfo.cmake"
+  "dotOJ/homework10/CMakeFiles/dash.dir/DependInfo.cmake"
+  "dotOJ/homework10/CMakeFiles/button.dir/DependInfo.cmake"
   )
