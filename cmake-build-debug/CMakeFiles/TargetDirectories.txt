@@ -50,6 +50,10 @@ D:/C++/cmake-build-debug/LeetCode/string/CMakeFiles/replaceNum.dir
 D:/C++/cmake-build-debug/LeetCode/string/CMakeFiles/reverseWords.dir
 D:/C++/cmake-build-debug/LeetCode/string/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/LeetCode/string/CMakeFiles/rebuild_cache.dir
+D:/C++/cmake-build-debug/LeetCode/graph/CMakeFiles/path.dir
+D:/C++/cmake-build-debug/LeetCode/graph/CMakeFiles/islandCnt1.dir
+D:/C++/cmake-build-debug/LeetCode/graph/CMakeFiles/edit_cache.dir
+D:/C++/cmake-build-debug/LeetCode/graph/CMakeFiles/rebuild_cache.dir
 D:/C++/cmake-build-debug/lab/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/lab/CMakeFiles/rebuild_cache.dir
 D:/C++/cmake-build-debug/lab/lab1/CMakeFiles/apple.dir
