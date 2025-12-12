@@ -591,6 +591,97 @@ reverseWords/fast:
 .PHONY : reverseWords/fast
 
 #=============================================================================
+# Target rules for targets named path
+
+# Build rule for target.
+path: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 path
+.PHONY : path
+
+# fast build rule for target.
+path/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\path.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/path.dir/build
+.PHONY : path/fast
+
+#=============================================================================
+# Target rules for targets named islandCnt1
+
+# Build rule for target.
+islandCnt1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 islandCnt1
+.PHONY : islandCnt1
+
+# fast build rule for target.
+islandCnt1/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\islandCnt1.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/islandCnt1.dir/build
+.PHONY : islandCnt1/fast
+
+#=============================================================================
+# Target rules for targets named islandS
+
+# Build rule for target.
+islandS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 islandS
+.PHONY : islandS
+
+# fast build rule for target.
+islandS/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\islandS.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/islandS.dir/build
+.PHONY : islandS/fast
+
+#=============================================================================
+# Target rules for targets named islandD
+
+# Build rule for target.
+islandD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 islandD
+.PHONY : islandD
+
+# fast build rule for target.
+islandD/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\islandD.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/islandD.dir/build
+.PHONY : islandD/fast
+
+#=============================================================================
+# Target rules for targets named islandW
+
+# Build rule for target.
+islandW: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 islandW
+.PHONY : islandW
+
+# fast build rule for target.
+islandW/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\islandW.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/islandW.dir/build
+.PHONY : islandW/fast
+
+#=============================================================================
+# Target rules for targets named maxIsland
+
+# Build rule for target.
+maxIsland: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 maxIsland
+.PHONY : maxIsland
+
+# fast build rule for target.
+maxIsland/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\maxIsland.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/maxIsland.dir/build
+.PHONY : maxIsland/fast
+
+#=============================================================================
+# Target rules for targets named islandC
+
+# Build rule for target.
+islandC: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 islandC
+.PHONY : islandC
+
+# fast build rule for target.
+islandC/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\islandC.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/islandC.dir/build
+.PHONY : islandC/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -1214,6 +1305,32 @@ button/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework10\CMakeFiles\button.dir\build.make dotOJ/homework10/CMakeFiles/button.dir/build
 .PHONY : button/fast
 
+#=============================================================================
+# Target rules for targets named resort
+
+# Build rule for target.
+resort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 resort
+.PHONY : resort
+
+# fast build rule for target.
+resort/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\resort.dir\build.make dotOJ/homework11/CMakeFiles/resort.dir/build
+.PHONY : resort/fast
+
+#=============================================================================
+# Target rules for targets named min_or
+
+# Build rule for target.
+min_or: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 min_or
+.PHONY : min_or
+
+# fast build rule for target.
+min_or/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\min_or.dir\build.make dotOJ/homework11/CMakeFiles/min_or.dir/build
+.PHONY : min_or/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1296,21 +1413,30 @@ help:
 	@echo ... isAnagram
 	@echo ... isHappy
 	@echo ... isPerfectSquare
+	@echo ... islandC
+	@echo ... islandCnt1
+	@echo ... islandD
+	@echo ... islandS
+	@echo ... islandW
 	@echo ... key
 	@echo ... largestRectangleArea
 	@echo ... maintenance
+	@echo ... maxIsland
 	@echo ... maxLevel
 	@echo ... meet
 	@echo ... minSubArrayLen
 	@echo ... min_heap
+	@echo ... min_or
 	@echo ... nextGreaterElement1
 	@echo ... nextGreaterElements2
+	@echo ... path
 	@echo ... prune
 	@echo ... qnm
 	@echo ... removeDuplicates
 	@echo ... removeElements
 	@echo ... removeNthFromEnd
 	@echo ... replaceNum
+	@echo ... resort
 	@echo ... reverseList
 	@echo ... reverseStr
 	@echo ... reverseString

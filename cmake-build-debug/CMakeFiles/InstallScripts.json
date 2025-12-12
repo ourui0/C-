@@ -9,6 +9,8 @@
 		"D:/C-/cmake-build-debug/LeetCode/MonotonicStack/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/LeetCode/hash/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/LeetCode/string/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/graph/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/LeetCode/graph/dfs_bfs/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/lab/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/lab/lab1/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/lab/lab2/cmake_install.cmake",
@@ -23,7 +25,8 @@
 		"D:/C-/cmake-build-debug/dotOJ/homework7/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/dotOJ/homework8/cmake_install.cmake",
 		"D:/C-/cmake-build-debug/dotOJ/homework9/cmake_install.cmake",
-		"D:/C-/cmake-build-debug/dotOJ/homework10/cmake_install.cmake"
+		"D:/C-/cmake-build-debug/dotOJ/homework10/cmake_install.cmake",
+		"D:/C-/cmake-build-debug/dotOJ/homework11/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
