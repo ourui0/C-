@@ -1,0 +1,7 @@
+add_executable(path path.cpp)
+add_executable(islandCnt1 islandCnt1.cpp)
+add_executable(islandS islandS.cpp)
+add_executable(islandD islandD.cpp)
+add_executable(islandW islandW.cpp)
+add_executable(maxIsland maxIsland.cpp)
+add_executable(islandC islandC.cpp)
