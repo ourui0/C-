@@ -61,6 +61,20 @@ D:/C-/cmake-build-debug/LeetCode/graph/dfs_bfs/CMakeFiles/maxIsland.dir
 D:/C-/cmake-build-debug/LeetCode/graph/dfs_bfs/CMakeFiles/islandC.dir
 D:/C-/cmake-build-debug/LeetCode/graph/dfs_bfs/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/LeetCode/graph/dfs_bfs/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Dijkstra/CMakeFiles/Dijkstra.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Dijkstra/CMakeFiles/Dijkstra2.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Dijkstra/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Dijkstra/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Bellman-ford/CMakeFiles/Bell.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Bellman-ford/CMakeFiles/Bellman.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Bellman-ford/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Bellman-ford/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Astar/CMakeFiles/As.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Astar/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/LeetCode/graph/Astar/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/LeetCode/tanxin/CMakeFiles/jump2.dir
+D:/C-/cmake-build-debug/LeetCode/tanxin/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/LeetCode/tanxin/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/lab/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/lab/lab1/CMakeFiles/apple.dir
@@ -141,5 +155,6 @@ D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework10/CMakeFiles/rebuild_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/resort.dir
 D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/min_or.dir
+D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/tape.dir
 D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/rebuild_cache.dir

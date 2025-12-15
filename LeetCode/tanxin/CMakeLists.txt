@@ -1,0 +1,1 @@
+add_executable(jump2 jump2.cpp)

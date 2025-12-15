@@ -243,6 +243,18 @@
 			"path" : "LeetCode/graph/dfs_bfs/CMakeLists.txt"
 		},
 		{
+			"path" : "LeetCode/graph/Dijkstra/CMakeLists.txt"
+		},
+		{
+			"path" : "LeetCode/graph/Bellman-ford/CMakeLists.txt"
+		},
+		{
+			"path" : "LeetCode/graph/Astar/CMakeLists.txt"
+		},
+		{
+			"path" : "LeetCode/tanxin/CMakeLists.txt"
+		},
+		{
 			"path" : "lab/CMakeLists.txt"
 		},
 		{
