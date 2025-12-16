@@ -1,0 +1,1 @@
+add_executable(As Astar.cpp)

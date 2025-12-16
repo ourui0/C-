@@ -49,7 +49,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/C++/cmake-build-debug/LeetCode/graph/Floyd/cmake_install.cmake")
+  include("D:/C++/cmake-build-debug/LeetCode/graph/Bellman-ford/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/C++/cmake-build-debug/LeetCode/graph/Astar/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

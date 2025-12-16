@@ -150,6 +150,44 @@ min_or/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\min_or.dir\build.make dotOJ/homework11/CMakeFiles/min_or.dir/build
 .PHONY : min_or/fast
 
+# Convenience name for target.
+dotOJ/homework11/CMakeFiles/tape.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dotOJ/homework11/CMakeFiles/tape.dir/rule
+.PHONY : dotOJ/homework11/CMakeFiles/tape.dir/rule
+
+# Convenience name for target.
+tape: dotOJ/homework11/CMakeFiles/tape.dir/rule
+.PHONY : tape
+
+# fast build rule for target.
+tape/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\tape.dir\build.make dotOJ/homework11/CMakeFiles/tape.dir/build
+.PHONY : tape/fast
+
+led_tape.obj: led_tape.cpp.obj
+.PHONY : led_tape.obj
+
+# target to build an object file
+led_tape.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\tape.dir\build.make dotOJ/homework11/CMakeFiles/tape.dir/led_tape.cpp.obj
+.PHONY : led_tape.cpp.obj
+
+led_tape.i: led_tape.cpp.i
+.PHONY : led_tape.i
+
+# target to preprocess a source file
+led_tape.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\tape.dir\build.make dotOJ/homework11/CMakeFiles/tape.dir/led_tape.cpp.i
+.PHONY : led_tape.cpp.i
+
+led_tape.s: led_tape.cpp.s
+.PHONY : led_tape.s
+
+# target to generate assembly for a file
+led_tape.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\tape.dir\build.make dotOJ/homework11/CMakeFiles/tape.dir/led_tape.cpp.s
+.PHONY : led_tape.cpp.s
+
 min_or.obj: min_or.cpp.obj
 .PHONY : min_or.obj
 
@@ -209,6 +247,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... min_or
 	@echo ... resort
+	@echo ... tape
+	@echo ... led_tape.obj
+	@echo ... led_tape.i
+	@echo ... led_tape.s
 	@echo ... min_or.obj
 	@echo ... min_or.i
 	@echo ... min_or.s

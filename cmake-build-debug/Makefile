@@ -682,6 +682,84 @@ islandC/fast:
 .PHONY : islandC/fast
 
 #=============================================================================
+# Target rules for targets named Dijkstra
+
+# Build rule for target.
+Dijkstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Dijkstra
+.PHONY : Dijkstra
+
+# fast build rule for target.
+Dijkstra/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dijkstra.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dijkstra.dir/build
+.PHONY : Dijkstra/fast
+
+#=============================================================================
+# Target rules for targets named Dijkstra2
+
+# Build rule for target.
+Dijkstra2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Dijkstra2
+.PHONY : Dijkstra2
+
+# fast build rule for target.
+Dijkstra2/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dijkstra2.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dijkstra2.dir/build
+.PHONY : Dijkstra2/fast
+
+#=============================================================================
+# Target rules for targets named Bell
+
+# Build rule for target.
+Bell: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Bell
+.PHONY : Bell
+
+# fast build rule for target.
+Bell/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Bellman-ford\CMakeFiles\Bell.dir\build.make LeetCode/graph/Bellman-ford/CMakeFiles/Bell.dir/build
+.PHONY : Bell/fast
+
+#=============================================================================
+# Target rules for targets named Bellman
+
+# Build rule for target.
+Bellman: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Bellman
+.PHONY : Bellman
+
+# fast build rule for target.
+Bellman/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Bellman-ford\CMakeFiles\Bellman.dir\build.make LeetCode/graph/Bellman-ford/CMakeFiles/Bellman.dir/build
+.PHONY : Bellman/fast
+
+#=============================================================================
+# Target rules for targets named As
+
+# Build rule for target.
+As: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 As
+.PHONY : As
+
+# fast build rule for target.
+As/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Astar\CMakeFiles\As.dir\build.make LeetCode/graph/Astar/CMakeFiles/As.dir/build
+.PHONY : As/fast
+
+#=============================================================================
+# Target rules for targets named jump2
+
+# Build rule for target.
+jump2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 jump2
+.PHONY : jump2
+
+# fast build rule for target.
+jump2/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\jump2.dir\build.make LeetCode/tanxin/CMakeFiles/jump2.dir/build
+.PHONY : jump2/fast
+
+#=============================================================================
 # Target rules for targets named apple
 
 # Build rule for target.
@@ -1331,6 +1409,19 @@ min_or/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\min_or.dir\build.make dotOJ/homework11/CMakeFiles/min_or.dir/build
 .PHONY : min_or/fast
 
+#=============================================================================
+# Target rules for targets named tape
+
+# Build rule for target.
+tape: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tape
+.PHONY : tape
+
+# fast build rule for target.
+tape/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\tape.dir\build.make dotOJ/homework11/CMakeFiles/tape.dir/build
+.PHONY : tape/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1368,7 +1459,10 @@ help:
 	@echo ... 1e7sort
 	@echo ... A
 	@echo ... ArrayList
+	@echo ... As
 	@echo ... B
+	@echo ... Bell
+	@echo ... Bellman
 	@echo ... C
 	@echo ... C__
 	@echo ... Card
@@ -1379,6 +1473,8 @@ help:
 	@echo ... DB
 	@echo ... DFS
 	@echo ... D_sort
+	@echo ... Dijkstra
+	@echo ... Dijkstra2
 	@echo ... FLY
 	@echo ... FlyBoat
 	@echo ... LA
@@ -1418,6 +1514,7 @@ help:
 	@echo ... islandD
 	@echo ... islandS
 	@echo ... islandW
+	@echo ... jump2
 	@echo ... key
 	@echo ... largestRectangleArea
 	@echo ... maintenance
@@ -1453,6 +1550,7 @@ help:
 	@echo ... sqrt
 	@echo ... string_F
 	@echo ... swapPairs
+	@echo ... tape
 	@echo ... threeSum
 	@echo ... trap
 	@echo ... twoSum

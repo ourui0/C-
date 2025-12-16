@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "LeetCode/graph/Dijkstra",
+		"source" : "LeetCode/graph/Dijkstra"
+	}
+}
