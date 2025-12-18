@@ -1,0 +1,2 @@
+add_executable(criticalConnections criticalConnections.cpp)
+add_executable(minDays minDays.cpp)
