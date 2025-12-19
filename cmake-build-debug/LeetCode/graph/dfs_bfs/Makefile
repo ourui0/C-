@@ -220,6 +220,72 @@ islandC/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\islandC.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/islandC.dir/build
 .PHONY : islandC/fast
 
+# Convenience name for target.
+LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/rule
+.PHONY : LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/rule
+
+# Convenience name for target.
+jump3: LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/rule
+.PHONY : jump3
+
+# fast build rule for target.
+jump3/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\jump3.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/build
+.PHONY : jump3/fast
+
+# Convenience name for target.
+LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/rule
+.PHONY : LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/rule
+
+# Convenience name for target.
+getAncestors: LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/rule
+.PHONY : getAncestors
+
+# fast build rule for target.
+getAncestors/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\getAncestors.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/build
+.PHONY : getAncestors/fast
+
+# Convenience name for target.
+LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/rule
+.PHONY : LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/rule
+
+# Convenience name for target.
+watchedVideosByFriends: LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/rule
+.PHONY : watchedVideosByFriends
+
+# fast build rule for target.
+watchedVideosByFriends/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\watchedVideosByFriends.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/build
+.PHONY : watchedVideosByFriends/fast
+
+getAncestors.obj: getAncestors.cpp.obj
+.PHONY : getAncestors.obj
+
+# target to build an object file
+getAncestors.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\getAncestors.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/getAncestors.cpp.obj
+.PHONY : getAncestors.cpp.obj
+
+getAncestors.i: getAncestors.cpp.i
+.PHONY : getAncestors.i
+
+# target to preprocess a source file
+getAncestors.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\getAncestors.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/getAncestors.cpp.i
+.PHONY : getAncestors.cpp.i
+
+getAncestors.s: getAncestors.cpp.s
+.PHONY : getAncestors.s
+
+# target to generate assembly for a file
+getAncestors.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\getAncestors.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/getAncestors.cpp.s
+.PHONY : getAncestors.cpp.s
+
 islandC.obj: islandC.cpp.obj
 .PHONY : islandC.obj
 
@@ -340,6 +406,30 @@ islandW.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\islandW.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/islandW.dir/islandW.cpp.s
 .PHONY : islandW.cpp.s
 
+jump3.obj: jump3.cpp.obj
+.PHONY : jump3.obj
+
+# target to build an object file
+jump3.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\jump3.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/jump3.cpp.obj
+.PHONY : jump3.cpp.obj
+
+jump3.i: jump3.cpp.i
+.PHONY : jump3.i
+
+# target to preprocess a source file
+jump3.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\jump3.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/jump3.cpp.i
+.PHONY : jump3.cpp.i
+
+jump3.s: jump3.cpp.s
+.PHONY : jump3.s
+
+# target to generate assembly for a file
+jump3.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\jump3.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/jump3.cpp.s
+.PHONY : jump3.cpp.s
+
 maxIsland.obj: maxIsland.cpp.obj
 .PHONY : maxIsland.obj
 
@@ -388,6 +478,30 @@ path.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\path.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/path.dir/path.cpp.s
 .PHONY : path.cpp.s
 
+watchedVideosByFriends.obj: watchedVideosByFriends.cpp.obj
+.PHONY : watchedVideosByFriends.obj
+
+# target to build an object file
+watchedVideosByFriends.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\watchedVideosByFriends.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/watchedVideosByFriends.cpp.obj
+.PHONY : watchedVideosByFriends.cpp.obj
+
+watchedVideosByFriends.i: watchedVideosByFriends.cpp.i
+.PHONY : watchedVideosByFriends.i
+
+# target to preprocess a source file
+watchedVideosByFriends.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\watchedVideosByFriends.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/watchedVideosByFriends.cpp.i
+.PHONY : watchedVideosByFriends.cpp.i
+
+watchedVideosByFriends.s: watchedVideosByFriends.cpp.s
+.PHONY : watchedVideosByFriends.s
+
+# target to generate assembly for a file
+watchedVideosByFriends.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\watchedVideosByFriends.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/watchedVideosByFriends.cpp.s
+.PHONY : watchedVideosByFriends.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -397,13 +511,19 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... getAncestors
 	@echo ... islandC
 	@echo ... islandCnt1
 	@echo ... islandD
 	@echo ... islandS
 	@echo ... islandW
+	@echo ... jump3
 	@echo ... maxIsland
 	@echo ... path
+	@echo ... watchedVideosByFriends
+	@echo ... getAncestors.obj
+	@echo ... getAncestors.i
+	@echo ... getAncestors.s
 	@echo ... islandC.obj
 	@echo ... islandC.i
 	@echo ... islandC.s
@@ -419,12 +539,18 @@ help:
 	@echo ... islandW.obj
 	@echo ... islandW.i
 	@echo ... islandW.s
+	@echo ... jump3.obj
+	@echo ... jump3.i
+	@echo ... jump3.s
 	@echo ... maxIsland.obj
 	@echo ... maxIsland.i
 	@echo ... maxIsland.s
 	@echo ... path.obj
 	@echo ... path.i
 	@echo ... path.s
+	@echo ... watchedVideosByFriends.obj
+	@echo ... watchedVideosByFriends.i
+	@echo ... watchedVideosByFriends.s
 .PHONY : help
 
 
