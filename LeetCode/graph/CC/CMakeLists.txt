@@ -1,2 +1,7 @@
 add_executable(criticalConnections criticalConnections.cpp)
 add_executable(minDays minDays.cpp)
+add_executable(Paths Paths.cpp)
+add_executable(bcc bcc.cpp)
+add_executable(scc Scc.cpp)
+add_executable(ap ap.cpp)
+add_executable(S S.cpp)
