@@ -29,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/C-/dotOJ/homework1/CMakeLists.txt"
   "D:/C-/dotOJ/homework10/CMakeLists.txt"
   "D:/C-/dotOJ/homework11/CMakeLists.txt"
+  "D:/C-/dotOJ/homework12/CMakeLists.txt"
   "D:/C-/dotOJ/homework2/CMakeLists.txt"
   "D:/C-/dotOJ/homework3/CMakeLists.txt"
   "D:/C-/dotOJ/homework4/CMakeLists.txt"
@@ -113,6 +114,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dotOJ/homework9/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/homework10/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dotOJ/homework11/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "dotOJ/homework12/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -217,4 +219,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "dotOJ/homework11/CMakeFiles/resort.dir/DependInfo.cmake"
   "dotOJ/homework11/CMakeFiles/min_or.dir/DependInfo.cmake"
   "dotOJ/homework11/CMakeFiles/tape.dir/DependInfo.cmake"
+  "dotOJ/homework12/CMakeFiles/coin_c.dir/DependInfo.cmake"
+  "dotOJ/homework12/CMakeFiles/sum_dis.dir/DependInfo.cmake"
+  "dotOJ/homework12/CMakeFiles/partition.dir/DependInfo.cmake"
+  "dotOJ/homework12/CMakeFiles/word_dis.dir/DependInfo.cmake"
   )

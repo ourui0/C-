@@ -301,6 +301,9 @@
 		},
 		{
 			"path" : "dotOJ/homework11/CMakeLists.txt"
+		},
+		{
+			"path" : "dotOJ/homework12/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

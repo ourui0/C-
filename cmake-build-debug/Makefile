@@ -1422,6 +1422,58 @@ tape/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\tape.dir\build.make dotOJ/homework11/CMakeFiles/tape.dir/build
 .PHONY : tape/fast
 
+#=============================================================================
+# Target rules for targets named coin_c
+
+# Build rule for target.
+coin_c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 coin_c
+.PHONY : coin_c
+
+# fast build rule for target.
+coin_c/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\coin_c.dir\build.make dotOJ/homework12/CMakeFiles/coin_c.dir/build
+.PHONY : coin_c/fast
+
+#=============================================================================
+# Target rules for targets named sum_dis
+
+# Build rule for target.
+sum_dis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sum_dis
+.PHONY : sum_dis
+
+# fast build rule for target.
+sum_dis/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\sum_dis.dir\build.make dotOJ/homework12/CMakeFiles/sum_dis.dir/build
+.PHONY : sum_dis/fast
+
+#=============================================================================
+# Target rules for targets named partition
+
+# Build rule for target.
+partition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 partition
+.PHONY : partition
+
+# fast build rule for target.
+partition/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\partition.dir\build.make dotOJ/homework12/CMakeFiles/partition.dir/build
+.PHONY : partition/fast
+
+#=============================================================================
+# Target rules for targets named word_dis
+
+# Build rule for target.
+word_dis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 word_dis
+.PHONY : word_dis
+
+# fast build rule for target.
+word_dis/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\word_dis.dir\build.make dotOJ/homework12/CMakeFiles/word_dis.dir/build
+.PHONY : word_dis/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1490,6 +1542,7 @@ help:
 	@echo ... button
 	@echo ... canConstruct
 	@echo ... city
+	@echo ... coin_c
 	@echo ... computer
 	@echo ... construct
 	@echo ... dailyTemperatures
@@ -1526,6 +1579,7 @@ help:
 	@echo ... min_or
 	@echo ... nextGreaterElement1
 	@echo ... nextGreaterElements2
+	@echo ... partition
 	@echo ... path
 	@echo ... prune
 	@echo ... qnm
@@ -1549,12 +1603,14 @@ help:
 	@echo ... special_sort
 	@echo ... sqrt
 	@echo ... string_F
+	@echo ... sum_dis
 	@echo ... swapPairs
 	@echo ... tape
 	@echo ... threeSum
 	@echo ... trap
 	@echo ... twoSum
 	@echo ... watch
+	@echo ... word_dis
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

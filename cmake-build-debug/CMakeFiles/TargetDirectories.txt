@@ -158,3 +158,9 @@ D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/min_or.dir
 D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/tape.dir
 D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/edit_cache.dir
 D:/C-/cmake-build-debug/dotOJ/homework11/CMakeFiles/rebuild_cache.dir
+D:/C-/cmake-build-debug/dotOJ/homework12/CMakeFiles/coin_c.dir
+D:/C-/cmake-build-debug/dotOJ/homework12/CMakeFiles/sum_dis.dir
+D:/C-/cmake-build-debug/dotOJ/homework12/CMakeFiles/partition.dir
+D:/C-/cmake-build-debug/dotOJ/homework12/CMakeFiles/word_dis.dir
+D:/C-/cmake-build-debug/dotOJ/homework12/CMakeFiles/edit_cache.dir
+D:/C-/cmake-build-debug/dotOJ/homework12/CMakeFiles/rebuild_cache.dir

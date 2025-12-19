@@ -61,14 +61,14 @@
 					[
 						24,
 						28,
-						45,
-						48,
-						53,
-						66,
-						74,
-						84,
-						90,
-						92
+						46,
+						49,
+						54,
+						67,
+						76,
+						86,
+						92,
+						94
 					]
 				},
 				{
@@ -84,12 +84,12 @@
 					"targetIndexes" : 
 					[
 						25,
-						40,
-						46,
-						75,
-						76,
-						79,
-						94
+						41,
+						47,
+						77,
+						78,
+						81,
+						97
 					]
 				},
 				{
@@ -104,8 +104,8 @@
 					"source" : "LeetCode/dp",
 					"targetIndexes" : 
 					[
-						42,
-						49
+						43,
+						50
 					]
 				},
 				{
@@ -120,11 +120,11 @@
 					"source" : "LeetCode/MonotonicStack",
 					"targetIndexes" : 
 					[
-						37,
-						61,
-						69,
+						38,
+						62,
 						70,
-						97
+						71,
+						100
 					]
 				},
 				{
@@ -140,12 +140,12 @@
 					"targetIndexes" : 
 					[
 						33,
-						43,
-						50,
+						44,
 						51,
 						52,
-						96,
-						98
+						53,
+						99,
+						101
 					]
 				},
 				{
@@ -160,10 +160,10 @@
 					"source" : "LeetCode/string",
 					"targetIndexes" : 
 					[
-						77,
-						80,
-						81,
-						82
+						79,
+						82,
+						83,
+						84
 					]
 				},
 				{
@@ -196,13 +196,13 @@
 					"source" : "LeetCode/graph/dfs_bfs",
 					"targetIndexes" : 
 					[
-						54,
 						55,
 						56,
 						57,
 						58,
-						63,
-						71
+						59,
+						64,
+						73
 					]
 				},
 				{
@@ -264,7 +264,7 @@
 					"source" : "LeetCode/tanxin",
 					"targetIndexes" : 
 					[
-						59
+						60
 					]
 				},
 				{
@@ -296,8 +296,8 @@
 					"targetIndexes" : 
 					[
 						29,
-						64,
-						89
+						65,
+						91
 					]
 				},
 				{
@@ -328,11 +328,11 @@
 					"source" : "homework",
 					"targetIndexes" : 
 					[
-						41,
-						44,
-						60,
-						85,
-						99
+						42,
+						45,
+						61,
+						87,
+						102
 					]
 				},
 				{
@@ -349,7 +349,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					],
 					"jsonFile" : "directory-dotOJ-Debug-d993f94e1fa7c7202b2d.json",
 					"minimumCMakeVersion" : 
@@ -375,7 +376,7 @@
 						3,
 						20,
 						34,
-						35
+						36
 					]
 				},
 				{
@@ -411,7 +412,7 @@
 						11,
 						12,
 						15,
-						67
+						68
 					]
 				},
 				{
@@ -446,8 +447,8 @@
 					[
 						21,
 						31,
-						72,
-						73
+						74,
+						75
 					]
 				},
 				{
@@ -462,9 +463,9 @@
 					"source" : "dotOJ/homework6",
 					"targetIndexes" : 
 					[
-						47,
-						62,
-						65
+						48,
+						63,
+						66
 					]
 				},
 				{
@@ -481,7 +482,7 @@
 					[
 						13,
 						30,
-						93
+						95
 					]
 				},
 				{
@@ -497,9 +498,9 @@
 					"targetIndexes" : 
 					[
 						16,
-						36,
-						39,
-						83
+						37,
+						40,
+						85
 					]
 				},
 				{
@@ -514,10 +515,10 @@
 					"source" : "dotOJ/homework9",
 					"targetIndexes" : 
 					[
-						86,
-						87,
 						88,
-						91
+						89,
+						90,
+						93
 					]
 				},
 				{
@@ -535,7 +536,7 @@
 						10,
 						27,
 						32,
-						38
+						39
 					]
 				},
 				{
@@ -550,9 +551,27 @@
 					"source" : "dotOJ/homework11",
 					"targetIndexes" : 
 					[
-						68,
-						78,
-						95
+						69,
+						80,
+						98
+					]
+				},
+				{
+					"build" : "dotOJ/homework12",
+					"jsonFile" : "directory-dotOJ.homework12-Debug-b2171bc4f64d9b900b0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "dotOJ/homework12",
+					"targetIndexes" : 
+					[
+						35,
+						72,
+						96,
+						103
 					]
 				}
 			],
@@ -591,7 +610,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					],
 					"name" : "C__",
 					"targetIndexes" : 
@@ -695,7 +715,11 @@
 						96,
 						97,
 						98,
-						99
+						99,
+						100,
+						101,
+						102,
+						103
 					]
 				}
 			],
@@ -944,6 +968,13 @@
 					"id" : "city::@ee3f529badf23dd53ee7",
 					"jsonFile" : "target-city-Debug-a8cff9f9a773a9e019fb.json",
 					"name" : "city",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "coin_c::@64b8b5bc77d4fac04a54",
+					"jsonFile" : "target-coin_c-Debug-1bba4d30faa32cd0555e.json",
+					"name" : "coin_c",
 					"projectIndex" : 0
 				},
 				{
@@ -1199,6 +1230,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 30,
+					"id" : "partition::@64b8b5bc77d4fac04a54",
+					"jsonFile" : "target-partition-Debug-90cb0f2934447fe6ca9a.json",
+					"name" : "partition",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 9,
 					"id" : "path::@7b1df358f3d2d7de0ee1",
 					"jsonFile" : "target-path-Debug-a47bdc351061334742ab.json",
@@ -1360,6 +1398,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 30,
+					"id" : "sum_dis::@64b8b5bc77d4fac04a54",
+					"jsonFile" : "target-sum_dis-Debug-8f1652bbb5f9fc047c5e.json",
+					"name" : "sum_dis",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "swapPairs::@3798b7520eb434a57ad9",
 					"jsonFile" : "target-swapPairs-Debug-2d9952223335092279fd.json",
@@ -1399,6 +1444,13 @@
 					"id" : "watch::@7fe97c330bf91510a04f",
 					"jsonFile" : "target-watch-Debug-990b7d6599cd86ffa164.json",
 					"name" : "watch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "word_dis::@64b8b5bc77d4fac04a54",
+					"jsonFile" : "target-word_dis-Debug-c2b0803229aa2628a987.json",
+					"name" : "word_dis",
 					"projectIndex" : 0
 				}
 			]
