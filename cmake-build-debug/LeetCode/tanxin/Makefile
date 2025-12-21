@@ -136,6 +136,96 @@ jump2/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\jump2.dir\build.make LeetCode/tanxin/CMakeFiles/jump2.dir/build
 .PHONY : jump2/fast
 
+# Convenience name for target.
+LeetCode/tanxin/CMakeFiles/K_T.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/tanxin/CMakeFiles/K_T.dir/rule
+.PHONY : LeetCode/tanxin/CMakeFiles/K_T.dir/rule
+
+# Convenience name for target.
+K_T: LeetCode/tanxin/CMakeFiles/K_T.dir/rule
+.PHONY : K_T
+
+# fast build rule for target.
+K_T/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\K_T.dir\build.make LeetCode/tanxin/CMakeFiles/K_T.dir/build
+.PHONY : K_T/fast
+
+# Convenience name for target.
+LeetCode/tanxin/CMakeFiles/candy.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/tanxin/CMakeFiles/candy.dir/rule
+.PHONY : LeetCode/tanxin/CMakeFiles/candy.dir/rule
+
+# Convenience name for target.
+candy: LeetCode/tanxin/CMakeFiles/candy.dir/rule
+.PHONY : candy
+
+# fast build rule for target.
+candy/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\candy.dir\build.make LeetCode/tanxin/CMakeFiles/candy.dir/build
+.PHONY : candy/fast
+
+# Convenience name for target.
+LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/rule
+.PHONY : LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/rule
+
+# Convenience name for target.
+reconstructQueue: LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/rule
+.PHONY : reconstructQueue
+
+# fast build rule for target.
+reconstructQueue/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\reconstructQueue.dir\build.make LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/build
+.PHONY : reconstructQueue/fast
+
+K_T.obj: K_T.cpp.obj
+.PHONY : K_T.obj
+
+# target to build an object file
+K_T.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\K_T.dir\build.make LeetCode/tanxin/CMakeFiles/K_T.dir/K_T.cpp.obj
+.PHONY : K_T.cpp.obj
+
+K_T.i: K_T.cpp.i
+.PHONY : K_T.i
+
+# target to preprocess a source file
+K_T.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\K_T.dir\build.make LeetCode/tanxin/CMakeFiles/K_T.dir/K_T.cpp.i
+.PHONY : K_T.cpp.i
+
+K_T.s: K_T.cpp.s
+.PHONY : K_T.s
+
+# target to generate assembly for a file
+K_T.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\K_T.dir\build.make LeetCode/tanxin/CMakeFiles/K_T.dir/K_T.cpp.s
+.PHONY : K_T.cpp.s
+
+candy.obj: candy.cpp.obj
+.PHONY : candy.obj
+
+# target to build an object file
+candy.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\candy.dir\build.make LeetCode/tanxin/CMakeFiles/candy.dir/candy.cpp.obj
+.PHONY : candy.cpp.obj
+
+candy.i: candy.cpp.i
+.PHONY : candy.i
+
+# target to preprocess a source file
+candy.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\candy.dir\build.make LeetCode/tanxin/CMakeFiles/candy.dir/candy.cpp.i
+.PHONY : candy.cpp.i
+
+candy.s: candy.cpp.s
+.PHONY : candy.s
+
+# target to generate assembly for a file
+candy.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\candy.dir\build.make LeetCode/tanxin/CMakeFiles/candy.dir/candy.cpp.s
+.PHONY : candy.cpp.s
+
 jump2.obj: jump2.cpp.obj
 .PHONY : jump2.obj
 
@@ -160,6 +250,30 @@ jump2.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\jump2.dir\build.make LeetCode/tanxin/CMakeFiles/jump2.dir/jump2.cpp.s
 .PHONY : jump2.cpp.s
 
+reconstructQueue.obj: reconstructQueue.cpp.obj
+.PHONY : reconstructQueue.obj
+
+# target to build an object file
+reconstructQueue.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\reconstructQueue.dir\build.make LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/reconstructQueue.cpp.obj
+.PHONY : reconstructQueue.cpp.obj
+
+reconstructQueue.i: reconstructQueue.cpp.i
+.PHONY : reconstructQueue.i
+
+# target to preprocess a source file
+reconstructQueue.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\reconstructQueue.dir\build.make LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/reconstructQueue.cpp.i
+.PHONY : reconstructQueue.cpp.i
+
+reconstructQueue.s: reconstructQueue.cpp.s
+.PHONY : reconstructQueue.s
+
+# target to generate assembly for a file
+reconstructQueue.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\reconstructQueue.dir\build.make LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/reconstructQueue.cpp.s
+.PHONY : reconstructQueue.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -169,10 +283,22 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... K_T
+	@echo ... candy
 	@echo ... jump2
+	@echo ... reconstructQueue
+	@echo ... K_T.obj
+	@echo ... K_T.i
+	@echo ... K_T.s
+	@echo ... candy.obj
+	@echo ... candy.i
+	@echo ... candy.s
 	@echo ... jump2.obj
 	@echo ... jump2.i
 	@echo ... jump2.s
+	@echo ... reconstructQueue.obj
+	@echo ... reconstructQueue.i
+	@echo ... reconstructQueue.s
 .PHONY : help
 
 

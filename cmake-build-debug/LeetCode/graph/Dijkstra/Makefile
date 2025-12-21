@@ -150,6 +150,72 @@ Dijkstra2/fast:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dijkstra2.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dijkstra2.dir/build
 .PHONY : Dijkstra2/fast
 
+# Convenience name for target.
+LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/rule
+.PHONY : LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/rule
+
+# Convenience name for target.
+minTime: LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/rule
+.PHONY : minTime
+
+# fast build rule for target.
+minTime/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\minTime.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/build
+.PHONY : minTime/fast
+
+# Convenience name for target.
+LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/rule
+.PHONY : LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/rule
+
+# Convenience name for target.
+Dij: LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/rule
+.PHONY : Dij
+
+# fast build rule for target.
+Dij/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dij.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/build
+.PHONY : Dij/fast
+
+# Convenience name for target.
+LeetCode/graph/Dijkstra/CMakeFiles/air.dir/rule:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LeetCode/graph/Dijkstra/CMakeFiles/air.dir/rule
+.PHONY : LeetCode/graph/Dijkstra/CMakeFiles/air.dir/rule
+
+# Convenience name for target.
+air: LeetCode/graph/Dijkstra/CMakeFiles/air.dir/rule
+.PHONY : air
+
+# fast build rule for target.
+air/fast:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\air.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/air.dir/build
+.PHONY : air/fast
+
+Dij.obj: Dij.cpp.obj
+.PHONY : Dij.obj
+
+# target to build an object file
+Dij.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dij.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/Dij.cpp.obj
+.PHONY : Dij.cpp.obj
+
+Dij.i: Dij.cpp.i
+.PHONY : Dij.i
+
+# target to preprocess a source file
+Dij.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dij.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/Dij.cpp.i
+.PHONY : Dij.cpp.i
+
+Dij.s: Dij.cpp.s
+.PHONY : Dij.s
+
+# target to generate assembly for a file
+Dij.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dij.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/Dij.cpp.s
+.PHONY : Dij.cpp.s
+
 Dijkstra.obj: Dijkstra.cpp.obj
 .PHONY : Dijkstra.obj
 
@@ -198,6 +264,54 @@ Dijkstra2.cpp.s:
 	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dijkstra2.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dijkstra2.dir/Dijkstra2.cpp.s
 .PHONY : Dijkstra2.cpp.s
 
+airplane.obj: airplane.cpp.obj
+.PHONY : airplane.obj
+
+# target to build an object file
+airplane.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\air.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/air.dir/airplane.cpp.obj
+.PHONY : airplane.cpp.obj
+
+airplane.i: airplane.cpp.i
+.PHONY : airplane.i
+
+# target to preprocess a source file
+airplane.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\air.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/air.dir/airplane.cpp.i
+.PHONY : airplane.cpp.i
+
+airplane.s: airplane.cpp.s
+.PHONY : airplane.s
+
+# target to generate assembly for a file
+airplane.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\air.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/air.dir/airplane.cpp.s
+.PHONY : airplane.cpp.s
+
+minTime.obj: minTime.cpp.obj
+.PHONY : minTime.obj
+
+# target to build an object file
+minTime.cpp.obj:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\minTime.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/minTime.cpp.obj
+.PHONY : minTime.cpp.obj
+
+minTime.i: minTime.cpp.i
+.PHONY : minTime.i
+
+# target to preprocess a source file
+minTime.cpp.i:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\minTime.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/minTime.cpp.i
+.PHONY : minTime.cpp.i
+
+minTime.s: minTime.cpp.s
+.PHONY : minTime.s
+
+# target to generate assembly for a file
+minTime.cpp.s:
+	cd /d D:\C-\cmake-build-debug && $(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\minTime.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/minTime.cpp.s
+.PHONY : minTime.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -207,14 +321,26 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Dij
 	@echo ... Dijkstra
 	@echo ... Dijkstra2
+	@echo ... air
+	@echo ... minTime
+	@echo ... Dij.obj
+	@echo ... Dij.i
+	@echo ... Dij.s
 	@echo ... Dijkstra.obj
 	@echo ... Dijkstra.i
 	@echo ... Dijkstra.s
 	@echo ... Dijkstra2.obj
 	@echo ... Dijkstra2.i
 	@echo ... Dijkstra2.s
+	@echo ... airplane.obj
+	@echo ... airplane.i
+	@echo ... airplane.s
+	@echo ... minTime.obj
+	@echo ... minTime.i
+	@echo ... minTime.s
 .PHONY : help
 
 

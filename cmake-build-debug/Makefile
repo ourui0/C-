@@ -682,6 +682,45 @@ islandC/fast:
 .PHONY : islandC/fast
 
 #=============================================================================
+# Target rules for targets named jump3
+
+# Build rule for target.
+jump3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 jump3
+.PHONY : jump3
+
+# fast build rule for target.
+jump3/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\jump3.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/jump3.dir/build
+.PHONY : jump3/fast
+
+#=============================================================================
+# Target rules for targets named getAncestors
+
+# Build rule for target.
+getAncestors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 getAncestors
+.PHONY : getAncestors
+
+# fast build rule for target.
+getAncestors/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\getAncestors.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/getAncestors.dir/build
+.PHONY : getAncestors/fast
+
+#=============================================================================
+# Target rules for targets named watchedVideosByFriends
+
+# Build rule for target.
+watchedVideosByFriends: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 watchedVideosByFriends
+.PHONY : watchedVideosByFriends
+
+# fast build rule for target.
+watchedVideosByFriends/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\dfs_bfs\CMakeFiles\watchedVideosByFriends.dir\build.make LeetCode/graph/dfs_bfs/CMakeFiles/watchedVideosByFriends.dir/build
+.PHONY : watchedVideosByFriends/fast
+
+#=============================================================================
 # Target rules for targets named Dijkstra
 
 # Build rule for target.
@@ -706,6 +745,45 @@ Dijkstra2: cmake_check_build_system
 Dijkstra2/fast:
 	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dijkstra2.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dijkstra2.dir/build
 .PHONY : Dijkstra2/fast
+
+#=============================================================================
+# Target rules for targets named minTime
+
+# Build rule for target.
+minTime: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minTime
+.PHONY : minTime
+
+# fast build rule for target.
+minTime/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\minTime.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/minTime.dir/build
+.PHONY : minTime/fast
+
+#=============================================================================
+# Target rules for targets named Dij
+
+# Build rule for target.
+Dij: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Dij
+.PHONY : Dij
+
+# fast build rule for target.
+Dij/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\Dij.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/Dij.dir/build
+.PHONY : Dij/fast
+
+#=============================================================================
+# Target rules for targets named air
+
+# Build rule for target.
+air: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 air
+.PHONY : air
+
+# fast build rule for target.
+air/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Dijkstra\CMakeFiles\air.dir\build.make LeetCode/graph/Dijkstra/CMakeFiles/air.dir/build
+.PHONY : air/fast
 
 #=============================================================================
 # Target rules for targets named Bell
@@ -734,6 +812,19 @@ Bellman/fast:
 .PHONY : Bellman/fast
 
 #=============================================================================
+# Target rules for targets named BE
+
+# Build rule for target.
+BE: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BE
+.PHONY : BE
+
+# fast build rule for target.
+BE/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\Bellman-ford\CMakeFiles\BE.dir\build.make LeetCode/graph/Bellman-ford/CMakeFiles/BE.dir/build
+.PHONY : BE/fast
+
+#=============================================================================
 # Target rules for targets named As
 
 # Build rule for target.
@@ -747,6 +838,97 @@ As/fast:
 .PHONY : As/fast
 
 #=============================================================================
+# Target rules for targets named criticalConnections
+
+# Build rule for target.
+criticalConnections: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 criticalConnections
+.PHONY : criticalConnections
+
+# fast build rule for target.
+criticalConnections/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\CC\CMakeFiles\criticalConnections.dir\build.make LeetCode/graph/CC/CMakeFiles/criticalConnections.dir/build
+.PHONY : criticalConnections/fast
+
+#=============================================================================
+# Target rules for targets named minDays
+
+# Build rule for target.
+minDays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minDays
+.PHONY : minDays
+
+# fast build rule for target.
+minDays/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\CC\CMakeFiles\minDays.dir\build.make LeetCode/graph/CC/CMakeFiles/minDays.dir/build
+.PHONY : minDays/fast
+
+#=============================================================================
+# Target rules for targets named Paths
+
+# Build rule for target.
+Paths: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Paths
+.PHONY : Paths
+
+# fast build rule for target.
+Paths/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\CC\CMakeFiles\Paths.dir\build.make LeetCode/graph/CC/CMakeFiles/Paths.dir/build
+.PHONY : Paths/fast
+
+#=============================================================================
+# Target rules for targets named bcc
+
+# Build rule for target.
+bcc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bcc
+.PHONY : bcc
+
+# fast build rule for target.
+bcc/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\CC\CMakeFiles\bcc.dir\build.make LeetCode/graph/CC/CMakeFiles/bcc.dir/build
+.PHONY : bcc/fast
+
+#=============================================================================
+# Target rules for targets named scc
+
+# Build rule for target.
+scc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 scc
+.PHONY : scc
+
+# fast build rule for target.
+scc/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\CC\CMakeFiles\scc.dir\build.make LeetCode/graph/CC/CMakeFiles/scc.dir/build
+.PHONY : scc/fast
+
+#=============================================================================
+# Target rules for targets named ap
+
+# Build rule for target.
+ap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ap
+.PHONY : ap
+
+# fast build rule for target.
+ap/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\CC\CMakeFiles\ap.dir\build.make LeetCode/graph/CC/CMakeFiles/ap.dir/build
+.PHONY : ap/fast
+
+#=============================================================================
+# Target rules for targets named S
+
+# Build rule for target.
+S : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 S
+.PHONY : S
+
+# fast build rule for target.
+S/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\graph\CC\CMakeFiles\S.dir\build.make LeetCode/graph/CC/CMakeFiles/S.dir/build
+.PHONY : S/fast
+
+#=============================================================================
 # Target rules for targets named jump2
 
 # Build rule for target.
@@ -758,6 +940,45 @@ jump2: cmake_check_build_system
 jump2/fast:
 	$(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\jump2.dir\build.make LeetCode/tanxin/CMakeFiles/jump2.dir/build
 .PHONY : jump2/fast
+
+#=============================================================================
+# Target rules for targets named K_T
+
+# Build rule for target.
+K_T: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 K_T
+.PHONY : K_T
+
+# fast build rule for target.
+K_T/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\K_T.dir\build.make LeetCode/tanxin/CMakeFiles/K_T.dir/build
+.PHONY : K_T/fast
+
+#=============================================================================
+# Target rules for targets named candy
+
+# Build rule for target.
+candy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 candy
+.PHONY : candy
+
+# fast build rule for target.
+candy/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\candy.dir\build.make LeetCode/tanxin/CMakeFiles/candy.dir/build
+.PHONY : candy/fast
+
+#=============================================================================
+# Target rules for targets named reconstructQueue
+
+# Build rule for target.
+reconstructQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reconstructQueue
+.PHONY : reconstructQueue
+
+# fast build rule for target.
+reconstructQueue/fast:
+	$(MAKE) $(MAKESILENT) -f LeetCode\tanxin\CMakeFiles\reconstructQueue.dir\build.make LeetCode/tanxin/CMakeFiles/reconstructQueue.dir/build
+.PHONY : reconstructQueue/fast
 
 #=============================================================================
 # Target rules for targets named apple
@@ -1422,6 +1643,58 @@ tape/fast:
 	$(MAKE) $(MAKESILENT) -f dotOJ\homework11\CMakeFiles\tape.dir\build.make dotOJ/homework11/CMakeFiles/tape.dir/build
 .PHONY : tape/fast
 
+#=============================================================================
+# Target rules for targets named coin_c
+
+# Build rule for target.
+coin_c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 coin_c
+.PHONY : coin_c
+
+# fast build rule for target.
+coin_c/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\coin_c.dir\build.make dotOJ/homework12/CMakeFiles/coin_c.dir/build
+.PHONY : coin_c/fast
+
+#=============================================================================
+# Target rules for targets named sum_dis
+
+# Build rule for target.
+sum_dis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sum_dis
+.PHONY : sum_dis
+
+# fast build rule for target.
+sum_dis/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\sum_dis.dir\build.make dotOJ/homework12/CMakeFiles/sum_dis.dir/build
+.PHONY : sum_dis/fast
+
+#=============================================================================
+# Target rules for targets named partition
+
+# Build rule for target.
+partition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 partition
+.PHONY : partition
+
+# fast build rule for target.
+partition/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\partition.dir\build.make dotOJ/homework12/CMakeFiles/partition.dir/build
+.PHONY : partition/fast
+
+#=============================================================================
+# Target rules for targets named word_dis
+
+# Build rule for target.
+word_dis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 word_dis
+.PHONY : word_dis
+
+# fast build rule for target.
+word_dis/fast:
+	$(MAKE) $(MAKESILENT) -f dotOJ\homework12\CMakeFiles\word_dis.dir\build.make dotOJ/homework12/CMakeFiles/word_dis.dir/build
+.PHONY : word_dis/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1461,6 +1734,7 @@ help:
 	@echo ... ArrayList
 	@echo ... As
 	@echo ... B
+	@echo ... BE
 	@echo ... Bell
 	@echo ... Bellman
 	@echo ... C
@@ -1473,25 +1747,35 @@ help:
 	@echo ... DB
 	@echo ... DFS
 	@echo ... D_sort
+	@echo ... Dij
 	@echo ... Dijkstra
 	@echo ... Dijkstra2
 	@echo ... FLY
 	@echo ... FlyBoat
+	@echo ... K_T
 	@echo ... LA
 	@echo ... LB
 	@echo ... LandZoning
 	@echo ... MyLinkedList
+	@echo ... Paths
+	@echo ... S
 	@echo ... SpecialSort
 	@echo ... TC
 	@echo ... ZoomSum
+	@echo ... air
+	@echo ... ap
 	@echo ... apple
 	@echo ... assert
+	@echo ... bcc
 	@echo ... binary
 	@echo ... button
 	@echo ... canConstruct
+	@echo ... candy
 	@echo ... city
+	@echo ... coin_c
 	@echo ... computer
 	@echo ... construct
+	@echo ... criticalConnections
 	@echo ... dailyTemperatures
 	@echo ... dash
 	@echo ... desert
@@ -1501,6 +1785,7 @@ help:
 	@echo ... fourSumCount
 	@echo ... function
 	@echo ... generateMatrix
+	@echo ... getAncestors
 	@echo ... getIntersectionNode
 	@echo ... hash_set
 	@echo ... insert
@@ -1515,20 +1800,25 @@ help:
 	@echo ... islandS
 	@echo ... islandW
 	@echo ... jump2
+	@echo ... jump3
 	@echo ... key
 	@echo ... largestRectangleArea
 	@echo ... maintenance
 	@echo ... maxIsland
 	@echo ... maxLevel
 	@echo ... meet
+	@echo ... minDays
 	@echo ... minSubArrayLen
+	@echo ... minTime
 	@echo ... min_heap
 	@echo ... min_or
 	@echo ... nextGreaterElement1
 	@echo ... nextGreaterElements2
+	@echo ... partition
 	@echo ... path
 	@echo ... prune
 	@echo ... qnm
+	@echo ... reconstructQueue
 	@echo ... removeDuplicates
 	@echo ... removeElements
 	@echo ... removeNthFromEnd
@@ -1539,6 +1829,7 @@ help:
 	@echo ... reverseString
 	@echo ... reverseWords
 	@echo ... ring
+	@echo ... scc
 	@echo ... search
 	@echo ... short
 	@echo ... smallCM_T
@@ -1549,12 +1840,15 @@ help:
 	@echo ... special_sort
 	@echo ... sqrt
 	@echo ... string_F
+	@echo ... sum_dis
 	@echo ... swapPairs
 	@echo ... tape
 	@echo ... threeSum
 	@echo ... trap
 	@echo ... twoSum
 	@echo ... watch
+	@echo ... watchedVideosByFriends
+	@echo ... word_dis
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

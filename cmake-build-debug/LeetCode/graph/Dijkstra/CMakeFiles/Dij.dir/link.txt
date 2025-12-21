@@ -1,0 +1,3 @@
+"D:\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Dij.dir/objects.a
+D:\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\Dij.dir/objects.a @CMakeFiles\Dij.dir\objects1.rsp
+D:\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Dij.dir/objects.a -Wl,--no-whole-archive -o Dij.exe -Wl,--out-implib,libDij.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Dij.dir\linkLibs.rsp
