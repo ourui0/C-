@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "D:/CLion 2022.3/bin/mingw/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "D:/Downloads/CLion/bin/mingw/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "13.1.0")
@@ -25,14 +25,14 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/CLion 2022.3/bin/mingw/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "D:/CLion 2022.3/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/CLion 2022.3/bin/mingw/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "D:/CLion 2022.3/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/CLion 2022.3/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "D:/Downloads/CLion/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/Downloads/CLion/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/Downloads/CLion/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/Downloads/CLion/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/Downloads/CLion/bin/mingw/bin/ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_CXX_COMPILER_LINKER "D:/CLion 2022.3/bin/mingw/bin/ld.exe")
+set(CMAKE_CXX_COMPILER_LINKER "D:/Downloads/CLion/bin/mingw/bin/ld.exe")
 set(CMAKE_CXX_COMPILER_LINKER_ID "GNU")
 set(CMAKE_CXX_COMPILER_LINKER_VERSION 2.40)
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT GNU)
@@ -90,15 +90,15 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/CLion 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/CLion 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/CLion 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/CLion 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/CLion 2022.3/bin/mingw/include;D:/CLion 2022.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/CLion 2022.3/bin/mingw/x86_64-w64-mingw32/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "D:/Downloads/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;D:/Downloads/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;D:/Downloads/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;D:/Downloads/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;D:/Downloads/CLion/bin/mingw/include;D:/Downloads/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;D:/Downloads/CLion/bin/mingw/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "D:/Downloads/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0;D:/Downloads/CLion/bin/mingw/lib/gcc;D:/Downloads/CLion/bin/mingw/x86_64-w64-mingw32/lib;D:/Downloads/CLion/bin/mingw/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 
 set(CMAKE_CXX_COMPILER_IMPORT_STD "")
 ### Imported target for C++23 standard library
-set(CMAKE_CXX23_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Unsupported generator: MinGW Makefiles")
+set(CMAKE_CXX23_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Experimental `import std` support not enabled when detecting toolchain; it must be set before `CXX` is enabled (usually a `project()` call)")
 
 
 

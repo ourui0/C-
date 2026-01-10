@@ -93,6 +93,8 @@ D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/jump2.dir
 D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/K_T.dir
 D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/candy.dir
 D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/reconstructQueue.dir
+D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/remove.dir
+D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/minStoneSum.dir
 D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/LeetCode/tanxin/CMakeFiles/rebuild_cache.dir
 D:/C++/cmake-build-debug/lab/CMakeFiles/edit_cache.dir
@@ -178,3 +180,9 @@ D:/C++/cmake-build-debug/dotOJ/homework11/CMakeFiles/min_or.dir
 D:/C++/cmake-build-debug/dotOJ/homework11/CMakeFiles/tape.dir
 D:/C++/cmake-build-debug/dotOJ/homework11/CMakeFiles/edit_cache.dir
 D:/C++/cmake-build-debug/dotOJ/homework11/CMakeFiles/rebuild_cache.dir
+D:/C++/cmake-build-debug/dotOJ/homework12/CMakeFiles/coin_c.dir
+D:/C++/cmake-build-debug/dotOJ/homework12/CMakeFiles/sum_dis.dir
+D:/C++/cmake-build-debug/dotOJ/homework12/CMakeFiles/partition.dir
+D:/C++/cmake-build-debug/dotOJ/homework12/CMakeFiles/word_dis.dir
+D:/C++/cmake-build-debug/dotOJ/homework12/CMakeFiles/edit_cache.dir
+D:/C++/cmake-build-debug/dotOJ/homework12/CMakeFiles/rebuild_cache.dir
